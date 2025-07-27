@@ -83,6 +83,7 @@
 </head>
 <body>
   <header>
+    <div id="google_translate_element" style="position: fixed; top: 10px; left: 10px; z-index: 1000;"></div>
     <h1>📰 Artículos y Publicaciones</h1>
     <p>Reflexiones, ideas y liderazgo compartido por Jefferson Torres</p>
   </header>
@@ -242,5 +243,18 @@
   <footer>
     &copy; 2025 Jefferson Torres. Todos los derechos reservados.
   </footer>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'es',
+      includedLanguages: 'en,es',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+ 
 </body>
 </html>
