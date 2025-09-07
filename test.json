@@ -1,4 +1,8 @@
-{
+[{
   "mensaje": "Hola desde la PC",
   "tipo": "prueba de subida"
-}
+},
+{
+  "mensaje": "Hola desde la PC nevo test",
+  "tipo": "prueba de subida2"
+}]
