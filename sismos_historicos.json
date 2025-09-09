@@ -2403,5 +2403,44 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41286664",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"pr2025252000",
+    "Time_UTC":"2025-09-09T02:07:35.990000+00:00",
+    "Time_Local":"2025-09-08T21:07:35.990000-05:00",
+    "Magnitude":3.94,
+    "Place":"8 km E of Santa Cruz de El Seibo, Dominican Republic",
+    "Latitude":18.7563,
+    "Longitude":-68.96,
+    "Depth_km":139.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/pr2025252000",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000quwh",
+    "Time_UTC":"2025-09-09T02:09:33.082000+00:00",
+    "Time_Local":"2025-09-08T21:09:33.082000-05:00",
+    "Magnitude":4.9,
+    "Place":"197 km SSE of Burica, Panama",
+    "Latitude":6.2901,
+    "Longitude":-82.4681,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000quwh",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025bksurpn",
+    "Time_UTC":"2025-09-09T02:39:40.591000+00:00",
+    "Time_Local":"2025-09-08T21:39:40.591000-05:00",
+    "Magnitude":1.4,
+    "Place":"22 km ESE of Denali National Park, Alaska",
+    "Latitude":63.45,
+    "Longitude":-151.3105,
+    "Depth_km":0.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025bksurpn",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
