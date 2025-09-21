@@ -2717,6 +2717,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000qxmq",
+    "Time_UTC":"2025-09-21T03:35:08.616000+00:00",
+    "Time_Local":"2025-09-20T22:35:08.616000-05:00",
+    "Magnitude":4.8,
+    "Place":"121 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "Latitude":52.35,
+    "Longitude":159.9862,
+    "Depth_km":35.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000qxmq",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci40447322",
     "Time_UTC":"2025-09-21T03:36:21.310000+00:00",
     "Time_Local":"2025-09-20T22:36:21.310000-05:00",
@@ -2765,6 +2778,19 @@
     "Longitude":-117.6763333,
     "Depth_km":2.29,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447330",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4o9gje",
+    "Time_UTC":"2025-09-21T04:00:48.580000+00:00",
+    "Time_Local":"2025-09-20T23:00:48.580000-05:00",
+    "Magnitude":1.4,
+    "Place":"55 km NNE of Chase, Alaska",
+    "Latitude":62.9147,
+    "Longitude":-149.7206,
+    "Depth_km":71.9,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4o9gje",
     "Status":"automatic",
     "Type":"earthquake"
   }
