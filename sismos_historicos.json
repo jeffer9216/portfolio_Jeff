@@ -2572,5 +2572,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447274",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4n8ty9",
+    "Time_UTC":"2025-09-21T02:29:59.696000+00:00",
+    "Time_Local":"2025-09-20T21:29:59.696000-05:00",
+    "Magnitude":1.6,
+    "Place":"70 km ESE of Cantwell, Alaska",
+    "Latitude":63.1262,
+    "Longitude":-147.6699,
+    "Depth_km":14.4,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4n8ty9",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4n9dfb",
+    "Time_UTC":"2025-09-21T02:32:12.078000+00:00",
+    "Time_Local":"2025-09-20T21:32:12.078000-05:00",
+    "Magnitude":1.4,
+    "Place":"38 km E of Cantwell, Alaska",
+    "Latitude":63.4502,
+    "Longitude":-148.1866,
+    "Depth_km":9.1,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4n9dfb",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
