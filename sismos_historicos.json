@@ -2780,5 +2780,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4o9gje",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nn00904725",
+    "Time_UTC":"2025-09-21T04:20:30.300000+00:00",
+    "Time_Local":"2025-09-20T23:20:30.300000-05:00",
+    "Magnitude":1.3,
+    "Place":"16 km NE of Yerington, Nevada",
+    "Latitude":39.1087,
+    "Longitude":-119.0553,
+    "Depth_km":8.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nn00904725",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4odq31",
+    "Time_UTC":"2025-09-21T04:20:38.536000+00:00",
+    "Time_Local":"2025-09-20T23:20:38.536000-05:00",
+    "Magnitude":1.4,
+    "Place":"4 km ESE of Big Lake, Alaska",
+    "Latitude":61.5011,
+    "Longitude":-149.8767,
+    "Depth_km":33.8,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4odq31",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
