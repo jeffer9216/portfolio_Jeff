@@ -2546,5 +2546,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2025soxoed",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000qxmd",
+    "Time_UTC":"2025-09-21T01:59:35.376000+00:00",
+    "Time_Local":"2025-09-20T20:59:35.376000-05:00",
+    "Magnitude":4.3,
+    "Place":"122 km SW of Puerto Madero, Mexico",
+    "Latitude":13.9883,
+    "Longitude":-93.2691,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000qxmd",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci40447274",
+    "Time_UTC":"2025-09-21T02:22:34.460000+00:00",
+    "Time_Local":"2025-09-20T21:22:34.460000-05:00",
+    "Magnitude":2.65,
+    "Place":"3 km SE of Warner Springs, CA",
+    "Latitude":33.2625,
+    "Longitude":-116.6128333,
+    "Depth_km":16.53,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447274",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
