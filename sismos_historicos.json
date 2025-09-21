@@ -2691,6 +2691,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000qxmp",
+    "Time_UTC":"2025-09-21T03:30:55.573000+00:00",
+    "Time_Local":"2025-09-20T22:30:55.573000-05:00",
+    "Magnitude":2.5,
+    "Place":"71 km WSW of Covenant Life, Alaska",
+    "Latitude":59.2598,
+    "Longitude":-137.2517,
+    "Depth_km":5.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000qxmp",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak025c4nv9k0",
     "Time_UTC":"2025-09-21T03:34:26.244000+00:00",
     "Time_Local":"2025-09-20T22:34:26.244000-05:00",
@@ -2705,6 +2718,19 @@
   },
   {
     "USGS_ID":"ci40447322",
+    "Time_UTC":"2025-09-21T03:36:21.310000+00:00",
+    "Time_Local":"2025-09-20T22:36:21.310000-05:00",
+    "Magnitude":1.07,
+    "Place":"10 km SSE of Llano, CA",
+    "Latitude":34.4065,
+    "Longitude":-117.7535,
+    "Depth_km":8.27,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447322",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci40447322",
     "Time_UTC":"2025-09-21T03:36:21.340000+00:00",
     "Time_Local":"2025-09-20T22:36:21.340000-05:00",
     "Magnitude":1.0,
@@ -2713,6 +2739,32 @@
     "Longitude":-117.7511673,
     "Depth_km":7.8,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447322",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4nxorz",
+    "Time_UTC":"2025-09-21T03:45:56.638000+00:00",
+    "Time_Local":"2025-09-20T22:45:56.638000-05:00",
+    "Magnitude":1.3,
+    "Place":"37 km E of Skwentna, Alaska",
+    "Latitude":61.9832,
+    "Longitude":-150.6908,
+    "Depth_km":66.8,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4nxorz",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci40447330",
+    "Time_UTC":"2025-09-21T03:48:41.880000+00:00",
+    "Time_Local":"2025-09-20T22:48:41.880000-05:00",
+    "Magnitude":1.01,
+    "Place":"21 km ESE of Little Lake, CA",
+    "Latitude":35.8971667,
+    "Longitude":-117.6763333,
+    "Depth_km":2.29,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447330",
     "Status":"automatic",
     "Type":"earthquake"
   }
