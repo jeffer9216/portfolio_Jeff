@@ -2676,5 +2676,44 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4nsagi",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000qxmn",
+    "Time_UTC":"2025-09-21T03:20:51.849000+00:00",
+    "Time_Local":"2025-09-20T22:20:51.849000-05:00",
+    "Magnitude":5.2,
+    "Place":"144 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "Latitude":52.248,
+    "Longitude":160.2927,
+    "Depth_km":18.751,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000qxmn",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4nv9k0",
+    "Time_UTC":"2025-09-21T03:34:26.244000+00:00",
+    "Time_Local":"2025-09-20T22:34:26.244000-05:00",
+    "Magnitude":1.6,
+    "Place":"44 km ENE of Fox River, Alaska",
+    "Latitude":60.0252,
+    "Longitude":-150.2439,
+    "Depth_km":35.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4nv9k0",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci40447322",
+    "Time_UTC":"2025-09-21T03:36:21.340000+00:00",
+    "Time_Local":"2025-09-20T22:36:21.340000-05:00",
+    "Magnitude":1.0,
+    "Place":"10 km WSW of Pinon Hills, CA",
+    "Latitude":34.4041672,
+    "Longitude":-117.7511673,
+    "Depth_km":7.8,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447322",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
