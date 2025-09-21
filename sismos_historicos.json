@@ -2598,5 +2598,57 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4n9dfb",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000qxmj",
+    "Time_UTC":"2025-09-21T02:54:25.430000+00:00",
+    "Time_Local":"2025-09-20T21:54:25.430000-05:00",
+    "Magnitude":4.5,
+    "Place":"148 km E of Petropavlovsk-Kamchatsky, Russia",
+    "Latitude":53.1667,
+    "Longitude":160.8381,
+    "Depth_km":35.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000qxmj",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci40447290",
+    "Time_UTC":"2025-09-21T03:08:43.040000+00:00",
+    "Time_Local":"2025-09-20T22:08:43.040000-05:00",
+    "Magnitude":1.49,
+    "Place":"10 km S of Bombay Beach, CA",
+    "Latitude":33.257,
+    "Longitude":-115.7336667,
+    "Depth_km":4.06,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci40447290",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4nq5sx",
+    "Time_UTC":"2025-09-21T03:10:44.813000+00:00",
+    "Time_Local":"2025-09-20T22:10:44.813000-05:00",
+    "Magnitude":1.4,
+    "Place":"109 km SSW of McCarthy, Alaska",
+    "Latitude":60.5454,
+    "Longitude":-143.7702,
+    "Depth_km":20.3,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4nq5sx",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak025c4nqtxg",
+    "Time_UTC":"2025-09-21T03:13:57.486000+00:00",
+    "Time_Local":"2025-09-20T22:13:57.486000-05:00",
+    "Magnitude":1.7,
+    "Place":"66 km WNW of Happy Valley, Alaska",
+    "Latitude":60.1011,
+    "Longitude":-152.8917,
+    "Depth_km":111.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025c4nqtxg",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
