@@ -2951,6 +2951,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"nc75294786",
+    "Time_UTC":"2026-01-13T00:17:15.230000+00:00",
+    "Time_Local":"2026-01-12T19:17:15.230000-05:00",
+    "Magnitude":1.45,
+    "Place":"1 km NNW of Middletown, CA",
+    "Latitude":38.7633323669,
+    "Longitude":-122.6183319092,
+    "Depth_km":7.2300000191,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75294786",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026awbidt",
     "Time_UTC":"2026-01-13T00:18:05.088000+00:00",
     "Time_Local":"2026-01-12T19:18:05.088000-05:00",
@@ -2974,6 +2987,32 @@
     "Depth_km":10.0,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rpaq",
     "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026awcxsl",
+    "Time_UTC":"2026-01-13T01:06:19.319000+00:00",
+    "Time_Local":"2026-01-12T20:06:19.319000-05:00",
+    "Magnitude":1.2,
+    "Place":"10 km E of Fox, Alaska",
+    "Latitude":64.97,
+    "Longitude":-147.403,
+    "Depth_km":5.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026awcxsl",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41156431",
+    "Time_UTC":"2026-01-13T01:07:17.400000+00:00",
+    "Time_Local":"2026-01-12T20:07:17.400000-05:00",
+    "Magnitude":1.3793588609,
+    "Place":"26 km SSW of Bodfish, CA",
+    "Latitude":35.3761672974,
+    "Longitude":-118.6194992065,
+    "Depth_km":3.5299999714,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41156431",
+    "Status":"automatic",
     "Type":"earthquake"
   }
 ]
