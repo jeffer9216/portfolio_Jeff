@@ -2936,5 +2936,44 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak025cjhucb7",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75294786",
+    "Time_UTC":"2026-01-13T00:17:15.230000+00:00",
+    "Time_Local":"2026-01-12T19:17:15.230000-05:00",
+    "Magnitude":1.45,
+    "Place":"1 km NNW of Middletown, CA",
+    "Latitude":38.7633323669,
+    "Longitude":-122.6183319092,
+    "Depth_km":7.2300000191,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75294786",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026awbidt",
+    "Time_UTC":"2026-01-13T00:18:05.088000+00:00",
+    "Time_Local":"2026-01-12T19:18:05.088000-05:00",
+    "Magnitude":2.0,
+    "Place":"100 km NNW of Yakutat, Alaska",
+    "Latitude":60.31,
+    "Longitude":-140.689,
+    "Depth_km":5.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026awbidt",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rpaq",
+    "Time_UTC":"2026-01-13T00:34:15.514000+00:00",
+    "Time_Local":"2026-01-12T19:34:15.514000-05:00",
+    "Magnitude":5.2,
+    "Place":"175 km S of Severo-Kuril’sk, Russia",
+    "Latitude":49.1034,
+    "Longitude":156.3838,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rpaq",
+    "Status":"reviewed",
+    "Type":"earthquake"
   }
 ]
