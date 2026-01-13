@@ -2951,19 +2951,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75294786",
-    "Time_UTC":"2026-01-13T00:17:15.230000+00:00",
-    "Time_Local":"2026-01-12T19:17:15.230000-05:00",
-    "Magnitude":1.45,
-    "Place":"1 km NNW of Middletown, CA",
-    "Latitude":38.7633323669,
-    "Longitude":-122.6183319092,
-    "Depth_km":7.2300000191,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75294786",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026awbidt",
     "Time_UTC":"2026-01-13T00:18:05.088000+00:00",
     "Time_Local":"2026-01-12T19:18:05.088000-05:00",
@@ -3004,6 +2991,19 @@
   },
   {
     "USGS_ID":"ci41156431",
+    "Time_UTC":"2026-01-13T01:07:17.350000+00:00",
+    "Time_Local":"2026-01-12T20:07:17.350000-05:00",
+    "Magnitude":1.11,
+    "Place":"26 km NE of Arvin, CA",
+    "Latitude":35.3721666667,
+    "Longitude":-118.6206666667,
+    "Depth_km":4.45,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41156431",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41156431",
     "Time_UTC":"2026-01-13T01:07:17.400000+00:00",
     "Time_Local":"2026-01-12T20:07:17.400000-05:00",
     "Magnitude":1.3793588609,
@@ -3012,6 +3012,45 @@
     "Longitude":-118.6194992065,
     "Depth_km":3.5299999714,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41156431",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026awdbcz",
+    "Time_UTC":"2026-01-13T01:10:16.177000+00:00",
+    "Time_Local":"2026-01-12T20:10:16.177000-05:00",
+    "Magnitude":1.9,
+    "Place":"65 km ESE of Cantwell, Alaska",
+    "Latitude":63.195,
+    "Longitude":-147.716,
+    "Depth_km":3.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026awdbcz",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74873182",
+    "Time_UTC":"2026-01-13T01:12:05.880000+00:00",
+    "Time_Local":"2026-01-12T20:12:05.880000-05:00",
+    "Magnitude":2.16,
+    "Place":"12 km SSE of Volcano, Hawaii",
+    "Latitude":19.3474998474,
+    "Longitude":-155.1771697998,
+    "Depth_km":2.9400000572,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74873182",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74873187",
+    "Time_UTC":"2026-01-13T01:19:54.610000+00:00",
+    "Time_Local":"2026-01-12T20:19:54.610000-05:00",
+    "Magnitude":2.23,
+    "Place":"19 km SE of Pāhala, Hawaii",
+    "Latitude":19.0648326874,
+    "Longitude":-155.3665008545,
+    "Depth_km":33.0400009155,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74873187",
     "Status":"automatic",
     "Type":"earthquake"
   }
