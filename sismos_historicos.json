@@ -3653,32 +3653,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74877172",
-    "Time_UTC":"2026-01-16T02:46:23.990000+00:00",
-    "Time_Local":"2026-01-15T21:46:23.990000-05:00",
-    "Magnitude":1.87,
-    "Place":"6 km SW of Volcano, Hawaii",
-    "Latitude":19.3999996185,
-    "Longitude":-155.2733306885,
-    "Depth_km":1.25,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74877172",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"ci41159463",
-    "Time_UTC":"2026-01-16T02:53:27.280000+00:00",
-    "Time_Local":"2026-01-15T21:53:27.280000-05:00",
-    "Magnitude":1.2,
-    "Place":"26 km WSW of Westmorland, CA",
-    "Latitude":32.9701666667,
-    "Longitude":-115.8876666667,
-    "Depth_km":9.33,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41159463",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ci41159463",
     "Time_UTC":"2026-01-16T02:53:27.280000+00:00",
     "Time_Local":"2026-01-15T21:53:27.280000-05:00",
@@ -3701,32 +3675,6 @@
     "Longitude":-122.7778320312,
     "Depth_km":1.7799999714,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75296361",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"nc75296361",
-    "Time_UTC":"2026-01-16T03:05:08.400000+00:00",
-    "Time_Local":"2026-01-15T22:05:08.400000-05:00",
-    "Magnitude":1.29,
-    "Place":"2 km NW of The Geysers, CA",
-    "Latitude":38.7910003662,
-    "Longitude":-122.7778320312,
-    "Depth_km":1.7799999714,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75296361",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"hv74877192",
-    "Time_UTC":"2026-01-16T03:05:33.290000+00:00",
-    "Time_Local":"2026-01-15T22:05:33.290000-05:00",
-    "Magnitude":1.82,
-    "Place":"19 km ESE of Naalehu, Hawaii",
-    "Latitude":19.0221672058,
-    "Longitude":-155.3996734619,
-    "Depth_km":35.5900001526,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74877192",
     "Status":"automatic",
     "Type":"earthquake"
   },
@@ -3844,6 +3792,32 @@
     "Longitude":-104.013,
     "Depth_km":4.3152,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bbuxei",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41160023",
+    "Time_UTC":"2026-01-16T23:07:32.140000+00:00",
+    "Time_Local":"2026-01-16T18:07:32.140000-05:00",
+    "Magnitude":1.94,
+    "Place":"16 km WSW of Johannesburg, CA",
+    "Latitude":35.337,
+    "Longitude":-117.8105,
+    "Depth_km":6.75,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160023",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74877947",
+    "Time_UTC":"2026-01-16T23:13:43.260000+00:00",
+    "Time_Local":"2026-01-16T18:13:43.260000-05:00",
+    "Magnitude":2.11,
+    "Place":"20 km S of Leilani Estates, Hawaii",
+    "Latitude":19.283000946,
+    "Longitude":-154.9516601562,
+    "Depth_km":34.6500015259,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74877947",
     "Status":"automatic",
     "Type":"earthquake"
   }
