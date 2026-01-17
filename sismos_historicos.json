@@ -3835,19 +3835,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74877947",
-    "Time_UTC":"2026-01-16T23:13:43.400000+00:00",
-    "Time_Local":"2026-01-16T18:13:43.400000-05:00",
-    "Magnitude":1.78,
-    "Place":"21 km SSW of Leilani Estates, Hawaii",
-    "Latitude":19.2816666667,
-    "Longitude":-154.9675,
-    "Depth_km":36.14,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74877947",
-    "Status":"reviewed",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"us7000rq84",
     "Time_UTC":"2026-01-16T23:22:24.948000+00:00",
     "Time_Local":"2026-01-16T18:22:24.948000-05:00",
@@ -3883,6 +3870,19 @@
     "Longitude":-115.294,
     "Depth_km":2.6071,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nn00909598",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"tx2026bdjzat",
+    "Time_UTC":"2026-01-17T00:10:23.425000+00:00",
+    "Time_Local":"2026-01-16T19:10:23.425000-05:00",
+    "Magnitude":1.8,
+    "Place":"57 km S of Whites City, New Mexico",
+    "Latitude":31.654,
+    "Longitude":-104.38,
+    "Depth_km":4.6123,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bdjzat",
     "Status":"automatic",
     "Type":"earthquake"
   }
