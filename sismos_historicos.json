@@ -3820,5 +3820,18 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74877947",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74877947",
+    "Time_UTC":"2026-01-16T23:13:43.400000+00:00",
+    "Time_Local":"2026-01-16T18:13:43.400000-05:00",
+    "Magnitude":1.78,
+    "Place":"21 km SSW of Leilani Estates, Hawaii",
+    "Latitude":19.2816666667,
+    "Longitude":-154.9675,
+    "Depth_km":36.14,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74877947",
+    "Status":"reviewed",
+    "Type":"earthquake"
   }
 ]
