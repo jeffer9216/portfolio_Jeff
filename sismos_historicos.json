@@ -3966,19 +3966,6 @@
   },
   {
     "USGS_ID":"ci41160103",
-    "Time_UTC":"2026-01-17T00:36:50+00:00",
-    "Time_Local":"2026-01-16T19:36:50-05:00",
-    "Magnitude":1.27,
-    "Place":"16 km WSW of Johannesburg, CA",
-    "Latitude":35.3373333333,
-    "Longitude":-117.8073333333,
-    "Depth_km":6.93,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160103",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"ci41160103",
     "Time_UTC":"2026-01-17T00:36:50.060000+00:00",
     "Time_Local":"2026-01-16T19:36:50.060000-05:00",
     "Magnitude":1.2608305258,
