@@ -4043,6 +4043,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"hv74878062",
+    "Time_UTC":"2026-01-17T02:33:10.670000+00:00",
+    "Time_Local":"2026-01-16T21:33:10.670000-05:00",
+    "Magnitude":1.84,
+    "Place":"6 km SW of Volcano, Hawaii",
+    "Latitude":19.3985004425,
+    "Longitude":-155.2684936523,
+    "Depth_km":1.8899999857,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74878062",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bdoveg",
     "Time_UTC":"2026-01-17T02:36:45.443000+00:00",
     "Time_Local":"2026-01-16T21:36:45.443000-05:00",
@@ -4052,6 +4065,19 @@
     "Longitude":-152.719,
     "Depth_km":89.5,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bdoveg",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74878067",
+    "Time_UTC":"2026-01-17T02:36:49.560000+00:00",
+    "Time_Local":"2026-01-16T21:36:49.560000-05:00",
+    "Magnitude":1.85,
+    "Place":"19 km SSW of Leilani Estates, Hawaii",
+    "Latitude":19.3029994965,
+    "Longitude":-154.9654998779,
+    "Depth_km":37.25,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74878067",
     "Status":"automatic",
     "Type":"earthquake"
   },
@@ -4082,6 +4108,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"pr71505318",
+    "Time_UTC":"2026-01-17T02:40:02.090000+00:00",
+    "Time_Local":"2026-01-16T21:40:02.090000-05:00",
+    "Magnitude":1.85,
+    "Place":"2 km SSW of Indios, Puerto Rico",
+    "Latitude":17.9738333333,
+    "Longitude":-66.8331666667,
+    "Depth_km":15.91,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/pr71505318",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41160135",
     "Time_UTC":"2026-01-17T02:43:23.100000+00:00",
     "Time_Local":"2026-01-16T21:43:23.100000-05:00",
@@ -4091,6 +4130,32 @@
     "Longitude":-116.9765,
     "Depth_km":5.77,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160135",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41160135",
+    "Time_UTC":"2026-01-17T02:43:23.100000+00:00",
+    "Time_Local":"2026-01-16T21:43:23.100000-05:00",
+    "Magnitude":1.14,
+    "Place":"10 km W of Aguanga, CA",
+    "Latitude":33.4433333333,
+    "Longitude":-116.9765,
+    "Depth_km":5.77,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160135",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74878077",
+    "Time_UTC":"2026-01-17T02:43:48.640000+00:00",
+    "Time_Local":"2026-01-16T21:43:48.640000-05:00",
+    "Magnitude":1.93,
+    "Place":"14 km SE of Pāhala, Hawaii",
+    "Latitude":19.1206665039,
+    "Longitude":-155.3684997559,
+    "Depth_km":27.9500007629,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74878077",
     "Status":"automatic",
     "Type":"earthquake"
   },
