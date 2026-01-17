@@ -3887,6 +3887,32 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rq8a",
+    "Time_UTC":"2026-01-17T00:16:17.005000+00:00",
+    "Time_Local":"2026-01-16T19:16:17.005000-05:00",
+    "Magnitude":5.0,
+    "Place":"Izu Islands, Japan region",
+    "Latitude":29.971,
+    "Longitude":142.2037,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rq8a",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75296746",
+    "Time_UTC":"2026-01-17T00:19:20.300000+00:00",
+    "Time_Local":"2026-01-16T19:19:20.300000-05:00",
+    "Magnitude":1.67,
+    "Place":"14 km WSW of Round Mountain, CA",
+    "Latitude":40.7700004578,
+    "Longitude":-122.107170105,
+    "Depth_km":10.3599996567,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75296746",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"nc75296746",
     "Time_UTC":"2026-01-17T00:19:20.300000+00:00",
     "Time_Local":"2026-01-16T19:19:20.300000-05:00",
@@ -3913,6 +3939,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"ci41160079",
+    "Time_UTC":"2026-01-17T00:21:43.080000+00:00",
+    "Time_Local":"2026-01-16T19:21:43.080000-05:00",
+    "Magnitude":1.53,
+    "Place":"11 km W of Pine Valley, CA",
+    "Latitude":32.8066666667,
+    "Longitude":-116.6425,
+    "Depth_km":17.21,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160079",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41160087",
     "Time_UTC":"2026-01-17T00:27:29.350000+00:00",
     "Time_Local":"2026-01-16T19:27:29.350000-05:00",
@@ -3922,6 +3961,32 @@
     "Longitude":-116.6368331909,
     "Depth_km":19.1700000763,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160087",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41160087",
+    "Time_UTC":"2026-01-17T00:27:29.590000+00:00",
+    "Time_Local":"2026-01-16T19:27:29.590000-05:00",
+    "Magnitude":1.05,
+    "Place":"10 km W of Pine Valley, CA",
+    "Latitude":32.8053333333,
+    "Longitude":-116.6346666667,
+    "Depth_km":17.53,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160087",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41160103",
+    "Time_UTC":"2026-01-17T00:36:50.060000+00:00",
+    "Time_Local":"2026-01-16T19:36:50.060000-05:00",
+    "Magnitude":1.2608305258,
+    "Place":"16 km WSW of Johannesburg, CA",
+    "Latitude":35.341999054,
+    "Longitude":-117.8079986572,
+    "Depth_km":6.4499998093,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160103",
     "Status":"automatic",
     "Type":"earthquake"
   }
