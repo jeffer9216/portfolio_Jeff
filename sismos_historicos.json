@@ -4005,6 +4005,19 @@
   },
   {
     "USGS_ID":"ci41160103",
+    "Time_UTC":"2026-01-17T00:36:50+00:00",
+    "Time_Local":"2026-01-16T19:36:50-05:00",
+    "Magnitude":1.27,
+    "Place":"16 km WSW of Johannesburg, CA",
+    "Latitude":35.3373333333,
+    "Longitude":-117.8073333333,
+    "Depth_km":6.93,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160103",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41160103",
     "Time_UTC":"2026-01-17T00:36:50.060000+00:00",
     "Time_Local":"2026-01-16T19:36:50.060000-05:00",
     "Magnitude":1.2608305258,
@@ -4013,6 +4026,19 @@
     "Longitude":-117.8079986572,
     "Depth_km":6.4499998093,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160103",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bdliil",
+    "Time_UTC":"2026-01-17T00:51:29.171000+00:00",
+    "Time_Local":"2026-01-16T19:51:29.171000-05:00",
+    "Magnitude":2.1,
+    "Place":"14 km W of Petersville, Alaska",
+    "Latitude":62.471,
+    "Longitude":-151.051,
+    "Depth_km":72.8,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bdliil",
     "Status":"automatic",
     "Type":"earthquake"
   }
