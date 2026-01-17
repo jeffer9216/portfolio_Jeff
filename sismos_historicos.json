@@ -4186,6 +4186,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rq8s",
+    "Time_UTC":"2026-01-17T02:57:11.446000+00:00",
+    "Time_Local":"2026-01-16T21:57:11.446000-05:00",
+    "Magnitude":2.5,
+    "Place":"3 km SE of Stonewall Gap, Colorado",
+    "Latitude":37.1231,
+    "Longitude":-105.0136,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rq8s",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41160143",
     "Time_UTC":"2026-01-17T03:05:25.390000+00:00",
     "Time_Local":"2026-01-16T22:05:25.390000-05:00",
