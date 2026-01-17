@@ -3926,19 +3926,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41160079",
-    "Time_UTC":"2026-01-17T00:21:43.080000+00:00",
-    "Time_Local":"2026-01-16T19:21:43.080000-05:00",
-    "Magnitude":1.53,
-    "Place":"11 km W of Pine Valley, CA",
-    "Latitude":32.8066666667,
-    "Longitude":-116.6425,
-    "Depth_km":17.21,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160079",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ci41160087",
     "Time_UTC":"2026-01-17T00:27:29.350000+00:00",
     "Time_Local":"2026-01-16T19:27:29.350000-05:00",
@@ -3947,19 +3934,6 @@
     "Latitude":32.8161659241,
     "Longitude":-116.6368331909,
     "Depth_km":19.1700000763,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160087",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"ci41160087",
-    "Time_UTC":"2026-01-17T00:27:29.590000+00:00",
-    "Time_Local":"2026-01-16T19:27:29.590000-05:00",
-    "Magnitude":1.05,
-    "Place":"10 km W of Pine Valley, CA",
-    "Latitude":32.8053333333,
-    "Longitude":-116.6346666667,
-    "Depth_km":17.53,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160087",
     "Status":"automatic",
     "Type":"earthquake"
