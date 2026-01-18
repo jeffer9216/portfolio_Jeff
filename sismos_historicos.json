@@ -5146,5 +5146,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgtyed",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rqh2",
+    "Time_UTC":"2026-01-18T20:29:33.626000+00:00",
+    "Time_Local":"2026-01-18T15:29:33.626000-05:00",
+    "Magnitude":4.5,
+    "Place":"53 km SE of Severobaykal’sk, Russia",
+    "Latitude":55.2486,
+    "Longitude":109.8335,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqh2",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bgusjm",
+    "Time_UTC":"2026-01-18T20:47:57.497000+00:00",
+    "Time_Local":"2026-01-18T15:47:57.497000-05:00",
+    "Magnitude":1.4,
+    "Place":"56 km SSE of King Salmon, Alaska",
+    "Latitude":58.211,
+    "Longitude":-156.321,
+    "Depth_km":4.7,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgusjm",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
