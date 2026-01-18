@@ -4977,5 +4977,70 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgqqbi",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879052",
+    "Time_UTC":"2026-01-18T18:45:32.310000+00:00",
+    "Time_Local":"2026-01-18T13:45:32.310000-05:00",
+    "Magnitude":1.78,
+    "Place":"7 km NE of Pāhala, Hawaii",
+    "Latitude":19.2393341064,
+    "Longitude":-155.4214935303,
+    "Depth_km":32.3899993896,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879052",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879052",
+    "Time_UTC":"2026-01-18T18:45:32.310000+00:00",
+    "Time_Local":"2026-01-18T13:45:32.310000-05:00",
+    "Magnitude":1.78,
+    "Place":"7 km NE of Pāhala, Hawaii",
+    "Latitude":19.2393341064,
+    "Longitude":-155.4214935303,
+    "Depth_km":32.3899993896,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879052",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bgqzsl",
+    "Time_UTC":"2026-01-18T18:55:48.669000+00:00",
+    "Time_Local":"2026-01-18T13:55:48.669000-05:00",
+    "Magnitude":1.0,
+    "Place":"35 km S of South Van Horn, Alaska",
+    "Latitude":64.498,
+    "Longitude":-147.893,
+    "Depth_km":4.5,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgqzsl",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879057",
+    "Time_UTC":"2026-01-18T18:57:51.380000+00:00",
+    "Time_Local":"2026-01-18T13:57:51.380000-05:00",
+    "Magnitude":1.83,
+    "Place":"6 km SSW of Volcano, Hawaii",
+    "Latitude":19.3943328857,
+    "Longitude":-155.2655029297,
+    "Depth_km":1.5099999905,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879057",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297686",
+    "Time_UTC":"2026-01-18T19:06:18.200000+00:00",
+    "Time_Local":"2026-01-18T14:06:18.200000-05:00",
+    "Magnitude":1.38,
+    "Place":"5 km WNW of The Geysers, CA",
+    "Latitude":38.797832489,
+    "Longitude":-122.8136672974,
+    "Depth_km":3.1300001144,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297686",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
