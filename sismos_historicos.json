@@ -4680,6 +4680,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"ci41161263",
+    "Time_UTC":"2026-01-18T16:21:40.820000+00:00",
+    "Time_Local":"2026-01-18T11:21:40.820000-05:00",
+    "Magnitude":3.1225016887,
+    "Place":"15 km W of Johannesburg, CA",
+    "Latitude":35.3538322449,
+    "Longitude":-117.7953338623,
+    "Depth_km":3.4500000477,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161263",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bglwxx",
     "Time_UTC":"2026-01-18T16:21:42.307000+00:00",
     "Time_Local":"2026-01-18T11:21:42.307000-05:00",
@@ -4702,6 +4715,32 @@
     "Longitude":-117.7926635742,
     "Depth_km":4.4400000572,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161271",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161271",
+    "Time_UTC":"2026-01-18T16:24:49.330000+00:00",
+    "Time_Local":"2026-01-18T11:24:49.330000-05:00",
+    "Magnitude":2.9490483287,
+    "Place":"14 km W of Johannesburg, CA",
+    "Latitude":35.3530006409,
+    "Longitude":-117.7926635742,
+    "Depth_km":4.4400000572,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161271",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161279",
+    "Time_UTC":"2026-01-18T16:28:54.110000+00:00",
+    "Time_Local":"2026-01-18T11:28:54.110000-05:00",
+    "Magnitude":1.49,
+    "Place":"21 km S of Maricopa, CA",
+    "Latitude":34.8728333333,
+    "Longitude":-119.4416666667,
+    "Depth_km":3.27,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161279",
     "Status":"automatic",
     "Type":"earthquake"
   }
