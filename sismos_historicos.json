@@ -5044,19 +5044,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41161391",
-    "Time_UTC":"2026-01-18T19:25:52.600000+00:00",
-    "Time_Local":"2026-01-18T14:25:52.600000-05:00",
-    "Magnitude":1.15,
-    "Place":"15 km W of Johannesburg, CA",
-    "Latitude":35.3468333333,
-    "Longitude":-117.794,
-    "Depth_km":5.55,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161391",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bgtbmn",
     "Time_UTC":"2026-01-18T19:58:13.075000+00:00",
     "Time_Local":"2026-01-18T14:58:13.075000-05:00",
@@ -5066,6 +5053,58 @@
     "Longitude":-156.251,
     "Depth_km":16.4,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgtbmn",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bgtsyq",
+    "Time_UTC":"2026-01-18T20:18:22.093000+00:00",
+    "Time_Local":"2026-01-18T15:18:22.093000-05:00",
+    "Magnitude":2.2,
+    "Place":"61 km SE of Pope-Vannoy Landing, Alaska",
+    "Latitude":59.24,
+    "Longitude":-153.615,
+    "Depth_km":100.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgtsyq",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161447",
+    "Time_UTC":"2026-01-18T20:20:44.790000+00:00",
+    "Time_Local":"2026-01-18T15:20:44.790000-05:00",
+    "Magnitude":2.54,
+    "Place":"4 km SE of Lytle Creek, CA",
+    "Latitude":34.2333333333,
+    "Longitude":-117.4623333333,
+    "Depth_km":11.58,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161447",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161455",
+    "Time_UTC":"2026-01-18T20:21:34.250000+00:00",
+    "Time_Local":"2026-01-18T15:21:34.250000-05:00",
+    "Magnitude":1.66,
+    "Place":"5 km SE of Lytle Creek, CA",
+    "Latitude":34.2345,
+    "Longitude":-117.4555,
+    "Depth_km":12.23,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161455",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bgtyed",
+    "Time_UTC":"2026-01-18T20:24:44.218000+00:00",
+    "Time_Local":"2026-01-18T15:24:44.218000-05:00",
+    "Magnitude":2.2,
+    "Place":"6 km SSW of Homer, Alaska",
+    "Latitude":59.589,
+    "Longitude":-151.606,
+    "Depth_km":43.2,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgtyed",
     "Status":"automatic",
     "Type":"earthquake"
   }
