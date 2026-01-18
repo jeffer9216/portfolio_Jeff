@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4966,19 +4966,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74879052",
-    "Time_UTC":"2026-01-18T18:45:32.310000+00:00",
-    "Time_Local":"2026-01-18T13:45:32.310000-05:00",
-    "Magnitude":1.78,
-    "Place":"7 km NE of Pāhala, Hawaii",
-    "Latitude":19.2393341064,
-    "Longitude":-155.4214935303,
-    "Depth_km":32.3899993896,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879052",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bgqzsl",
     "Time_UTC":"2026-01-18T18:55:48.669000+00:00",
     "Time_Local":"2026-01-18T13:55:48.669000-05:00",
@@ -5065,6 +5052,19 @@
     "Latitude":35.3483314514,
     "Longitude":-117.7893295288,
     "Depth_km":5.9099998474,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161391",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161391",
+    "Time_UTC":"2026-01-18T19:25:52.600000+00:00",
+    "Time_Local":"2026-01-18T14:25:52.600000-05:00",
+    "Magnitude":1.15,
+    "Place":"15 km W of Johannesburg, CA",
+    "Latitude":35.3468333333,
+    "Longitude":-117.794,
+    "Depth_km":5.55,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161391",
     "Status":"automatic",
     "Type":"earthquake"
