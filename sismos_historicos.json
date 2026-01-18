@@ -4912,5 +4912,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bgpgvi",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161351",
+    "Time_UTC":"2026-01-18T18:18:20.690000+00:00",
+    "Time_Local":"2026-01-18T13:18:20.690000-05:00",
+    "Magnitude":1.69,
+    "Place":"15 km W of Johannesburg, CA",
+    "Latitude":35.353,
+    "Longitude":-117.7956666667,
+    "Depth_km":5.31,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161351",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bgpyjg",
+    "Time_UTC":"2026-01-18T18:24:04.886000+00:00",
+    "Time_Local":"2026-01-18T13:24:04.886000-05:00",
+    "Magnitude":2.2,
+    "Place":"42 km NNW of Aleneva, Alaska",
+    "Latitude":58.379,
+    "Longitude":-153.311,
+    "Depth_km":50.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgpyjg",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
