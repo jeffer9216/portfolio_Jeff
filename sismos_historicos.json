@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4872,6 +4872,19 @@
     "Depth_km":4.0816,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bgosvc",
     "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rqgk",
+    "Time_UTC":"2026-01-18T17:53:13.985000+00:00",
+    "Time_Local":"2026-01-18T12:53:13.985000-05:00",
+    "Magnitude":4.6,
+    "Place":"68 km SSE of Modisi, Indonesia",
+    "Latitude":-0.152,
+    "Longitude":124.5623,
+    "Depth_km":96.425,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqgk",
+    "Status":"reviewed",
     "Type":"earthquake"
   },
   {
