@@ -5161,6 +5161,45 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rqh3",
+    "Time_UTC":"2026-01-18T20:34:00.668000+00:00",
+    "Time_Local":"2026-01-18T15:34:00.668000-05:00",
+    "Magnitude":4.4,
+    "Place":"98 km ESE of Takahagi, Japan",
+    "Latitude":36.3092,
+    "Longitude":141.6892,
+    "Depth_km":35.826,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqh3",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879097",
+    "Time_UTC":"2026-01-18T20:46:34.850000+00:00",
+    "Time_Local":"2026-01-18T15:46:34.850000-05:00",
+    "Magnitude":2.52,
+    "Place":"11 km S of Leilani Estates, Hawaii",
+    "Latitude":19.3680000305,
+    "Longitude":-154.9251708984,
+    "Depth_km":6.8299999237,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879097",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879097",
+    "Time_UTC":"2026-01-18T20:46:34.850000+00:00",
+    "Time_Local":"2026-01-18T15:46:34.850000-05:00",
+    "Magnitude":2.52,
+    "Place":"11 km S of Leilani Estates, Hawaii",
+    "Latitude":19.3680000305,
+    "Longitude":-154.9251708984,
+    "Depth_km":6.8299999237,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879097",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bgusjm",
     "Time_UTC":"2026-01-18T20:47:57.497000+00:00",
     "Time_Local":"2026-01-18T15:47:57.497000-05:00",
@@ -5170,6 +5209,19 @@
     "Longitude":-156.321,
     "Depth_km":4.7,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgusjm",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bguvlp",
+    "Time_UTC":"2026-01-18T20:51:32.243000+00:00",
+    "Time_Local":"2026-01-18T15:51:32.243000-05:00",
+    "Magnitude":2.4,
+    "Place":"14 km S of Susitna North, Alaska",
+    "Latitude":62.033,
+    "Longitude":-149.801,
+    "Depth_km":21.8,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bguvlp",
     "Status":"automatic",
     "Type":"earthquake"
   }
