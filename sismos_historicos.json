@@ -4332,11 +4332,11 @@
     "USGS_ID":"ci41160951",
     "Time_UTC":"2026-01-18T05:07:01.360000+00:00",
     "Time_Local":"2026-01-18T00:07:01.360000-05:00",
-    "Magnitude":1.567507252,
-    "Place":"7 km NNW of Fontana, CA",
-    "Latitude":34.1591682434,
-    "Longitude":-117.4733352661,
-    "Depth_km":7.0700001717,
+    "Magnitude":1.48,
+    "Place":"7 km N of Fontana, CA",
+    "Latitude":34.1588333333,
+    "Longitude":-117.472,
+    "Depth_km":6.71,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160951",
     "Status":"automatic",
     "Type":"earthquake"
@@ -4345,11 +4345,11 @@
     "USGS_ID":"ci41160951",
     "Time_UTC":"2026-01-18T05:07:01.360000+00:00",
     "Time_Local":"2026-01-18T00:07:01.360000-05:00",
-    "Magnitude":1.48,
-    "Place":"7 km N of Fontana, CA",
-    "Latitude":34.1588333333,
-    "Longitude":-117.472,
-    "Depth_km":6.71,
+    "Magnitude":1.567507252,
+    "Place":"7 km NNW of Fontana, CA",
+    "Latitude":34.1591682434,
+    "Longitude":-117.4733352661,
+    "Depth_km":7.0700001717,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160951",
     "Status":"automatic",
     "Type":"earthquake"
@@ -4927,6 +4927,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"ci41161351",
+    "Time_UTC":"2026-01-18T18:18:20.690000+00:00",
+    "Time_Local":"2026-01-18T13:18:20.690000-05:00",
+    "Magnitude":1.69,
+    "Place":"15 km W of Johannesburg, CA",
+    "Latitude":35.353,
+    "Longitude":-117.7956666667,
+    "Depth_km":5.31,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161351",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bgpyjg",
     "Time_UTC":"2026-01-18T18:24:04.886000+00:00",
     "Time_Local":"2026-01-18T13:24:04.886000-05:00",
@@ -4936,6 +4949,19 @@
     "Longitude":-153.311,
     "Depth_km":50.6,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgpyjg",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297671",
+    "Time_UTC":"2026-01-18T18:32:43.140000+00:00",
+    "Time_Local":"2026-01-18T13:32:43.140000-05:00",
+    "Magnitude":1.09,
+    "Place":"6 km WNW of Cobb, CA",
+    "Latitude":38.8356666565,
+    "Longitude":-122.7846679688,
+    "Depth_km":2.0799999237,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297671",
     "Status":"automatic",
     "Type":"earthquake"
   }
