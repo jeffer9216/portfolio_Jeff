@@ -4784,6 +4784,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rqg6",
+    "Time_UTC":"2026-01-18T16:45:09.689000+00:00",
+    "Time_Local":"2026-01-18T11:45:09.689000-05:00",
+    "Magnitude":5.3,
+    "Place":"293 km SW of Bluff, New Zealand",
+    "Latitude":-48.247,
+    "Longitude":165.2876,
+    "Depth_km":18.914,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqg6",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"nc75297606",
     "Time_UTC":"2026-01-18T16:48:29.930000+00:00",
     "Time_Local":"2026-01-18T11:48:29.930000-05:00",
@@ -4823,6 +4836,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"tx2026bgncxj",
+    "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
+    "Time_Local":"2026-01-18T12:01:23.003000-05:00",
+    "Magnitude":1.5,
+    "Place":"19 km NW of Midland, Texas",
+    "Latitude":32.127,
+    "Longitude":-102.21,
+    "Depth_km":4.576,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bgncxj",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41161319",
     "Time_UTC":"2026-01-18T17:01:41.030000+00:00",
     "Time_Local":"2026-01-18T12:01:41.030000-05:00",
@@ -4832,6 +4858,32 @@
     "Longitude":-117.7906666667,
     "Depth_km":5.95,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161319",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161319",
+    "Time_UTC":"2026-01-18T17:01:41.030000+00:00",
+    "Time_Local":"2026-01-18T12:01:41.030000-05:00",
+    "Magnitude":1.38,
+    "Place":"14 km W of Johannesburg, CA",
+    "Latitude":35.3506666667,
+    "Longitude":-117.7906666667,
+    "Depth_km":5.95,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161319",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297616",
+    "Time_UTC":"2026-01-18T17:05:15.260000+00:00",
+    "Time_Local":"2026-01-18T12:05:15.260000-05:00",
+    "Magnitude":1.04,
+    "Place":"8 km NW of The Geysers, CA",
+    "Latitude":38.8298339844,
+    "Longitude":-122.8193359375,
+    "Depth_km":1.5099999905,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297616",
     "Status":"automatic",
     "Type":"earthquake"
   },
