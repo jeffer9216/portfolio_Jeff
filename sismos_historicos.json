@@ -4615,6 +4615,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"nc75297536",
+    "Time_UTC":"2026-01-18T15:59:02.310000+00:00",
+    "Time_Local":"2026-01-18T10:59:02.310000-05:00",
+    "Magnitude":1.38,
+    "Place":"8 km NW of The Geysers, CA",
+    "Latitude":38.829334259,
+    "Longitude":-122.8193359375,
+    "Depth_km":1.7000000477,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297536",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"hv74878997",
     "Time_UTC":"2026-01-18T16:03:58.460000+00:00",
     "Time_Local":"2026-01-18T11:03:58.460000-05:00",
@@ -4625,6 +4638,32 @@
     "Depth_km":34.7400016785,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74878997",
     "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74878997",
+    "Time_UTC":"2026-01-18T16:03:58.460000+00:00",
+    "Time_Local":"2026-01-18T11:03:58.460000-05:00",
+    "Magnitude":1.97,
+    "Place":"9 km ENE of Laupāhoehoe, Hawaii",
+    "Latitude":20.014333725,
+    "Longitude":-155.1519927979,
+    "Depth_km":34.7400016785,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74878997",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rqg0",
+    "Time_UTC":"2026-01-18T16:06:32.062000+00:00",
+    "Time_Local":"2026-01-18T11:06:32.062000-05:00",
+    "Magnitude":5.1,
+    "Place":"West Chile Rise",
+    "Latitude":-42.5245,
+    "Longitude":-82.2176,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqg0",
+    "Status":"reviewed",
     "Type":"earthquake"
   }
 ]
