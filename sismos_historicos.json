@@ -5928,32 +5928,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"tx2026bhwtxn",
-    "Time_UTC":"2026-01-19T10:54:39.909000+00:00",
-    "Time_Local":"2026-01-19T05:54:39.909000-05:00",
-    "Magnitude":1.7,
-    "Place":"45 km NW of Toyah, Texas",
-    "Latitude":31.609,
-    "Longitude":-104.129,
-    "Depth_km":3.8333,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhwtxn",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"hv74879662",
-    "Time_UTC":"2026-01-19T10:57:54.130000+00:00",
-    "Time_Local":"2026-01-19T05:57:54.130000-05:00",
-    "Magnitude":1.81,
-    "Place":"10 km ENE of Pāhala, Hawaii",
-    "Latitude":19.2491664886,
-    "Longitude":-155.388168335,
-    "Depth_km":30.4400005341,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879662",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"hv74879662",
     "Time_UTC":"2026-01-19T10:57:54.130000+00:00",
     "Time_Local":"2026-01-19T05:57:54.130000-05:00",
@@ -5976,32 +5950,6 @@
     "Longitude":-122.1856689453,
     "Depth_km":8.720000267,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298061",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"nc75298061",
-    "Time_UTC":"2026-01-19T10:58:48.830000+00:00",
-    "Time_Local":"2026-01-19T05:58:48.830000-05:00",
-    "Magnitude":1.16,
-    "Place":"7 km NNW of Green Valley, CA",
-    "Latitude":38.3161659241,
-    "Longitude":-122.1856689453,
-    "Depth_km":8.720000267,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298061",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"nc75298066",
-    "Time_UTC":"2026-01-19T10:59:06.640000+00:00",
-    "Time_Local":"2026-01-19T05:59:06.640000-05:00",
-    "Magnitude":1.46,
-    "Place":"6 km NNW of Green Valley, CA",
-    "Latitude":38.3063316345,
-    "Longitude":-122.1760025024,
-    "Depth_km":8.2299995422,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298066",
     "Status":"automatic",
     "Type":"earthquake"
   },
@@ -6120,6 +6068,58 @@
     "Depth_km":10.0,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqjl",
     "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"tx2026bhynqh",
+    "Time_UTC":"2026-01-19T11:47:45.740000+00:00",
+    "Time_Local":"2026-01-19T06:47:45.740000-05:00",
+    "Magnitude":2.1,
+    "Place":"10 km SE of Pearsall, Texas",
+    "Latitude":28.84,
+    "Longitude":-99.011,
+    "Depth_km":9.014,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhynqh",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162151",
+    "Time_UTC":"2026-01-19T11:55:59.570000+00:00",
+    "Time_Local":"2026-01-19T06:55:59.570000-05:00",
+    "Magnitude":1.41,
+    "Place":"14 km W of Johannesburg, CA",
+    "Latitude":35.3535,
+    "Longitude":-117.7903333333,
+    "Depth_km":5.76,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162151",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162151",
+    "Time_UTC":"2026-01-19T11:55:59.570000+00:00",
+    "Time_Local":"2026-01-19T06:55:59.570000-05:00",
+    "Magnitude":1.41,
+    "Place":"14 km W of Johannesburg, CA",
+    "Latitude":35.3535,
+    "Longitude":-117.7903333333,
+    "Depth_km":5.76,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162151",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nn00909669",
+    "Time_UTC":"2026-01-19T11:57:56.472000+00:00",
+    "Time_Local":"2026-01-19T06:57:56.472000-05:00",
+    "Magnitude":2.31,
+    "Place":"40 km NW of Indian Springs, Nevada",
+    "Latitude":36.8591,
+    "Longitude":-115.9394,
+    "Depth_km":11.1319,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nn00909669",
+    "Status":"automatic",
     "Type":"earthquake"
   }
 ]
