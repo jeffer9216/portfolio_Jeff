@@ -5473,32 +5473,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75297881",
-    "Time_UTC":"2026-01-19T05:25:53.590000+00:00",
-    "Time_Local":"2026-01-19T00:25:53.590000-05:00",
-    "Magnitude":1.1,
-    "Place":"10 km NNE of Healdsburg, CA",
-    "Latitude":38.7005004883,
-    "Longitude":-122.8373336792,
-    "Depth_km":-0.75,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297881",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"hv74879517",
-    "Time_UTC":"2026-01-19T05:27:27.610000+00:00",
-    "Time_Local":"2026-01-19T00:27:27.610000-05:00",
-    "Magnitude":1.9,
-    "Place":"15 km S of Volcano, Hawaii",
-    "Latitude":19.3003330231,
-    "Longitude":-155.2460021973,
-    "Depth_km":6.3200001717,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879517",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"hv74879517",
     "Time_UTC":"2026-01-19T05:27:27.610000+00:00",
     "Time_Local":"2026-01-19T00:27:27.610000-05:00",
@@ -5564,6 +5538,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"nc75297911",
+    "Time_UTC":"2026-01-19T06:11:23.410000+00:00",
+    "Time_Local":"2026-01-19T01:11:23.410000-05:00",
+    "Magnitude":1.8,
+    "Place":"16 km S of Tres Pinos, CA",
+    "Latitude":36.6506652832,
+    "Longitude":-121.3136672974,
+    "Depth_km":4.0199999809,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297911",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"nc75297916",
     "Time_UTC":"2026-01-19T06:13:08.470000+00:00",
     "Time_Local":"2026-01-19T01:13:08.470000-05:00",
@@ -5573,6 +5560,45 @@
     "Longitude":-122.4718322754,
     "Depth_km":10.1300001144,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297916",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297916",
+    "Time_UTC":"2026-01-19T06:13:08.470000+00:00",
+    "Time_Local":"2026-01-19T01:13:08.470000-05:00",
+    "Magnitude":1.64,
+    "Place":"2 km SE of Pacifica, CA",
+    "Latitude":37.5970001221,
+    "Longitude":-122.4718322754,
+    "Depth_km":10.1300001144,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297916",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"pr71505418",
+    "Time_UTC":"2026-01-19T06:15:37.570000+00:00",
+    "Time_Local":"2026-01-19T01:15:37.570000-05:00",
+    "Magnitude":2.02,
+    "Place":"2 km WSW of Indios, Puerto Rico",
+    "Latitude":17.9816666667,
+    "Longitude":-66.8406666667,
+    "Depth_km":16.76,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/pr71505418",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhnvre",
+    "Time_UTC":"2026-01-19T06:25:06.306000+00:00",
+    "Time_Local":"2026-01-19T01:25:06.306000-05:00",
+    "Magnitude":2.0,
+    "Place":"32 km WSW of Skwentna, Alaska",
+    "Latitude":61.9,
+    "Longitude":-151.977,
+    "Depth_km":115.4,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhnvre",
     "Status":"automatic",
     "Type":"earthquake"
   }
