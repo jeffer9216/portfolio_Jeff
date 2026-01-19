@@ -5497,5 +5497,18 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhldbn",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297881",
+    "Time_UTC":"2026-01-19T05:25:53.590000+00:00",
+    "Time_Local":"2026-01-19T00:25:53.590000-05:00",
+    "Magnitude":1.1,
+    "Place":"10 km NNE of Healdsburg, CA",
+    "Latitude":38.7005004883,
+    "Longitude":-122.8373336792,
+    "Depth_km":-0.75,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297881",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
