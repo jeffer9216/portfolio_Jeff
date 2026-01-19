@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -5161,19 +5161,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74879097",
-    "Time_UTC":"2026-01-18T20:46:34.850000+00:00",
-    "Time_Local":"2026-01-18T15:46:34.850000-05:00",
-    "Magnitude":2.52,
-    "Place":"11 km S of Leilani Estates, Hawaii",
-    "Latitude":19.3680000305,
-    "Longitude":-154.9251708984,
-    "Depth_km":6.8299999237,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879097",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bgusjm",
     "Time_UTC":"2026-01-18T20:47:57.497000+00:00",
     "Time_Local":"2026-01-18T15:47:57.497000-05:00",
@@ -5213,19 +5200,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75297736",
-    "Time_UTC":"2026-01-18T21:09:15.320000+00:00",
-    "Time_Local":"2026-01-18T16:09:15.320000-05:00",
-    "Magnitude":2.52,
-    "Place":"13 km NNE of Upper Lake, CA",
-    "Latitude":39.279335022,
-    "Longitude":-122.8706665039,
-    "Depth_km":23.7800006866,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297736",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bgwbxo",
     "Time_UTC":"2026-01-18T21:29:13.267000+00:00",
     "Time_Local":"2026-01-18T16:29:13.267000-05:00",
@@ -5235,6 +5209,58 @@
     "Longitude":-155.193,
     "Depth_km":5.0,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgwbxo",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bgwgsa",
+    "Time_UTC":"2026-01-18T21:34:46.203000+00:00",
+    "Time_Local":"2026-01-18T16:34:46.203000-05:00",
+    "Magnitude":1.2,
+    "Place":"87 km NNW of Karluk, Alaska",
+    "Latitude":58.249,
+    "Longitude":-155.182,
+    "Depth_km":3.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bgwgsa",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhfvxl",
+    "Time_UTC":"2026-01-19T02:23:58.042000+00:00",
+    "Time_Local":"2026-01-18T21:23:58.042000-05:00",
+    "Magnitude":2.5,
+    "Place":"3 km ENE of Big Lake, Alaska",
+    "Latitude":61.532,
+    "Longitude":-149.896,
+    "Depth_km":26.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhfvxl",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297831",
+    "Time_UTC":"2026-01-19T02:36:37.210000+00:00",
+    "Time_Local":"2026-01-18T21:36:37.210000-05:00",
+    "Magnitude":1.05,
+    "Place":"8 km W of Cobb, CA",
+    "Latitude":38.8334999084,
+    "Longitude":-122.8086700439,
+    "Depth_km":2.3499999046,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297831",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879382",
+    "Time_UTC":"2026-01-19T02:57:48.200000+00:00",
+    "Time_Local":"2026-01-18T21:57:48.200000-05:00",
+    "Magnitude":1.98,
+    "Place":"6 km NNE of Pāhala, Hawaii",
+    "Latitude":19.2579994202,
+    "Longitude":-155.4638366699,
+    "Depth_km":32.8600006104,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879382",
     "Status":"automatic",
     "Type":"earthquake"
   }
