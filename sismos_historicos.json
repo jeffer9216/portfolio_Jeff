@@ -5590,6 +5590,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"pr71505418",
+    "Time_UTC":"2026-01-19T06:15:37.570000+00:00",
+    "Time_Local":"2026-01-19T01:15:37.570000-05:00",
+    "Magnitude":2.02,
+    "Place":"2 km WSW of Indios, Puerto Rico",
+    "Latitude":17.9816666667,
+    "Longitude":-66.8406666667,
+    "Depth_km":16.76,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/pr71505418",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bhnvre",
     "Time_UTC":"2026-01-19T06:25:06.306000+00:00",
     "Time_Local":"2026-01-19T01:25:06.306000-05:00",
@@ -5599,6 +5612,19 @@
     "Longitude":-151.977,
     "Depth_km":115.4,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhnvre",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162015",
+    "Time_UTC":"2026-01-19T06:36:07.390000+00:00",
+    "Time_Local":"2026-01-19T01:36:07.390000-05:00",
+    "Magnitude":1.07,
+    "Place":"4 km NNW of East Los Angeles, CA",
+    "Latitude":34.0585,
+    "Longitude":-118.1885,
+    "Depth_km":10.91,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162015",
     "Status":"automatic",
     "Type":"earthquake"
   }
