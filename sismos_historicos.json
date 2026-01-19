@@ -6186,5 +6186,18 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bitscj",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rqnh",
+    "Time_UTC":"2026-01-19T22:28:22.124000+00:00",
+    "Time_Local":"2026-01-19T17:28:22.124000-05:00",
+    "Magnitude":4.7,
+    "Place":"28 km SSE of Mendi, Papua New Guinea",
+    "Latitude":-6.3948,
+    "Longitude":143.7352,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqnh",
+    "Status":"reviewed",
+    "Type":"earthquake"
   }
 ]
