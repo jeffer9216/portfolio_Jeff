@@ -5679,5 +5679,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879602",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879602",
+    "Time_UTC":"2026-01-19T07:22:19.560000+00:00",
+    "Time_Local":"2026-01-19T02:22:19.560000-05:00",
+    "Magnitude":2.34,
+    "Place":"13 km NE of Pāhala, Hawaii",
+    "Latitude":19.2833328247,
+    "Longitude":-155.3760070801,
+    "Depth_km":30.2900009155,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879602",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297951",
+    "Time_UTC":"2026-01-19T07:30:37.350000+00:00",
+    "Time_Local":"2026-01-19T02:30:37.350000-05:00",
+    "Magnitude":1.03,
+    "Place":"8 km NW of The Geysers, CA",
+    "Latitude":38.8323326111,
+    "Longitude":-122.8168334961,
+    "Depth_km":1.9900000095,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297951",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
