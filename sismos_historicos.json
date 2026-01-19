@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -5993,19 +5993,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75298076",
-    "Time_UTC":"2026-01-19T11:15:27.290000+00:00",
-    "Time_Local":"2026-01-19T06:15:27.290000-05:00",
-    "Magnitude":1.06,
-    "Place":"5 km WNW of Cobb, CA",
-    "Latitude":38.8344993591,
-    "Longitude":-122.7835006714,
-    "Depth_km":1.7300000191,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298076",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"hv74879672",
     "Time_UTC":"2026-01-19T11:25:01.920000+00:00",
     "Time_Local":"2026-01-19T06:25:01.920000-05:00",
@@ -6107,6 +6094,19 @@
     "Depth_km":5.76,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162151",
     "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rqjq",
+    "Time_UTC":"2026-01-19T11:57:16.720000+00:00",
+    "Time_Local":"2026-01-19T06:57:16.720000-05:00",
+    "Magnitude":2.6,
+    "Place":"13 km ESE of Kicking Horse, Montana",
+    "Latitude":47.409,
+    "Longitude":-113.9108,
+    "Depth_km":4.987,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqjq",
+    "Status":"reviewed",
     "Type":"earthquake"
   },
   {
