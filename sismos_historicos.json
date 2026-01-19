@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -5538,19 +5538,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75297911",
-    "Time_UTC":"2026-01-19T06:11:23.410000+00:00",
-    "Time_Local":"2026-01-19T01:11:23.410000-05:00",
-    "Magnitude":1.8,
-    "Place":"16 km S of Tres Pinos, CA",
-    "Latitude":36.6506652832,
-    "Longitude":-121.3136672974,
-    "Depth_km":4.0199999809,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297911",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"nc75297916",
     "Time_UTC":"2026-01-19T06:13:08.470000+00:00",
     "Time_Local":"2026-01-19T01:13:08.470000-05:00",
@@ -5561,32 +5548,6 @@
     "Depth_km":10.1300001144,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297916",
     "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"nc75297916",
-    "Time_UTC":"2026-01-19T06:13:08.470000+00:00",
-    "Time_Local":"2026-01-19T01:13:08.470000-05:00",
-    "Magnitude":1.64,
-    "Place":"2 km SE of Pacifica, CA",
-    "Latitude":37.5970001221,
-    "Longitude":-122.4718322754,
-    "Depth_km":10.1300001144,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297916",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"pr71505418",
-    "Time_UTC":"2026-01-19T06:15:37.570000+00:00",
-    "Time_Local":"2026-01-19T01:15:37.570000-05:00",
-    "Magnitude":2.02,
-    "Place":"2 km WSW of Indios, Puerto Rico",
-    "Latitude":17.9816666667,
-    "Longitude":-66.8406666667,
-    "Depth_km":16.76,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/pr71505418",
-    "Status":"reviewed",
     "Type":"earthquake"
   },
   {
@@ -5655,6 +5616,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rqit",
+    "Time_UTC":"2026-01-19T06:42:07.663000+00:00",
+    "Time_Local":"2026-01-19T01:42:07.663000-05:00",
+    "Magnitude":5.1,
+    "Place":"29 km S of Hihifo, Tonga",
+    "Latitude":-16.223,
+    "Longitude":-173.7599,
+    "Depth_km":94.191,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqit",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bhowuw",
     "Time_UTC":"2026-01-19T06:56:34.239000+00:00",
     "Time_Local":"2026-01-19T01:56:34.239000-05:00",
@@ -5664,6 +5638,19 @@
     "Longitude":-150.729,
     "Depth_km":61.3,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhowuw",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhpmaa",
+    "Time_UTC":"2026-01-19T07:14:12.076000+00:00",
+    "Time_Local":"2026-01-19T02:14:12.076000-05:00",
+    "Magnitude":1.7,
+    "Place":"55 km W of Nanwalek, Alaska",
+    "Latitude":59.412,
+    "Longitude":-152.889,
+    "Depth_km":78.1,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhpmaa",
     "Status":"automatic",
     "Type":"earthquake"
   }
