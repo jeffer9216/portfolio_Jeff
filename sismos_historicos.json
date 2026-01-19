@@ -5857,7 +5857,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.5474,
+    "Depth_km":5.549,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -5870,7 +5870,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.549,
+    "Depth_km":5.5474,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -6223,6 +6223,45 @@
     "Longitude":-117.5848333333,
     "Depth_km":7.07,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162623",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162623",
+    "Time_UTC":"2026-01-19T23:18:44.380000+00:00",
+    "Time_Local":"2026-01-19T18:18:44.380000-05:00",
+    "Magnitude":1.35,
+    "Place":"16 km W of Searles Valley, CA",
+    "Latitude":35.7733333333,
+    "Longitude":-117.5848333333,
+    "Depth_km":7.07,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162623",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74880082",
+    "Time_UTC":"2026-01-19T23:36:37.960000+00:00",
+    "Time_Local":"2026-01-19T18:36:37.960000-05:00",
+    "Magnitude":1.73,
+    "Place":"7 km SW of Volcano, Hawaii",
+    "Latitude":19.3963336945,
+    "Longitude":-155.2798309326,
+    "Depth_km":2.9300000668,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880082",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74880087",
+    "Time_UTC":"2026-01-19T23:36:49.800000+00:00",
+    "Time_Local":"2026-01-19T18:36:49.800000-05:00",
+    "Magnitude":1.82,
+    "Place":"6 km SW of Volcano, Hawaii",
+    "Latitude":19.3938331604,
+    "Longitude":-155.2720031738,
+    "Depth_km":0.4199999869,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880087",
     "Status":"automatic",
     "Type":"earthquake"
   }
