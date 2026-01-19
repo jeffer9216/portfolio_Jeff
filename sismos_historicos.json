@@ -5980,6 +5980,32 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"hv74879662",
+    "Time_UTC":"2026-01-19T10:57:54.130000+00:00",
+    "Time_Local":"2026-01-19T05:57:54.130000-05:00",
+    "Magnitude":1.81,
+    "Place":"10 km ENE of Pāhala, Hawaii",
+    "Latitude":19.2491664886,
+    "Longitude":-155.388168335,
+    "Depth_km":30.4400005341,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879662",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298061",
+    "Time_UTC":"2026-01-19T10:58:48.830000+00:00",
+    "Time_Local":"2026-01-19T05:58:48.830000-05:00",
+    "Magnitude":1.16,
+    "Place":"7 km NNW of Green Valley, CA",
+    "Latitude":38.3161659241,
+    "Longitude":-122.1856689453,
+    "Depth_km":8.720000267,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298061",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"nc75298061",
     "Time_UTC":"2026-01-19T10:58:48.830000+00:00",
     "Time_Local":"2026-01-19T05:58:48.830000-05:00",
@@ -6002,6 +6028,45 @@
     "Longitude":-122.1760025024,
     "Depth_km":8.2299995422,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298066",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298066",
+    "Time_UTC":"2026-01-19T10:59:06.640000+00:00",
+    "Time_Local":"2026-01-19T05:59:06.640000-05:00",
+    "Magnitude":1.46,
+    "Place":"6 km NNW of Green Valley, CA",
+    "Latitude":38.3063316345,
+    "Longitude":-122.1760025024,
+    "Depth_km":8.2299995422,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298066",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rqjg",
+    "Time_UTC":"2026-01-19T11:02:49.203000+00:00",
+    "Time_Local":"2026-01-19T06:02:49.203000-05:00",
+    "Magnitude":5.0,
+    "Place":"102 km NNW of Curup, Indonesia",
+    "Latitude":-2.6159,
+    "Longitude":102.1725,
+    "Depth_km":168.23,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqjg",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298076",
+    "Time_UTC":"2026-01-19T11:15:27.290000+00:00",
+    "Time_Local":"2026-01-19T06:15:27.290000-05:00",
+    "Magnitude":1.06,
+    "Place":"5 km WNW of Cobb, CA",
+    "Latitude":38.8344993591,
+    "Longitude":-122.7835006714,
+    "Depth_km":1.7300000191,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298076",
     "Status":"automatic",
     "Type":"earthquake"
   }
