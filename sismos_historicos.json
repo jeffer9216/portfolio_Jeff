@@ -5668,19 +5668,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74879602",
-    "Time_UTC":"2026-01-19T07:22:19.560000+00:00",
-    "Time_Local":"2026-01-19T02:22:19.560000-05:00",
-    "Magnitude":2.34,
-    "Place":"13 km NE of Pāhala, Hawaii",
-    "Latitude":19.2833328247,
-    "Longitude":-155.3760070801,
-    "Depth_km":30.2900009155,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879602",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"nc75297951",
     "Time_UTC":"2026-01-19T07:30:37.350000+00:00",
     "Time_Local":"2026-01-19T02:30:37.350000-05:00",
@@ -5794,6 +5781,32 @@
     "Longitude":-118.2543333333,
     "Depth_km":14.36,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162079",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162087",
+    "Time_UTC":"2026-01-19T08:26:40.800000+00:00",
+    "Time_Local":"2026-01-19T03:26:40.800000-05:00",
+    "Magnitude":1.0667458817,
+    "Place":"12 km SSW of Borrego Springs, CA",
+    "Latitude":33.1516685486,
+    "Longitude":-116.4126663208,
+    "Depth_km":8.9499998093,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162087",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhrwzw",
+    "Time_UTC":"2026-01-19T08:27:18.269000+00:00",
+    "Time_Local":"2026-01-19T03:27:18.269000-05:00",
+    "Magnitude":2.5,
+    "Place":"12 km NE of Chenega, Alaska",
+    "Latitude":60.152,
+    "Longitude":-147.857,
+    "Depth_km":20.2,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhrwzw",
     "Status":"automatic",
     "Type":"earthquake"
   }
