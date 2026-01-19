@@ -5252,6 +5252,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"nc75297831",
+    "Time_UTC":"2026-01-19T02:36:37.210000+00:00",
+    "Time_Local":"2026-01-18T21:36:37.210000-05:00",
+    "Magnitude":1.05,
+    "Place":"8 km W of Cobb, CA",
+    "Latitude":38.8334999084,
+    "Longitude":-122.8086700439,
+    "Depth_km":2.3499999046,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297831",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"hv74879382",
     "Time_UTC":"2026-01-19T02:57:48.200000+00:00",
     "Time_Local":"2026-01-18T21:57:48.200000-05:00",
@@ -5261,6 +5274,45 @@
     "Longitude":-155.4638366699,
     "Depth_km":32.8600006104,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879382",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879382",
+    "Time_UTC":"2026-01-19T02:57:48.200000+00:00",
+    "Time_Local":"2026-01-18T21:57:48.200000-05:00",
+    "Magnitude":1.98,
+    "Place":"6 km NNE of Pāhala, Hawaii",
+    "Latitude":19.2579994202,
+    "Longitude":-155.4638366699,
+    "Depth_km":32.8600006104,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879382",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhhmua",
+    "Time_UTC":"2026-01-19T03:13:47.777000+00:00",
+    "Time_Local":"2026-01-18T22:13:47.777000-05:00",
+    "Magnitude":2.5,
+    "Place":"9 km NNE of Ouzinkie, Alaska",
+    "Latitude":57.998,
+    "Longitude":-152.445,
+    "Depth_km":37.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhhmua",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhhphc",
+    "Time_UTC":"2026-01-19T03:16:36.435000+00:00",
+    "Time_Local":"2026-01-18T22:16:36.435000-05:00",
+    "Magnitude":1.6,
+    "Place":"38 km SE of Denali National Park, Alaska",
+    "Latitude":63.304,
+    "Longitude":-151.176,
+    "Depth_km":1.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhhphc",
     "Status":"automatic",
     "Type":"earthquake"
   }
