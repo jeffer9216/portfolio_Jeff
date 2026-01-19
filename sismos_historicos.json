@@ -5809,5 +5809,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhtkdd",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhujec",
+    "Time_UTC":"2026-01-19T09:41:45.262000+00:00",
+    "Time_Local":"2026-01-19T04:41:45.262000-05:00",
+    "Magnitude":2.8,
+    "Place":"25 km NNW of Fishhook, Alaska",
+    "Latitude":61.946,
+    "Longitude":-149.449,
+    "Depth_km":17.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhujec",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhunfs",
+    "Time_UTC":"2026-01-19T09:46:28.336000+00:00",
+    "Time_Local":"2026-01-19T04:46:28.336000-05:00",
+    "Magnitude":1.5,
+    "Place":"11 km WNW of Tyonek, Alaska",
+    "Latitude":61.093,
+    "Longitude":-151.339,
+    "Depth_km":65.2,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhunfs",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
