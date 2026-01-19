@@ -5874,5 +5874,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298036",
+    "Time_UTC":"2026-01-19T10:32:12.480000+00:00",
+    "Time_Local":"2026-01-19T05:32:12.480000-05:00",
+    "Magnitude":1.87,
+    "Place":"13 km S of Tres Pinos, CA",
+    "Latitude":36.6754989624,
+    "Longitude":-121.3478317261,
+    "Depth_km":1.6000000238,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298036",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhwdfr",
+    "Time_UTC":"2026-01-19T10:35:11.350000+00:00",
+    "Time_Local":"2026-01-19T05:35:11.350000-05:00",
+    "Magnitude":2.4,
+    "Place":"60 km E of Port Alsworth, Alaska",
+    "Latitude":60.185,
+    "Longitude":-153.222,
+    "Depth_km":143.3,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhwdfr",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
