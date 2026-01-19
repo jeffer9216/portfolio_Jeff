@@ -6123,6 +6123,32 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rqnb",
+    "Time_UTC":"2026-01-19T22:15:56.970000+00:00",
+    "Time_Local":"2026-01-19T17:15:56.970000-05:00",
+    "Magnitude":4.9,
+    "Place":"208 km NE of Lospalos, Timor Leste",
+    "Latitude":-7.2085,
+    "Longitude":128.3588,
+    "Depth_km":187.507,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqnb",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162575",
+    "Time_UTC":"2026-01-19T22:24:04.250000+00:00",
+    "Time_Local":"2026-01-19T17:24:04.250000-05:00",
+    "Magnitude":1.91,
+    "Place":"17 km WSW of Johannesburg, CA",
+    "Latitude":35.3356666667,
+    "Longitude":-117.8148333333,
+    "Depth_km":7.16,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162575",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41162575",
     "Time_UTC":"2026-01-19T22:24:04.250000+00:00",
     "Time_Local":"2026-01-19T17:24:04.250000-05:00",
