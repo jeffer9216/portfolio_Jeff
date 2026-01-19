@@ -6097,19 +6097,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75298341",
-    "Time_UTC":"2026-01-19T21:24:00.430000+00:00",
-    "Time_Local":"2026-01-19T16:24:00.430000-05:00",
-    "Magnitude":1.24,
-    "Place":"3 km SSW of Cobb, CA",
-    "Latitude":38.799331665,
-    "Longitude":-122.737663269,
-    "Depth_km":0.0299999993,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298341",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026biskul",
     "Time_UTC":"2026-01-19T21:47:45.600000+00:00",
     "Time_Local":"2026-01-19T16:47:45.600000-05:00",
@@ -6132,6 +6119,45 @@
     "Longitude":-149.561,
     "Depth_km":27.7,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bistvd",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162575",
+    "Time_UTC":"2026-01-19T22:24:04.250000+00:00",
+    "Time_Local":"2026-01-19T17:24:04.250000-05:00",
+    "Magnitude":1.91,
+    "Place":"17 km WSW of Johannesburg, CA",
+    "Latitude":35.3356666667,
+    "Longitude":-117.8148333333,
+    "Depth_km":7.16,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162575",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bitrqe",
+    "Time_UTC":"2026-01-19T22:25:54.524000+00:00",
+    "Time_Local":"2026-01-19T17:25:54.524000-05:00",
+    "Magnitude":1.3,
+    "Place":"61 km NE of Pedro Bay, Alaska",
+    "Latitude":60.103,
+    "Longitude":-153.194,
+    "Depth_km":147.5,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bitrqe",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bitscj",
+    "Time_UTC":"2026-01-19T22:26:25.788000+00:00",
+    "Time_Local":"2026-01-19T17:26:25.788000-05:00",
+    "Magnitude":1.9,
+    "Place":"6 km E of Eielson Air Force Base, Alaska",
+    "Latitude":64.67,
+    "Longitude":-146.912,
+    "Depth_km":5.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bitscj",
     "Status":"automatic",
     "Type":"earthquake"
   }
