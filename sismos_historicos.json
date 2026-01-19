@@ -5304,19 +5304,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41161911",
-    "Time_UTC":"2026-01-19T03:29:00.200000+00:00",
-    "Time_Local":"2026-01-18T22:29:00.200000-05:00",
-    "Magnitude":1.35,
-    "Place":"19 km SSW of Ocotillo Wells, CA",
-    "Latitude":32.9981666667,
-    "Longitude":-116.2338333333,
-    "Depth_km":7.09,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161911",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bhialc",
     "Time_UTC":"2026-01-19T03:29:33.154000+00:00",
     "Time_Local":"2026-01-18T22:29:33.154000-05:00",
@@ -5377,6 +5364,19 @@
     "Latitude":34.1023330688,
     "Longitude":-117.3799972534,
     "Depth_km":15.3999996185,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161935",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161935",
+    "Time_UTC":"2026-01-19T04:06:44.850000+00:00",
+    "Time_Local":"2026-01-18T23:06:44.850000-05:00",
+    "Magnitude":1.06,
+    "Place":"2 km SW of Rialto, CA",
+    "Latitude":34.096,
+    "Longitude":-117.3866666667,
+    "Depth_km":15.46,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161935",
     "Status":"automatic",
     "Type":"earthquake"
