@@ -6149,19 +6149,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41162575",
-    "Time_UTC":"2026-01-19T22:24:04.250000+00:00",
-    "Time_Local":"2026-01-19T17:24:04.250000-05:00",
-    "Magnitude":1.91,
-    "Place":"17 km WSW of Johannesburg, CA",
-    "Latitude":35.3356666667,
-    "Longitude":-117.8148333333,
-    "Depth_km":7.16,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162575",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bitrqe",
     "Time_UTC":"2026-01-19T22:25:54.524000+00:00",
     "Time_Local":"2026-01-19T17:25:54.524000-05:00",
@@ -6210,6 +6197,32 @@
     "Longitude":-122.7399978638,
     "Depth_km":0.3300000131,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298386",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298386",
+    "Time_UTC":"2026-01-19T23:09:41.480000+00:00",
+    "Time_Local":"2026-01-19T18:09:41.480000-05:00",
+    "Magnitude":1.03,
+    "Place":"2 km NW of Cobb, CA",
+    "Latitude":38.8378334045,
+    "Longitude":-122.7399978638,
+    "Depth_km":0.3300000131,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298386",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162623",
+    "Time_UTC":"2026-01-19T23:18:44.380000+00:00",
+    "Time_Local":"2026-01-19T18:18:44.380000-05:00",
+    "Magnitude":1.35,
+    "Place":"16 km W of Searles Valley, CA",
+    "Latitude":35.7733333333,
+    "Longitude":-117.5848333333,
+    "Depth_km":7.07,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162623",
     "Status":"automatic",
     "Type":"earthquake"
   }
