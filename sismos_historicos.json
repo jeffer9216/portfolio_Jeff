@@ -5265,19 +5265,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74879382",
-    "Time_UTC":"2026-01-19T02:57:48.200000+00:00",
-    "Time_Local":"2026-01-18T21:57:48.200000-05:00",
-    "Magnitude":1.98,
-    "Place":"6 km NNE of Pāhala, Hawaii",
-    "Latitude":19.2579994202,
-    "Longitude":-155.4638366699,
-    "Depth_km":32.8600006104,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879382",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bhhmua",
     "Time_UTC":"2026-01-19T03:13:47.777000+00:00",
     "Time_Local":"2026-01-18T22:13:47.777000-05:00",
@@ -5317,6 +5304,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"ci41161911",
+    "Time_UTC":"2026-01-19T03:29:00.200000+00:00",
+    "Time_Local":"2026-01-18T22:29:00.200000-05:00",
+    "Magnitude":1.35,
+    "Place":"19 km SSW of Ocotillo Wells, CA",
+    "Latitude":32.9981666667,
+    "Longitude":-116.2338333333,
+    "Depth_km":7.09,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161911",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bhialc",
     "Time_UTC":"2026-01-19T03:29:33.154000+00:00",
     "Time_Local":"2026-01-18T22:29:33.154000-05:00",
@@ -5326,6 +5326,58 @@
     "Longitude":-147.942,
     "Depth_km":20.9,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhialc",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhirxu",
+    "Time_UTC":"2026-01-19T03:49:50.725000+00:00",
+    "Time_Local":"2026-01-18T22:49:50.725000-05:00",
+    "Magnitude":1.5,
+    "Place":"64 km S of Glacier View, Alaska",
+    "Latitude":61.231,
+    "Longitude":-147.729,
+    "Depth_km":28.9,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhirxu",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhjdoq",
+    "Time_UTC":"2026-01-19T04:03:22.725000+00:00",
+    "Time_Local":"2026-01-18T23:03:22.725000-05:00",
+    "Magnitude":1.6,
+    "Place":"15 km N of Meadow Lakes, Alaska",
+    "Latitude":61.761,
+    "Longitude":-149.649,
+    "Depth_km":28.6,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhjdoq",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhjftf",
+    "Time_UTC":"2026-01-19T04:05:53.682000+00:00",
+    "Time_Local":"2026-01-18T23:05:53.682000-05:00",
+    "Magnitude":1.5,
+    "Place":"31 km WNW of Beluga, Alaska",
+    "Latitude":61.256,
+    "Longitude":-151.609,
+    "Depth_km":76.9,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhjftf",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161935",
+    "Time_UTC":"2026-01-19T04:06:44.810000+00:00",
+    "Time_Local":"2026-01-18T23:06:44.810000-05:00",
+    "Magnitude":1.1488685921,
+    "Place":"1 km WSW of Rialto, CA",
+    "Latitude":34.1023330688,
+    "Longitude":-117.3799972534,
+    "Depth_km":15.3999996185,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161935",
     "Status":"automatic",
     "Type":"earthquake"
   }
