@@ -6069,5 +6069,31 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298076",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298076",
+    "Time_UTC":"2026-01-19T11:15:27.290000+00:00",
+    "Time_Local":"2026-01-19T06:15:27.290000-05:00",
+    "Magnitude":1.06,
+    "Place":"5 km WNW of Cobb, CA",
+    "Latitude":38.8344993591,
+    "Longitude":-122.7835006714,
+    "Depth_km":1.7300000191,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298076",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74879672",
+    "Time_UTC":"2026-01-19T11:25:01.920000+00:00",
+    "Time_Local":"2026-01-19T06:25:01.920000-05:00",
+    "Magnitude":1.73,
+    "Place":"4 km SSW of Pāhala, Hawaii",
+    "Latitude":19.1606674194,
+    "Longitude":-155.4900054932,
+    "Depth_km":28.6000003815,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879672",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
