@@ -5796,5 +5796,18 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhrwzw",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"tx2026bhsjrb",
+    "Time_UTC":"2026-01-19T08:42:27.611000+00:00",
+    "Time_Local":"2026-01-19T03:42:27.611000-05:00",
+    "Magnitude":1.8,
+    "Place":"32 km NW of Toyah, Texas",
+    "Latitude":31.525,
+    "Longitude":-104.026,
+    "Depth_km":4.1101,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhsjrb",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
