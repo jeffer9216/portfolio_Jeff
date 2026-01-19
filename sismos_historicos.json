@@ -5603,6 +5603,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rqik",
+    "Time_UTC":"2026-01-19T06:21:12.239000+00:00",
+    "Time_Local":"2026-01-19T01:21:12.239000-05:00",
+    "Magnitude":5.9,
+    "Place":"50 km NNW of Barishal, Pakistan",
+    "Latitude":36.7223,
+    "Longitude":74.4355,
+    "Depth_km":35.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqik",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bhnvre",
     "Time_UTC":"2026-01-19T06:25:06.306000+00:00",
     "Time_Local":"2026-01-19T01:25:06.306000-05:00",
