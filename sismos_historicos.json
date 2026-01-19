@@ -5252,19 +5252,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75297831",
-    "Time_UTC":"2026-01-19T02:36:37.210000+00:00",
-    "Time_Local":"2026-01-18T21:36:37.210000-05:00",
-    "Magnitude":1.05,
-    "Place":"8 km W of Cobb, CA",
-    "Latitude":38.8334999084,
-    "Longitude":-122.8086700439,
-    "Depth_km":2.3499999046,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297831",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"hv74879382",
     "Time_UTC":"2026-01-19T02:57:48.200000+00:00",
     "Time_Local":"2026-01-18T21:57:48.200000-05:00",
@@ -5313,6 +5300,32 @@
     "Longitude":-151.176,
     "Depth_km":1.0,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhhphc",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161911",
+    "Time_UTC":"2026-01-19T03:29:00.200000+00:00",
+    "Time_Local":"2026-01-18T22:29:00.200000-05:00",
+    "Magnitude":1.35,
+    "Place":"19 km SSW of Ocotillo Wells, CA",
+    "Latitude":32.9981666667,
+    "Longitude":-116.2338333333,
+    "Depth_km":7.09,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161911",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhialc",
+    "Time_UTC":"2026-01-19T03:29:33.154000+00:00",
+    "Time_Local":"2026-01-18T22:29:33.154000-05:00",
+    "Magnitude":1.8,
+    "Place":"4 km ESE of Chenega, Alaska",
+    "Latitude":60.053,
+    "Longitude":-147.942,
+    "Depth_km":20.9,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhialc",
     "Status":"automatic",
     "Type":"earthquake"
   }
