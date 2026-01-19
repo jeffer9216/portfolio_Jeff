@@ -5629,6 +5629,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"ak2026bhnvsr",
+    "Time_UTC":"2026-01-19T06:25:08.484000+00:00",
+    "Time_Local":"2026-01-19T01:25:08.484000-05:00",
+    "Magnitude":1.5,
+    "Place":"119 km ESE of McCarthy, Alaska",
+    "Latitude":61.208,
+    "Longitude":-140.735,
+    "Depth_km":0.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhnvsr",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41162015",
     "Time_UTC":"2026-01-19T06:36:07.390000+00:00",
     "Time_Local":"2026-01-19T01:36:07.390000-05:00",
@@ -5638,6 +5651,19 @@
     "Longitude":-118.1885,
     "Depth_km":10.91,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162015",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhowuw",
+    "Time_UTC":"2026-01-19T06:56:34.239000+00:00",
+    "Time_Local":"2026-01-19T01:56:34.239000-05:00",
+    "Magnitude":1.5,
+    "Place":"30 km WSW of Trapper Creek, Alaska",
+    "Latitude":62.172,
+    "Longitude":-150.729,
+    "Depth_km":61.3,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhowuw",
     "Status":"automatic",
     "Type":"earthquake"
   }
