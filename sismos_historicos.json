@@ -5705,5 +5705,44 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297951",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75297951",
+    "Time_UTC":"2026-01-19T07:30:37.350000+00:00",
+    "Time_Local":"2026-01-19T02:30:37.350000-05:00",
+    "Magnitude":1.03,
+    "Place":"8 km NW of The Geysers, CA",
+    "Latitude":38.8323326111,
+    "Longitude":-122.8168334961,
+    "Depth_km":1.9900000095,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297951",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhqjad",
+    "Time_UTC":"2026-01-19T07:40:51.899000+00:00",
+    "Time_Local":"2026-01-19T02:40:51.899000-05:00",
+    "Magnitude":1.1,
+    "Place":"40 km WSW of Anchor Point, Alaska",
+    "Latitude":59.605,
+    "Longitude":-152.46,
+    "Depth_km":93.3,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhqjad",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162047",
+    "Time_UTC":"2026-01-19T07:43:34.580000+00:00",
+    "Time_Local":"2026-01-19T02:43:34.580000-05:00",
+    "Magnitude":1.52,
+    "Place":"28 km W of Coso Junction, CA",
+    "Latitude":36.09,
+    "Longitude":-118.254,
+    "Depth_km":13.39,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162047",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
