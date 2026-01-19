@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -5798,19 +5798,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ak2026bhtkdd",
-    "Time_UTC":"2026-01-19T09:12:42.235000+00:00",
-    "Time_Local":"2026-01-19T04:12:42.235000-05:00",
-    "Magnitude":1.7,
-    "Place":"21 km E of Beluga, Alaska",
-    "Latitude":61.168,
-    "Longitude":-150.68,
-    "Depth_km":63.4,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhtkdd",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bhujec",
     "Time_UTC":"2026-01-19T09:41:45.262000+00:00",
     "Time_Local":"2026-01-19T04:41:45.262000-05:00",
@@ -5859,6 +5846,32 @@
     "Longitude":-123.2854995728,
     "Depth_km":39.3600006104,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298026",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298026",
+    "Time_UTC":"2026-01-19T10:07:12.330000+00:00",
+    "Time_Local":"2026-01-19T05:07:12.330000-05:00",
+    "Magnitude":2.5,
+    "Place":"41 km N of Covelo, CA",
+    "Latitude":40.1621665955,
+    "Longitude":-123.2854995728,
+    "Depth_km":39.3600006104,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298026",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"tx2026bhvmuj",
+    "Time_UTC":"2026-01-19T10:16:17.663000+00:00",
+    "Time_Local":"2026-01-19T05:16:17.663000-05:00",
+    "Magnitude":2.3,
+    "Place":"30 km NW of Toyah, Texas",
+    "Latitude":31.517,
+    "Longitude":-104.015,
+    "Depth_km":5.5474,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
   }
