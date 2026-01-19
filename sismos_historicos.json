@@ -5460,6 +5460,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"nc75297866",
+    "Time_UTC":"2026-01-19T05:00:37.590000+00:00",
+    "Time_Local":"2026-01-19T00:00:37.590000-05:00",
+    "Magnitude":1.55,
+    "Place":"13 km S of Tres Pinos, CA",
+    "Latitude":36.6746673584,
+    "Longitude":-121.3436660767,
+    "Depth_km":1.7599999905,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75297866",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bhlcaq",
     "Time_UTC":"2026-01-19T05:01:55.423000+00:00",
     "Time_Local":"2026-01-19T00:01:55.423000-05:00",
