@@ -4332,11 +4332,11 @@
     "USGS_ID":"ci41160951",
     "Time_UTC":"2026-01-18T05:07:01.360000+00:00",
     "Time_Local":"2026-01-18T00:07:01.360000-05:00",
-    "Magnitude":1.48,
-    "Place":"7 km N of Fontana, CA",
-    "Latitude":34.1588333333,
-    "Longitude":-117.472,
-    "Depth_km":6.71,
+    "Magnitude":1.567507252,
+    "Place":"7 km NNW of Fontana, CA",
+    "Latitude":34.1591682434,
+    "Longitude":-117.4733352661,
+    "Depth_km":7.0700001717,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160951",
     "Status":"automatic",
     "Type":"earthquake"
@@ -4345,11 +4345,11 @@
     "USGS_ID":"ci41160951",
     "Time_UTC":"2026-01-18T05:07:01.360000+00:00",
     "Time_Local":"2026-01-18T00:07:01.360000-05:00",
-    "Magnitude":1.567507252,
-    "Place":"7 km NNW of Fontana, CA",
-    "Latitude":34.1591682434,
-    "Longitude":-117.4733352661,
-    "Depth_km":7.0700001717,
+    "Magnitude":1.48,
+    "Place":"7 km N of Fontana, CA",
+    "Latitude":34.1588333333,
+    "Longitude":-117.472,
+    "Depth_km":6.71,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41160951",
     "Status":"automatic",
     "Type":"earthquake"
@@ -5538,6 +5538,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"hv74879517",
+    "Time_UTC":"2026-01-19T05:27:27.610000+00:00",
+    "Time_Local":"2026-01-19T00:27:27.610000-05:00",
+    "Magnitude":1.9,
+    "Place":"15 km S of Volcano, Hawaii",
+    "Latitude":19.3003330231,
+    "Longitude":-155.2460021973,
+    "Depth_km":6.3200001717,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879517",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bhmcrt",
     "Time_UTC":"2026-01-19T05:32:52.192000+00:00",
     "Time_Local":"2026-01-19T00:32:52.192000-05:00",
@@ -5547,6 +5560,19 @@
     "Longitude":-149.334,
     "Depth_km":66.3,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhmcrt",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhmktu",
+    "Time_UTC":"2026-01-19T05:42:10.465000+00:00",
+    "Time_Local":"2026-01-19T00:42:10.465000-05:00",
+    "Magnitude":1.8,
+    "Place":"110 km NE of Lime Village, Alaska",
+    "Latitude":61.937,
+    "Longitude":-153.742,
+    "Depth_km":5.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhmktu",
     "Status":"automatic",
     "Type":"earthquake"
   }
