@@ -5380,5 +5380,18 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161935",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41161935",
+    "Time_UTC":"2026-01-19T04:06:44.850000+00:00",
+    "Time_Local":"2026-01-18T23:06:44.850000-05:00",
+    "Magnitude":1.06,
+    "Place":"2 km SW of Rialto, CA",
+    "Latitude":34.096,
+    "Longitude":-117.3866666667,
+    "Depth_km":15.46,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41161935",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
