@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -6006,32 +6006,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74879672",
-    "Time_UTC":"2026-01-19T11:25:01.920000+00:00",
-    "Time_Local":"2026-01-19T06:25:01.920000-05:00",
-    "Magnitude":1.73,
-    "Place":"4 km SSW of Pāhala, Hawaii",
-    "Latitude":19.1606674194,
-    "Longitude":-155.4900054932,
-    "Depth_km":28.6000003815,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74879672",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"nc75298086",
-    "Time_UTC":"2026-01-19T11:32:04.090000+00:00",
-    "Time_Local":"2026-01-19T06:32:04.090000-05:00",
-    "Magnitude":1.03,
-    "Place":"3 km NW of The Geysers, CA",
-    "Latitude":38.7919998169,
-    "Longitude":-122.7783355713,
-    "Depth_km":1.7699999809,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298086",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"nc75298086",
     "Time_UTC":"2026-01-19T11:32:04.090000+00:00",
     "Time_Local":"2026-01-19T06:32:04.090000-05:00",
@@ -6084,19 +6058,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41162151",
-    "Time_UTC":"2026-01-19T11:55:59.570000+00:00",
-    "Time_Local":"2026-01-19T06:55:59.570000-05:00",
-    "Magnitude":1.41,
-    "Place":"14 km W of Johannesburg, CA",
-    "Latitude":35.3535,
-    "Longitude":-117.7903333333,
-    "Depth_km":5.76,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162151",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"us7000rqjq",
     "Time_UTC":"2026-01-19T11:57:16.720000+00:00",
     "Time_Local":"2026-01-19T06:57:16.720000-05:00",
@@ -6119,6 +6080,45 @@
     "Longitude":-115.9394,
     "Depth_km":11.1319,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nn00909669",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298341",
+    "Time_UTC":"2026-01-19T21:24:00.430000+00:00",
+    "Time_Local":"2026-01-19T16:24:00.430000-05:00",
+    "Magnitude":1.24,
+    "Place":"3 km SSW of Cobb, CA",
+    "Latitude":38.799331665,
+    "Longitude":-122.737663269,
+    "Depth_km":0.0299999993,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298341",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026biskul",
+    "Time_UTC":"2026-01-19T21:47:45.600000+00:00",
+    "Time_Local":"2026-01-19T16:47:45.600000-05:00",
+    "Magnitude":3.4,
+    "Place":"18 km N of Meadow Lakes, Alaska",
+    "Latitude":61.794,
+    "Longitude":-149.613,
+    "Depth_km":5.8,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026biskul",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bistvd",
+    "Time_UTC":"2026-01-19T21:58:15.421000+00:00",
+    "Time_Local":"2026-01-19T16:58:15.421000-05:00",
+    "Magnitude":2.0,
+    "Place":"17 km WNW of Fishhook, Alaska",
+    "Latitude":61.792,
+    "Longitude":-149.561,
+    "Depth_km":27.7,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bistvd",
     "Status":"automatic",
     "Type":"earthquake"
   }
