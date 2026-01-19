@@ -5796,5 +5796,18 @@
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhtkdd",
     "Status":"automatic",
     "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bhtkdd",
+    "Time_UTC":"2026-01-19T09:12:42.235000+00:00",
+    "Time_Local":"2026-01-19T04:12:42.235000-05:00",
+    "Magnitude":1.7,
+    "Place":"21 km E of Beluga, Alaska",
+    "Latitude":61.168,
+    "Longitude":-150.68,
+    "Depth_km":63.4,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bhtkdd",
+    "Status":"automatic",
+    "Type":"earthquake"
   }
 ]
