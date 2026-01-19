@@ -4761,7 +4761,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.4,
+    "Magnitude":1.5,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -4774,7 +4774,7 @@
     "USGS_ID":"tx2026bgncxj",
     "Time_UTC":"2026-01-18T17:01:23.003000+00:00",
     "Time_Local":"2026-01-18T12:01:23.003000-05:00",
-    "Magnitude":1.5,
+    "Magnitude":1.4,
     "Place":"19 km NW of Midland, Texas",
     "Latitude":32.127,
     "Longitude":-102.21,
@@ -5915,19 +5915,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"nc75298051",
-    "Time_UTC":"2026-01-19T10:41:49.260000+00:00",
-    "Time_Local":"2026-01-19T05:41:49.260000-05:00",
-    "Magnitude":2.22,
-    "Place":"15 km N of Susanville, CA",
-    "Latitude":40.5488319397,
-    "Longitude":-120.6689987183,
-    "Depth_km":3.8499999046,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298051",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"tx2026bhwtxn",
     "Time_UTC":"2026-01-19T10:54:39.909000+00:00",
     "Time_Local":"2026-01-19T05:54:39.909000-05:00",
@@ -6107,6 +6094,32 @@
     "Depth_km":1.7699999809,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298086",
     "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298086",
+    "Time_UTC":"2026-01-19T11:32:04.090000+00:00",
+    "Time_Local":"2026-01-19T06:32:04.090000-05:00",
+    "Magnitude":1.03,
+    "Place":"3 km NW of The Geysers, CA",
+    "Latitude":38.7919998169,
+    "Longitude":-122.7783355713,
+    "Depth_km":1.7699999809,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298086",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"us7000rqjl",
+    "Time_UTC":"2026-01-19T11:32:06.183000+00:00",
+    "Time_Local":"2026-01-19T06:32:06.183000-05:00",
+    "Magnitude":5.2,
+    "Place":"38 km SW of Zhaotong, China",
+    "Latitude":27.0913,
+    "Longitude":103.4181,
+    "Depth_km":10.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqjl",
+    "Status":"reviewed",
     "Type":"earthquake"
   }
 ]
