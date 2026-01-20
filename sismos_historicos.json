@@ -6214,19 +6214,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41162623",
-    "Time_UTC":"2026-01-19T23:18:44.380000+00:00",
-    "Time_Local":"2026-01-19T18:18:44.380000-05:00",
-    "Magnitude":1.35,
-    "Place":"16 km W of Searles Valley, CA",
-    "Latitude":35.7733333333,
-    "Longitude":-117.5848333333,
-    "Depth_km":7.07,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162623",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"hv74880082",
     "Time_UTC":"2026-01-19T23:36:37.960000+00:00",
     "Time_Local":"2026-01-19T18:36:37.960000-05:00",
@@ -6444,6 +6431,19 @@
     "Longitude":-155.2680053711,
     "Depth_km":0.7200000286,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880122",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74880132",
+    "Time_UTC":"2026-01-20T00:02:58.380000+00:00",
+    "Time_Local":"2026-01-19T19:02:58.380000-05:00",
+    "Magnitude":1.72,
+    "Place":"5 km SW of Volcano, Hawaii",
+    "Latitude":19.40483284,
+    "Longitude":-155.2673339844,
+    "Depth_km":1.7899999619,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880132",
     "Status":"automatic",
     "Type":"earthquake"
   },
