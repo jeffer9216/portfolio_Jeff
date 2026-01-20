@@ -5857,7 +5857,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.549,
+    "Depth_km":5.5474,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -5870,7 +5870,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.5474,
+    "Depth_km":5.549,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -6457,6 +6457,19 @@
     "Longitude":-155.2673339844,
     "Depth_km":1.7899999619,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880132",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74880147",
+    "Time_UTC":"2026-01-20T00:24:12.450000+00:00",
+    "Time_Local":"2026-01-19T19:24:12.450000-05:00",
+    "Magnitude":1.9,
+    "Place":"14 km SSE of Volcano, Hawaii",
+    "Latitude":19.3318328857,
+    "Longitude":-155.157333374,
+    "Depth_km":0.7400000095,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880147",
     "Status":"automatic",
     "Type":"earthquake"
   }
