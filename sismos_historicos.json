@@ -5857,7 +5857,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.549,
+    "Depth_km":5.5474,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -5870,7 +5870,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.5474,
+    "Depth_km":5.549,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -6444,6 +6444,32 @@
     "Longitude":-146.458,
     "Depth_km":20.8,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026biytho",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162687",
+    "Time_UTC":"2026-01-20T01:17:18.330000+00:00",
+    "Time_Local":"2026-01-19T20:17:18.330000-05:00",
+    "Magnitude":1.4500114755,
+    "Place":"6 km SSE of Idyllwild, CA",
+    "Latitude":33.6856651306,
+    "Longitude":-116.7018356323,
+    "Depth_km":17.0200004578,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162687",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bizjnx",
+    "Time_UTC":"2026-01-20T01:17:32.147000+00:00",
+    "Time_Local":"2026-01-19T20:17:32.147000-05:00",
+    "Magnitude":1.6,
+    "Place":"16 km SSE of Funny River, Alaska",
+    "Latitude":60.364,
+    "Longitude":-150.669,
+    "Depth_km":50.2,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bizjnx",
     "Status":"automatic",
     "Type":"earthquake"
   }
