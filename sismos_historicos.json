@@ -6448,19 +6448,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41162687",
-    "Time_UTC":"2026-01-20T01:17:18.370000+00:00",
-    "Time_Local":"2026-01-19T20:17:18.370000-05:00",
-    "Magnitude":1.15,
-    "Place":"7 km S of Idyllwild, CA",
-    "Latitude":33.6773333333,
-    "Longitude":-116.705,
-    "Depth_km":17.07,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162687",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bizjnx",
     "Time_UTC":"2026-01-20T01:17:32.147000+00:00",
     "Time_Local":"2026-01-19T20:17:32.147000-05:00",
@@ -6548,7 +6535,7 @@
     "Longitude":-116.1709976196,
     "Depth_km":3.0099999905,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162719",
-    "Status":"automatic",
+    "Status":"reviewed",
     "Type":"earthquake"
   },
   {
@@ -6561,14 +6548,14 @@
     "Longitude":-116.1709976196,
     "Depth_km":3.0099999905,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162719",
-    "Status":"reviewed",
+    "Status":"automatic",
     "Type":"earthquake"
   },
   {
     "USGS_ID":"ci41162719",
     "Time_UTC":"2026-01-20T01:56:14.350000+00:00",
     "Time_Local":"2026-01-19T20:56:14.350000-05:00",
-    "Magnitude":4.6115021149,
+    "Magnitude":4.9225378192,
     "Place":"19 km NNE of Indio, CA",
     "Latitude":33.891834259,
     "Longitude":-116.1709976196,
@@ -6734,6 +6721,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"tx2026bjaxgu",
+    "Time_UTC":"2026-01-20T02:03:38.161000+00:00",
+    "Time_Local":"2026-01-19T21:03:38.161000-05:00",
+    "Magnitude":1.6,
+    "Place":"59 km S of Whites City, New Mexico",
+    "Latitude":31.64,
+    "Longitude":-104.397,
+    "Depth_km":3.8009,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bjaxgu",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41162767",
     "Time_UTC":"2026-01-20T02:04:12.820000+00:00",
     "Time_Local":"2026-01-19T21:04:12.820000-05:00",
@@ -6761,13 +6761,13 @@
   },
   {
     "USGS_ID":"ci41162775",
-    "Time_UTC":"2026-01-20T02:05:37.440000+00:00",
-    "Time_Local":"2026-01-19T21:05:37.440000-05:00",
-    "Magnitude":1.8824550298,
+    "Time_UTC":"2026-01-20T02:05:37.420000+00:00",
+    "Time_Local":"2026-01-19T21:05:37.420000-05:00",
+    "Magnitude":1.62,
     "Place":"18 km NNE of Indio, CA",
-    "Latitude":33.8776664734,
-    "Longitude":-116.172996521,
-    "Depth_km":2.7999999523,
+    "Latitude":33.879,
+    "Longitude":-116.1736666667,
+    "Depth_km":3.85,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162775",
     "Status":"automatic",
     "Type":"earthquake"
@@ -6782,6 +6782,84 @@
     "Longitude":-116.172996521,
     "Depth_km":2.7999999523,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162775",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162783",
+    "Time_UTC":"2026-01-20T02:06:40.610000+00:00",
+    "Time_Local":"2026-01-19T21:06:40.610000-05:00",
+    "Magnitude":1.46,
+    "Place":"19 km NNE of Indio, CA",
+    "Latitude":33.8863333333,
+    "Longitude":-116.1693333333,
+    "Depth_km":5.15,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162783",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162791",
+    "Time_UTC":"2026-01-20T02:06:45.480000+00:00",
+    "Time_Local":"2026-01-19T21:06:45.480000-05:00",
+    "Magnitude":2.39,
+    "Place":"18 km NNE of Indio, CA",
+    "Latitude":33.8745,
+    "Longitude":-116.1688333333,
+    "Depth_km":4.3,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162791",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162799",
+    "Time_UTC":"2026-01-20T02:09:34.180000+00:00",
+    "Time_Local":"2026-01-19T21:09:34.180000-05:00",
+    "Magnitude":1.85,
+    "Place":"20 km NNE of Indio, CA",
+    "Latitude":33.892,
+    "Longitude":-116.1586666667,
+    "Depth_km":4.82,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162799",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162807",
+    "Time_UTC":"2026-01-20T02:11:21.680000+00:00",
+    "Time_Local":"2026-01-19T21:11:21.680000-05:00",
+    "Magnitude":1.41,
+    "Place":"20 km NNE of Indio, CA",
+    "Latitude":33.8928333333,
+    "Longitude":-116.1631666667,
+    "Depth_km":6.05,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162807",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bjbexh",
+    "Time_UTC":"2026-01-20T02:12:30.100000+00:00",
+    "Time_Local":"2026-01-19T21:12:30.100000-05:00",
+    "Magnitude":1.3,
+    "Place":"30 km WNW of Petersville, Alaska",
+    "Latitude":62.562,
+    "Longitude":-151.348,
+    "Depth_km":84.2,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bjbexh",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162815",
+    "Time_UTC":"2026-01-20T02:13:13.120000+00:00",
+    "Time_Local":"2026-01-19T21:13:13.120000-05:00",
+    "Magnitude":1.0823014786,
+    "Place":"20 km NNE of Indio, CA",
+    "Latitude":33.8950004578,
+    "Longitude":-116.1593322754,
+    "Depth_km":4.9800000191,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162815",
     "Status":"automatic",
     "Type":"earthquake"
   }
