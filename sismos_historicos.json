@@ -6266,32 +6266,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74880097",
-    "Time_UTC":"2026-01-19T23:41:59.460000+00:00",
-    "Time_Local":"2026-01-19T18:41:59.460000-05:00",
-    "Magnitude":1.79,
-    "Place":"5 km SW of Volcano, Hawaii",
-    "Latitude":19.4001674652,
-    "Longitude":-155.2668304443,
-    "Depth_km":1.5700000525,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880097",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"nc75298411",
-    "Time_UTC":"2026-01-19T23:44:15.290000+00:00",
-    "Time_Local":"2026-01-19T18:44:15.290000-05:00",
-    "Magnitude":1.48,
-    "Place":"14 km S of Tres Pinos, CA",
-    "Latitude":36.6679992676,
-    "Longitude":-121.2998352051,
-    "Depth_km":5.8000001907,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298411",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"nc75298411",
     "Time_UTC":"2026-01-19T23:44:15.290000+00:00",
     "Time_Local":"2026-01-19T18:44:15.290000-05:00",
@@ -6314,32 +6288,6 @@
     "Longitude":-155.2575073242,
     "Depth_km":1.1599999666,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880107",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"hv74880107",
-    "Time_UTC":"2026-01-19T23:44:18.360000+00:00",
-    "Time_Local":"2026-01-19T18:44:18.360000-05:00",
-    "Magnitude":1.77,
-    "Place":"5 km SSW of Volcano, Hawaii",
-    "Latitude":19.3955001831,
-    "Longitude":-155.2575073242,
-    "Depth_km":1.1599999666,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880107",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"hv74880112",
-    "Time_UTC":"2026-01-19T23:48:17.660000+00:00",
-    "Time_Local":"2026-01-19T18:48:17.660000-05:00",
-    "Magnitude":1.86,
-    "Place":"5 km SSW of Volcano, Hawaii",
-    "Latitude":19.3969993591,
-    "Longitude":-155.2640075684,
-    "Depth_km":1.5299999714,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880112",
     "Status":"automatic",
     "Type":"earthquake"
   },
@@ -6471,6 +6419,19 @@
     "Depth_km":7.1,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bixrku",
     "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162671",
+    "Time_UTC":"2026-01-20T00:43:51.740000+00:00",
+    "Time_Local":"2026-01-19T19:43:51.740000-05:00",
+    "Magnitude":1.89,
+    "Place":"5 km NNW of Boron, CA",
+    "Latitude":35.0385,
+    "Longitude":-117.6745,
+    "Depth_km":-0.78,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162671",
+    "Status":"automatic",
     "Type":"earthquake"
   }
 ]
