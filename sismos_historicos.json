@@ -6318,19 +6318,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74880117",
-    "Time_UTC":"2026-01-19T23:52:09.770000+00:00",
-    "Time_Local":"2026-01-19T18:52:09.770000-05:00",
-    "Magnitude":1.78,
-    "Place":"6 km SW of Volcano, Hawaii",
-    "Latitude":19.3969993591,
-    "Longitude":-155.2746734619,
-    "Depth_km":1.2000000477,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880117",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"hv74880122",
     "Time_UTC":"2026-01-19T23:57:15.540000+00:00",
     "Time_Local":"2026-01-19T18:57:15.540000-05:00",
@@ -6340,32 +6327,6 @@
     "Longitude":-155.2680053711,
     "Depth_km":0.7200000286,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880122",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"hv74880122",
-    "Time_UTC":"2026-01-19T23:57:15.540000+00:00",
-    "Time_Local":"2026-01-19T18:57:15.540000-05:00",
-    "Magnitude":1.8,
-    "Place":"6 km SW of Volcano, Hawaii",
-    "Latitude":19.3959999084,
-    "Longitude":-155.2680053711,
-    "Depth_km":0.7200000286,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880122",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
-    "USGS_ID":"hv74880132",
-    "Time_UTC":"2026-01-20T00:02:58.380000+00:00",
-    "Time_Local":"2026-01-19T19:02:58.380000-05:00",
-    "Magnitude":1.72,
-    "Place":"5 km SW of Volcano, Hawaii",
-    "Latitude":19.40483284,
-    "Longitude":-155.2673339844,
-    "Depth_km":1.7899999619,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880132",
     "Status":"automatic",
     "Type":"earthquake"
   },
@@ -6422,6 +6383,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"us7000rqny",
+    "Time_UTC":"2026-01-20T00:32:07.016000+00:00",
+    "Time_Local":"2026-01-19T19:32:07.016000-05:00",
+    "Magnitude":4.3,
+    "Place":"140 km WSW of Adak, Alaska",
+    "Latitude":51.2165,
+    "Longitude":-178.3652,
+    "Depth_km":35.0,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us7000rqny",
+    "Status":"reviewed",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ci41162671",
     "Time_UTC":"2026-01-20T00:43:51.740000+00:00",
     "Time_Local":"2026-01-19T19:43:51.740000-05:00",
@@ -6431,6 +6405,45 @@
     "Longitude":-117.6745,
     "Depth_km":-0.78,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162671",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ci41162671",
+    "Time_UTC":"2026-01-20T00:43:51.740000+00:00",
+    "Time_Local":"2026-01-19T19:43:51.740000-05:00",
+    "Magnitude":1.89,
+    "Place":"5 km NNW of Boron, CA",
+    "Latitude":35.0385,
+    "Longitude":-117.6745,
+    "Depth_km":-0.78,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162671",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026biytho",
+    "Time_UTC":"2026-01-20T00:58:40.829000+00:00",
+    "Time_Local":"2026-01-19T19:58:40.829000-05:00",
+    "Magnitude":1.8,
+    "Place":"33 km N of Valdez, Alaska",
+    "Latitude":61.425,
+    "Longitude":-146.425,
+    "Depth_km":13.2,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026biytho",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026biytho",
+    "Time_UTC":"2026-01-20T00:58:41.062000+00:00",
+    "Time_Local":"2026-01-19T19:58:41.062000-05:00",
+    "Magnitude":1.9,
+    "Place":"30 km N of Valdez, Alaska",
+    "Latitude":61.399,
+    "Longitude":-146.458,
+    "Depth_km":20.8,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026biytho",
     "Status":"automatic",
     "Type":"earthquake"
   }
