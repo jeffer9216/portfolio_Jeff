@@ -5857,7 +5857,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.5474,
+    "Depth_km":5.549,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -5870,7 +5870,7 @@
     "Place":"30 km NW of Toyah, Texas",
     "Latitude":31.517,
     "Longitude":-104.015,
-    "Depth_km":5.549,
+    "Depth_km":5.5474,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/tx2026bhvmuj",
     "Status":"automatic",
     "Type":"earthquake"
@@ -6357,19 +6357,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"hv74880147",
-    "Time_UTC":"2026-01-20T00:24:12.450000+00:00",
-    "Time_Local":"2026-01-19T19:24:12.450000-05:00",
-    "Magnitude":1.9,
-    "Place":"14 km SSE of Volcano, Hawaii",
-    "Latitude":19.3318328857,
-    "Longitude":-155.157333374,
-    "Depth_km":0.7400000095,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74880147",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026bixrku",
     "Time_UTC":"2026-01-20T00:32:06.146000+00:00",
     "Time_Local":"2026-01-19T19:32:06.146000-05:00",
@@ -6461,6 +6448,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"ci41162687",
+    "Time_UTC":"2026-01-20T01:17:18.370000+00:00",
+    "Time_Local":"2026-01-19T20:17:18.370000-05:00",
+    "Magnitude":1.15,
+    "Place":"7 km S of Idyllwild, CA",
+    "Latitude":33.6773333333,
+    "Longitude":-116.705,
+    "Depth_km":17.07,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162687",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"ak2026bizjnx",
     "Time_UTC":"2026-01-20T01:17:32.147000+00:00",
     "Time_Local":"2026-01-19T20:17:32.147000-05:00",
@@ -6470,6 +6470,19 @@
     "Longitude":-150.669,
     "Depth_km":50.2,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bizjnx",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75298456",
+    "Time_UTC":"2026-01-20T01:27:49.760000+00:00",
+    "Time_Local":"2026-01-19T20:27:49.760000-05:00",
+    "Magnitude":2.3,
+    "Place":"30 km W of Petrolia, CA",
+    "Latitude":40.3051681519,
+    "Longitude":-124.6344985962,
+    "Depth_km":12.9799995422,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75298456",
     "Status":"automatic",
     "Type":"earthquake"
   }
