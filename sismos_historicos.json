@@ -6396,19 +6396,6 @@
     "Type":"earthquake"
   },
   {
-    "USGS_ID":"ci41162671",
-    "Time_UTC":"2026-01-20T00:43:51.740000+00:00",
-    "Time_Local":"2026-01-19T19:43:51.740000-05:00",
-    "Magnitude":1.89,
-    "Place":"5 km NNW of Boron, CA",
-    "Latitude":35.0385,
-    "Longitude":-117.6745,
-    "Depth_km":-0.78,
-    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41162671",
-    "Status":"automatic",
-    "Type":"earthquake"
-  },
-  {
     "USGS_ID":"ak2026biytho",
     "Time_UTC":"2026-01-20T00:58:40.829000+00:00",
     "Time_Local":"2026-01-19T19:58:40.829000-05:00",
@@ -6522,6 +6509,32 @@
     "Longitude":-151.589,
     "Depth_km":0.3,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bizygo",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bizygo",
+    "Time_UTC":"2026-01-20T01:34:36.684000+00:00",
+    "Time_Local":"2026-01-19T20:34:36.684000-05:00",
+    "Magnitude":1.7,
+    "Place":"55 km S of Denali National Park, Alaska",
+    "Latitude":63.046,
+    "Longitude":-151.589,
+    "Depth_km":0.3,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bizygo",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"ak2026bjagcj",
+    "Time_UTC":"2026-01-20T01:43:25.919000+00:00",
+    "Time_Local":"2026-01-19T20:43:25.919000-05:00",
+    "Magnitude":1.9,
+    "Place":"72 km E of Port Alsworth, Alaska",
+    "Latitude":60.151,
+    "Longitude":-153.01,
+    "Depth_km":126.3,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak2026bjagcj",
     "Status":"automatic",
     "Type":"earthquake"
   }
