@@ -8047,6 +8047,19 @@
     "Type":"earthquake"
   },
   {
+    "USGS_ID":"ci41171855",
+    "Time_UTC":"2026-01-25T14:03:05.590000+00:00",
+    "Time_Local":"2026-01-25T09:03:05.590000-05:00",
+    "Magnitude":1.24,
+    "Place":"14 km W of Johannesburg, CA",
+    "Latitude":35.3591666667,
+    "Longitude":-117.7863333333,
+    "Depth_km":5.69,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ci41171855",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
     "USGS_ID":"nc75301496",
     "Time_UTC":"2026-01-25T14:03:33.940000+00:00",
     "Time_Local":"2026-01-25T09:03:33.940000-05:00",
@@ -8056,6 +8069,32 @@
     "Longitude":-122.7938308716,
     "Depth_km":1.5800000429,
     "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75301496",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"nc75301496",
+    "Time_UTC":"2026-01-25T14:03:33.940000+00:00",
+    "Time_Local":"2026-01-25T09:03:33.940000-05:00",
+    "Magnitude":1.26,
+    "Place":"6 km W of Cobb, CA",
+    "Latitude":38.8311653137,
+    "Longitude":-122.7938308716,
+    "Depth_km":1.5800000429,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/nc75301496",
+    "Status":"automatic",
+    "Type":"earthquake"
+  },
+  {
+    "USGS_ID":"hv74884547",
+    "Time_UTC":"2026-01-25T14:12:02.080000+00:00",
+    "Time_Local":"2026-01-25T09:12:02.080000-05:00",
+    "Magnitude":1.98,
+    "Place":"34 km SSE of Fern Forest, Hawaii",
+    "Latitude":19.1643333435,
+    "Longitude":-155.0513305664,
+    "Depth_km":46.6100006104,
+    "URL":"https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/hv74884547",
     "Status":"automatic",
     "Type":"earthquake"
   }
