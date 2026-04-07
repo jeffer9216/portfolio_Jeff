@@ -1,15 +1,14 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jefferson Torres | Portafolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(to right, #1d2027, #2f2f38);
       color: #ffffff;
     }
@@ -19,16 +18,6 @@
       padding: 40px 20px;
       text-align: center;
       color: white;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-
-    header p {
-      margin: 5px;
-      font-size: 16px;
     }
 
     .menu {
@@ -49,40 +38,74 @@
       transition: all 0.3s ease;
     }
 
-    .menu a:hover {
-      background-color: #0078D4;
-    }
-
     .content {
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
       text-align: center;
       padding: 40px 20px;
     }
 
-    canvas {
+    /* --- Contenedor del Demo --- */
+    .demo-container {
       background-color: #111;
       border: 2px solid #0078D4;
-      border-radius: 10px;
-      margin-top: 40px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      border-radius: 12px;
+      padding: 25px;
+      margin-top: 30px;
     }
 
-    footer {
-      text-align: center;
-      font-size: 14px;
-      color: #888;
-      padding: 20px;
+    .console-box {
+      background-color: #050505;
+      border-left: 4px solid #00ffc3;
+      padding: 15px;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      text-align: left;
+      height: 120px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+      color: #00ffc3;
     }
+
+    .btn-automation {
+      background-color: #0078D4;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Layout del Dashboard (Tabla + Gráfica) */
+    .dashboard-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: flex-start;
+      opacity: 0; /* Aparece con la animación */
+      transition: opacity 0.8s ease-in;
+    }
+
+    .table-container { flex: 1; min-width: 300px; }
+    .chart-container { flex: 0 1 300px; background: #1a1a1a; padding: 15px; border-radius: 10px; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th { background-color: #0078D4; padding: 10px; }
+    td { border: 1px solid #333; padding: 8px; background-color: #1a1a1a; }
+
+    footer { text-align: center; padding: 40px; color: #888; }
   </style>
 </head>
+
 <body>
   <header>
     <div id="google_translate_element" style="position: fixed; top: 10px; left: 10px; z-index: 1000;"></div>
     <h1>Jefferson Torres</h1>
-    <p>Finance & Data Analyst | Automatización & Business Intelligence (Demo)</p>
+    <p>Finance - Data Analyst senior enfoque en Automatización & Business Intelligence (CV Demo)</p>
   </header>
 
   <nav class="menu">
@@ -92,84 +115,101 @@
   </nav>
 
   <div class="content">
-    <h2>Bienvenido a mi portafolio</h2>
-    <p>Explora mi hoja de vida interactiva, publicaciones profesionales y demostraciones de automatización y análisis de datos.</p>
-    <p>Demo interactivo:</p>
+    <h2>Demo: ETL & Data Analyst Demo.</h2>
+    <p>Simula el flujo de datos en un proyecto de Automatización hasta generar un dashbaord o reporte.</p>
 
-    <canvas id="gravityCanvas" width="500" height="400"></canvas>
+    <div class="demo-container">
+        <div id="console" class="console-box">
+            <p>> 1. [OK] Esperando trigger de ejecución (Manual,task schedule, Aws Kiro, VDI)...</p>
+        </div>
+        
+        <button id="runBtn" onclick="iniciarProceso()" class="btn-automation">▶ Procesar Datos Latam</button>
+
+        <div id="dashboard" class="dashboard-grid" style="display:none;">
+            <div class="table-container">
+                <table id="tabla-datos"></table>
+            </div>
+            
+            <div class="chart-container">
+                <canvas id="salesChart"></canvas>
+            </div>
+        </div>
+    </div>
   </div>
 
-  <footer>
-    &copy; 2025 Jefferson Torres. Todos los derechos reservados.
-  </footer>
+  <footer>&copy; 2026 Jefferson Torres.</footer>
 
   <script>
-    const canvas = document.getElementById('gravityCanvas');
-    const ctx = canvas.getContext('2d');
+    let myChart = null; // Para resetear la gráfica si se vuelve a correr
 
-    let ball = {
-      x: canvas.width / 2,
-      y: 50,
-      radius: 20,
-      color: '#00ffc3',
-      vx: 2,
-      vy: 1,
-      gravity: 0.4,
-      bounce: 0.7
-    };
+    const rawData = [
+        { p: "Colombia", v: 1200000 },
+        { p: "Argentina", v: 950000 },
+        { p: "México", v: 1100000 },
+        { p: "Brasil", v: 2500000 }
+    ];
 
-    function drawBall() {
-      ctx.beginPath();
-      ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
-      ctx.fillStyle = ball.color;
-      ctx.fill();
-      ctx.closePath();
+    async function iniciarProceso() {
+        const consola = document.getElementById('console');
+        const dash = document.getElementById('dashboard');
+        const btn = document.getElementById('runBtn');
+        
+        btn.disabled = true;
+        dash.style.display = "none";
+        dash.style.opacity = "0";
+        consola.innerHTML = "<p>> 2. [OK] Conectando a fuentes de datos (Sql server, hana, teradat, API, Sharepoint, Local ...)</p>";
+        
+        const logs = [
+            "> 3. [OK] Limpiando formatos de moneda regionales. (SQL, Pandas, Power query, Sharepoint -List, Power automate...)",
+            "> 4. [OK] Validando tipos de cambio en USD y otras conexiones (local files. sharepoint files, SQL, APIS ....)",
+            "> 5. [OK] Generando archivo matriz de consolidación. (Dataframe, Csv, Parquet, TXT, Excel, etc.... )" ,
+            "> 6. [DONE] Dashboard / Reporte listo para análisis toma de decisiones etc.. ( Python EEL - Tkinter- Flask ,PowerBi, Tableu, Excel, PDF, Outlook.... )"
+        ];
+
+        for (let log of logs) {
+            await new Promise(r => setTimeout(r, 700));
+            consola.innerHTML += `<p>${log}</p>`;
+            consola.scrollTop = consola.scrollHeight;
+        }
+
+        renderResults();
+        dash.style.display = "flex";
+        setTimeout(() => dash.style.opacity = "1", 50);
+        btn.disabled = false;
+        btn.innerText = "🔄 Actualizar Dashboard";
     }
 
-    function update() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      drawBall();
-      
-      ball.vy += ball.gravity;
-      ball.x += ball.vx;
-      ball.y += ball.vy;
+    function renderResults() {
+        // Rellenar Tabla
+        const tabla = document.getElementById('tabla-datos');
+        tabla.innerHTML = `<tr><th>País</th><th>Ventas (USD)</th></tr>`;
+        rawData.forEach(d => {
+            tabla.innerHTML += `<tr><td>${d.p}</td><td>$${d.v.toLocaleString()}</td></tr>`;
+        });
 
-      // rebote vertical
-      if (ball.y + ball.radius > canvas.height) {
-        ball.y = canvas.height - ball.radius;
-        ball.vy *= -ball.bounce;
-      }
+        // Crear/Actualizar Gráfica
+        const ctx = document.getElementById('salesChart').getContext('2d');
+        if (myChart) myChart.destroy(); // Destruir gráfico previo si existe
 
-      // rebote horizontal
-      if (ball.x + ball.radius > canvas.width || ball.x - ball.radius < 0) {
-        ball.vx *= -1;
-      }
-
-      requestAnimationFrame(update);
+        myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: rawData.map(d => d.p),
+                datasets: [{
+                    data: rawData.map(d => d.v),
+                    backgroundColor: ['#0078D4', '#00ffc3', '#ffce56', '#ff6384'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: '#fff' } },
+                    title: { display: true, text: '% Participación Ventas', color: '#fff' }
+                }
+            }
+        });
     }
-
-    canvas.addEventListener('click', (e) => {
-      const rect = canvas.getBoundingClientRect();
-      ball.x = e.clientX - rect.left;
-      ball.y = e.clientY - rect.top;
-      ball.vx = (Math.random() - 0.5) * 8;
-      ball.vy = (Math.random() - 0.5) * 8;
-    });
-
-    update();
   </script>
-
-  <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'es',
-      includedLanguages: 'en,es',
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
-  }
-  </script>
-
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  
 </body>
 </html>
