@@ -157,7 +157,7 @@
   </header>
 
   <nav class="menu">
-    <a href="cv.html">📄 CV</a>
+    <a href="cv.html">📄 Hoja de Vida - CV</a>
     <a href="articles.html">📰 Artículos</a>
     <a href="#">🧪 Demos</a>
   </nav>
@@ -180,8 +180,8 @@
     <div class="demo-container">
         <div id="console" class="console-box" style="height: auto; min-height: 120px;">
             <p style="margin-bottom: 10px;">> Cada desafío de automatización es único; pero mi enfoque se basa en metodologías como scrum y el siguiente proceso: </p>
-            <p style="margin: 5px 0 5px 20px;">• <b>Acercamiento Estratégico:</b> Definición de tiempos, costos y entendimiento del proceso.</p>
-            <p style="margin: 5px 0 5px 20px;">• <b>Desarrollo Ágil:</b> Gestión de accesos y creación de MVPs funcionales con el equipo.</p>
+            <p style="margin: 5px 0 5px 20px;">• <b>Acercamiento Estratégico:</b> Definición de tiempos, costos, recursos y entendimiento del proceso.</p>
+            <p style="margin: 5px 0 5px 20px;">• <b>Desarrollo Ágil:</b> Gestión de accesos y creación de MVPs funcionales con el equipo (herramientas y tecnologias a utilizar).</p>
             <p style="margin: 5px 0 5px 20px;">• <b>Entrega y Mejora:</b> Documentación técnica y Mejora Continua del proceso.</p>
         </div>
         
@@ -222,6 +222,12 @@
         consola.innerHTML = ""; // Limpiar para el efecto
 
         const pasos = [
+
+            {
+                expl: "Definición del Trigger: El inicio del proceso puede ser manual o automático (vía Python, Power Automate o Cloud); esto depende de la tecnología elegida, los recursos disponibles, la urgencia del proceso o como esta definido el proceso.",
+                code: "print('Detectando señal de activación (Trigger)...')",
+                res: "[OK] Ejecución iniciada por el usuario."
+            },
             {
                 expl: "Establezco las conexiones o inputs necesarios conectando a fuentes como: SQL Server, HANA, Teradata, APIs, SharePoint o archivos locales.",
                 code: "print('Estableciendo conexión con fuentes regionales...')",
@@ -233,7 +239,7 @@
                 res: "[OK] 4.2M de registros procesados."
             },
             {
-                expl: "Validando tipos de cambio en USD y otras conexiones (local files, sharepoint files, SQL, APIS ....)",
+                expl: "Se aplican otras conexiones de ser necesario (local files, sharepoint files, SQL, APIS ....)",
                 code: "print('Ejecutando conversión de divisas y validación de integridad...')",
                 res: "[OK] Datos validados con éxito."
             },
