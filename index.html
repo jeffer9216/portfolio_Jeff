@@ -30,7 +30,7 @@
     }
     
     .intro-bio strong {
-      color: #0078D4; /* Resaltado sutil en tus colores de marca */
+      color: #0078D4; 
     }
 
     .menu {
@@ -58,7 +58,6 @@
       padding: 40px 20px;
     }
 
-    /* --- Contenedor del Demo --- */
     .demo-container {
       background-color: #111;
       border: 2px solid #0078D4;
@@ -67,17 +66,42 @@
       margin-top: 30px;
     }
 
+    /* Estilos mejorados para la Consola */
     .console-box {
       background-color: #050505;
-      border-left: 4px solid #00ffc3;
-      padding: 15px;
-      font-family: 'Courier New', monospace;
+      border-left: 4px solid #0078D4;
+      padding: 20px;
+      font-family: 'Consolas', monospace;
       font-size: 13px;
       text-align: left;
-      height: 120px;
+      height: 300px; /* Aumentado para ver el flujo completo */
       overflow-y: auto;
       margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .log-explicacion {
+      color: #a0a0a0;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 14.5px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .log-codigo {
+      color: #ffffff;
+      font-family: 'Consolas', monospace;
+      display: block;
+      padding-left: 15px;
+    }
+
+    .log-success {
       color: #00ffc3;
+      font-weight: bold;
+      font-family: 'Consolas', monospace;
+      display: block;
+      padding-left: 15px;
+      margin-bottom: 12px;
     }
 
     .btn-automation {
@@ -91,7 +115,6 @@
       margin-bottom: 20px;
     }
 
-    /* Layout del Dashboard (Tabla + Gráfica) */
     .dashboard-grid {
       display: flex;
       flex-wrap: wrap;
@@ -99,7 +122,7 @@
       margin-top: 20px;
       justify-content: center;
       align-items: flex-start;
-      opacity: 0; /* Aparece con la animación */
+      opacity: 0;
       transition: opacity 0.8s ease-in;
     }
 
@@ -118,19 +141,17 @@
   <header>
     <div id="google_translate_element" style="position: fixed; top: 10px; left: 10px; z-index: 10000; background: rgba(255,255,255,0.8); border-radius: 4px;"></div>
 
-      <script type="text/javascript">
-        function googleTranslateElementInit() {
-          new google.translate.TranslateElement({
-            pageLanguage: 'es',
-            includedLanguages: 'en,es',
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-          }, 'google_translate_element');
-        }
-      </script>
-      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'es',
+          includedLanguages: 'en,es',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-
-    
     <h1>Jefferson Torres</h1>
     <p>Líder de Equipo | Experiencia en Automatización de Datos & Business Intelligence</p>
   </header>
@@ -145,17 +166,16 @@
     <h2>¿Por qué este espacio? De la Estrategia a la Ejecución.</h2>
     
     <div class="content">
-      
       <div class="intro-bio">
         En 8 años de experiencia laboral fui muy afortunado en encontrar un camino hacia dos pasiones: el mundo de la administración y la tecnología. Aprender de finanzas y automatización. Crear herramientas, modelos, reportes de manera automática, hacer un proceso mas rápido y reducir errores.
         <br><br>
         Por eso creé esta página, para demostrar mis habilidades a través de mi hoja de vida, artículos y demostraciones.
       </div>
     </div>
-       
-      <p style="color: #00ffc3; font-weight: bold;">
-        En la parte inferior podrás interactuar con un pequeño demo que refleja mi metodología de trabajo.
-      </p>
+        
+    <p style="color: #00ffc3; font-weight: bold;">
+      En la parte inferior podrás interactuar con un pequeño demo que refleja mi metodología de trabajo.
+    </p>
 
     <div class="demo-container">
         <div id="console" class="console-box">
@@ -179,7 +199,7 @@
   <footer>&copy; 2026 Jefferson Torres.</footer>
 
   <script>
-    let myChart = null; // Para resetear la gráfica si se vuelve a correr
+    let myChart = null;
 
     const rawData = [
         { p: "Colombia", v: 1200000 },
@@ -196,19 +216,49 @@
         btn.disabled = true;
         dash.style.display = "none";
         dash.style.opacity = "0";
-        consola.innerHTML = "<p>> 2. [OK] Conectando a fuentes de datos (Sql server, hana, teradat, API, Sharepoint, Local ...)</p>";
-        
-        const logs = [
-            "> 3. [OK] Limpiando formatos de moneda regionales. (SQL, Pandas, Power query, Sharepoint -List, Power automate...)",
-            "> 4. [OK] Validando tipos de cambio en USD y otras conexiones (local files. sharepoint files, SQL, APIS ....)",
-            "> 5. [OK] Generando archivo matriz de consolidación. (Dataframe, Csv, Parquet, TXT, Excel, etc.... )" ,
-            "> 6. [DONE] Dashboard / Reporte listo para análisis toma de decisiones etc.. ( Python EEL - Tkinter- Flask ,PowerBi, Tableu, Excel, PDF, Outlook.... )"
+        consola.innerHTML = ""; // Limpiar para el efecto
+
+        const pasos = [
+            {
+                expl: "Establezco las conexiones o inputs necesarios conectando a fuentes como: SQL Server, HANA, Teradata, APIs, SharePoint o archivos locales.",
+                code: "print('Estableciendo conexión con fuentes regionales...')",
+                res: "[OK] Conexiones activas."
+            },
+            {
+                expl: "Casi toda todo dato o conexión requiere de limpieza y transformación de datos; utilizo herramientas como SQL, Pandas, Power Query (Excel/BI) o Power Automate.",
+                code: "print('Totalizando ventas por región y normalizando formatos...')",
+                res: "[OK] 4.2M de registros procesados."
+            },
+            {
+                expl: "Validando tipos de cambio en USD y otras conexiones (local files, sharepoint files, SQL, APIS ....)",
+                code: "print('Ejecutando conversión de divisas y validación de integridad...')",
+                res: "[OK] Datos validados con éxito."
+            },
+            {
+                expl: "Generando archivo matriz de consolidación (Dataframe, Csv, Parquet, TXT, Excel, etc.... ) para alimentar el reporte final.",
+                code: "print('Exportando matriz de consolidación final...')",
+                res: "[OK] Matriz generada correctamente."
+            },
+            {
+                expl: "Dashboard / Reporte listo para análisis toma de decisiones etc.. ( Python EEL, PowerBi, Tableu, Excel, PDF, Outlook.... )",
+                code: "print('Cargando visualización dinámica en Dashboard...')",
+                res: "[DONE] Sistema listo para análisis ejecutivo."
+            }
         ];
 
-        for (let log of logs) {
-            await new Promise(r => setTimeout(r, 700));
-            consola.innerHTML += `<p>${log}</p>`;
+        for (let paso of pasos) {
+            // Imprimir Explicación (Gris - Segoe)
+            consola.innerHTML += `<span class="log-explicacion">${paso.expl}</span>`;
+            await new Promise(r => setTimeout(r, 1000));
+
+            // Imprimir Código (Blanco - Consolas)
+            consola.innerHTML += `<span class="log-codigo">${paso.code}</span>`;
+            await new Promise(r => setTimeout(r, 600));
+
+            // Imprimir Resultado (Verde - Consolas)
+            consola.innerHTML += `<span class="log-success">${paso.res}</span>`;
             consola.scrollTop = consola.scrollHeight;
+            await new Promise(r => setTimeout(r, 1000));
         }
 
         renderResults();
@@ -219,16 +269,14 @@
     }
 
     function renderResults() {
-        // Rellenar Tabla
         const tabla = document.getElementById('tabla-datos');
         tabla.innerHTML = `<tr><th>País</th><th>Ventas (USD)</th></tr>`;
         rawData.forEach(d => {
             tabla.innerHTML += `<tr><td>${d.p}</td><td>$${d.v.toLocaleString()}</td></tr>`;
         });
 
-        // Crear/Actualizar Gráfica
         const ctx = document.getElementById('salesChart').getContext('2d');
-        if (myChart) myChart.destroy(); // Destruir gráfico previo si existe
+        if (myChart) myChart.destroy();
 
         myChart = new Chart(ctx, {
             type: 'doughnut',
