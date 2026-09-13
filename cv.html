@@ -515,15 +515,15 @@
             <div class="company-title"><i class="fas fa-building"></i> BSSC | Global Business Hub (Delta Air Lines)</div>
             
             <div class="sub-role">
-              <strong>Leader Innovation Team</strong><br>Oct 2024 - Jun 2026
+              <strong>Leader Innovation Team</strong><br>Oct 2024 - Jun 2026 (1 yr 9 mos)
             </div>
             
             <div class="sub-role">
-              <strong>Jr Leader</strong><br>Ene 2024 - Oct 2024
+              <strong>Jr Leader</strong><br>Jan 2024 - Jan 2025 (1 yr 1 mo)
             </div>
             
             <div class="sub-role">
-              <strong>Data Analyst</strong><br>Ene 2022 - Jul 2024
+              <strong>Data Analyst</strong><br>Jan 2022 - Jul 2024 (2 yrs 7 mos)
             </div>
           </div>
         </div>  
@@ -584,7 +584,7 @@
 
   <section id="grafico">
     <h2>Gráfica Timelapse de Experiencia</h2>
-    <p style="color: #aaa; font-size: 13px; text-align: center;">Nota: La barra de BSSC agrupa los cargos en una sola columna unida, mostrando los ascensos con diferentes colores y tooltips independientes.</p>
+    <p style="color: #aaa; font-size: 13px; text-align: center;">Nota: La barra de BSSC unifica la empresa mostrando los ascensos exactos en meses según los registros oficiales (31m, 13m y 21m).</p>
     <canvas id="timelineChart"></canvas>
   </section>
 
@@ -600,16 +600,16 @@
     const ctx = document.getElementById('timelineChart').getContext('2d');
 
     const tooltipsText = [
-      'Consolidar respuestas a proposiciones “datos cuantitativos y cualitativos” para la elaboración de reportes e informes de la Comisión de Gobierno. Apoyo argumentativo para debates de control político y ponencias para "unidad del Concejo de Bogotá".',
-      'Analista de documentación y de estados financieros de nuevos clientes corporativos, para la reducción de riesgo financiero de crédito y prevención de lavado de activos - SARLAFT. Manejo de SAP para la creación, consulta, actualización y seguimiento del comportamiento de crédito y financiero de los clientes.',
-      'Custodiar, consolidar y georreferenciar datos a través de macros “elaboración propia” de operativos y actividades de espacio público, medio ambiente y seguridad. Elaboración de informes de gestión dirigidos a entes de control y entidades del distrito.',
-      'BSSC - Data Analyst: Support automation projects (python, vba), perform data analysis (Excel - Tableau - Power Bi) and reporting.',
-      'BSSC - Jr Leader: Experienced in executing automation projects across various areas, supporting leadership initiatives and operational workflows.',
-      'BSSC - Leader Innovation Team: Leader and perform automation projects for Delta Air Lines treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance) expertise in python, SQL, Query, Excel Macros, Hana studio, Teradata Studio, SAP.',
-      'Senior Data Analyst at Accenture: Leader and perform automation projects for Delta Air Lines treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance) expertise in python, SQL, Query, Excel Macros, Hana studio, Teradata Studio, SAP. Support transition process - BSSC to Accenture.'
+      'Consolidar respuestas a proposiciones “datos cuantitativos y cualitativos” para la elaboración de reportes e informes de la Comisión de Gobierno. Apoyo argumentativo para debates de control político.',
+      'Analista de documentación y de estados financieros de nuevos clientes corporativos, prevención de lavado de activos - SARLAFT. Manejo de SAP.',
+      'Custodiar, consolidar y georreferenciar datos a través de macros de operativos y actividades de espacio público, medio ambiente y seguridad.',
+      'BSSC - Data Analyst (Jan 2022 - Jul 2024): Support automation projects (python, vba), perform data analysis (Excel - Tableau - Power Bi) and reporting.',
+      'BSSC - Jr Leader (Jan 2024 - Jan 2025): Leader and perform automation projects for treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance).',
+      'BSSC - Leader Innovation Team (Oct 2024 - Jun 2026): Experienced in leading and executing automation projects across various areas, including treasury and other business functions.',
+      'Senior Data Analyst at Accenture (Jun 2026 - Present): Support transition process - BSSC to Accenture, leading advanced automation solutions.'
     ];
 
-    // Gráfico de barras apiladas (stacked) para unificar la columna de BSSC
+    // Gráfico apilado con los meses exactos (31 para Data Analyst, 13 para Jr Leader, 21 para Leader Innovation)
     new Chart(ctx, {
       type: 'bar',
       data: {
@@ -632,22 +632,22 @@
           },
           {
             label: 'BSSC: Data Analyst',
-            data: [0, 0, 0, 31, 0],
+            data: [0, 0, 0, 31, 0], // 31 meses exactos
             backgroundColor: '#9b59b6'
           },
           {
             label: 'BSSC: Jr Leader',
-            data: [0, 0, 0, 20, 0],
+            data: [0, 0, 0, 13, 0], // 13 meses exactos
             backgroundColor: '#34495e'
           },
           {
             label: 'BSSC: Leader Innovation',
-            data: [0, 0, 0, 20, 0],
+            data: [0, 0, 0, 21, 0], // 21 meses exactos (1 año 9 meses)
             backgroundColor: '#e67e22'
           },
           {
             label: 'Accenture: Senior Data Analyst',
-            data: [0, 0, 0, 0, 4],
+            data: [0, 0, 0, 0, 4], // Actual
             backgroundColor: '#e74c3c'
           }
         ]
@@ -681,11 +681,9 @@
                 return;
               }
 
-              // Identificar exactamente qué segmento (datasetIndex) se está pasando por encima con el mouse
               const datasetIndex = tooltipModel.dataPoints[0].datasetIndex;
               const duration = tooltipModel.dataPoints[0].parsed.y;
               
-              // Mapeo directo del índice del dataset al texto de la descripción correspondiente
               const labelsMapping = [
                 'Concejo de Bogotá',
                 'Samsung',
