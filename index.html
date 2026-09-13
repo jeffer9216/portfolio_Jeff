@@ -66,33 +66,42 @@
       margin-top: 30px;
     }
 
-    /* Estilos mejorados para la Consola */
-    .console-box {
+    /* Contenedor flexible interno para la consola y el canvas lateral */
+    .console-wrapper {
+      display: flex;
+      gap: 15px;
       background-color: #050505;
       border-left: 4px solid #0078D4;
-      padding: 20px;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      align-items: stretch;
+    }
+
+    /* Estilos de la Consola */
+    .console-box {
+      flex: 1;
       font-family: 'Consolas', monospace;
       font-size: 13px;
       text-align: left;
-      height: 300px; /* Aumentado para ver el flujo completo */
+      height: 320px;
       overflow-y: auto;
-      margin-bottom: 20px;
       line-height: 1.6;
     }
 
     .log-explicacion {
       color: #a0a0a0;
       font-family: 'Segoe UI', sans-serif;
-      font-size: 14.5px;
+      font-size: 14px;
       display: block;
-      margin-top: 10px;
+      margin-top: 8px;
     }
 
     .log-codigo {
       color: #ffffff;
       font-family: 'Consolas', monospace;
       display: block;
-      padding-left: 15px;
+      padding-left: 12px;
     }
 
     .log-success {
@@ -100,8 +109,8 @@
       font-weight: bold;
       font-family: 'Consolas', monospace;
       display: block;
-      padding-left: 15px;
-      margin-bottom: 12px;
+      padding-left: 12px;
+      margin-bottom: 10px;
     }
 
     .btn-automation {
@@ -165,23 +174,29 @@
   <div class="content">
     <h2>¿Por qué este espacio? De la Estrategia a la Ejecución.</h2>
     
-    <div class="content">
-      <div class="intro-bio">
-        Desde que terminé mi carrera en finanzas en el 2015, tuve la oportunidad de trabajar en diversas áreas donde entendí la importancia de la tecnología, los modelos, el uso de los datos y la automatización para crear herramientas y soluciones que satisfacen distintas necesidades.
-        Esta página es la prueba de ese enfoque. No solo verás mi hoja de vida de manera interactiva: sino también un demo que muestra mi metodología en acción.
-        <br><br>
-        Por eso creé esta página, para demostrar mis habilidades a través de mi hoja de vida, artículos y demostraciones.
-      </div>
+    <div class="intro-bio">
+      Desde que terminé mi carrera en finanzas en el 2015, tuve la oportunidad de trabajar en diversas áreas donde entendí la importancia de la tecnología, los modelos, el uso de los datos y la automatización para crear herramientas y soluciones que satisfacen distintas necesidades.
+      Esta página es la prueba de ese enfoque. No solo verás mi hoja de vida de manera interactiva: sino también un demo que muestra mi metodología en acción.
+      <br><br>
+      Por eso creé esta página, para demostrar mis habilidades a través de mi hoja de vida, artículos y demostraciones.
     </div>
+
     <p style="color: #00ffc3; font-weight: bold;">
       👇 Interactúa con el demo y compruébalo tú mismo.
     </p>
+
     <div class="demo-container">
-        <div id="console" class="console-box" style="height: auto; min-height: 120px;">
-            <p style="margin-bottom: 10px;">>Cada desafío de automatización es único y diferente, pero en metodologías ágiles como Scrum y Kanban aprendí:</p>
-            <p style="margin: 5px 0 5px 20px;">• <b>1. Acercamiento Estratégico:</b> Entendimiento del proceso. identificar recursos y estimar tiempos</p>
-            <p style="margin: 5px 0 5px 20px;">• <b>2. Desarrollo Ágil:</b> Gestión de accesos y creación de MVPs.</p>
-            <p style="margin: 5px 0 5px 20px;">• <b>3. Entrega y Mejora:</b> Go live, elaborar Documentación técnica y hacer Mejora Continua del proceso.</p>
+        <!-- Contenedor unificado: Consola a la izquierda y Diagrama Canvas a la derecha -->
+        <div class="console-wrapper">
+            <div id="console" class="console-box">
+                <p style="margin-bottom: 10px;">> Cada desafío de automatización es único y diferente, pero en metodologías ágiles como Scrum y Kanban aprendí:</p>
+                <p style="margin: 5px 0 5px 15px;">• <b>1. Acercamiento Estratégico:</b> Entendimiento del proceso, identificar recursos y estimar tiempos.</p>
+                <p style="margin: 5px 0 5px 15px;">• <b>2. Desarrollo Ágil:</b> Gestión de accesos y creación de MVPs.</p>
+                <p style="margin: 5px 0 5px 15px;">• <b>3. Entrega y Mejora:</b> Go live, elaborar documentación técnica y hacer mejora continua del proceso.</p>
+            </div>
+            
+            <!-- Lienzo gráfico integrado verticalmente -->
+            <canvas id="pipelineCanvas" width="130" height="260" style="background: rgba(0, 0, 0, 0.25); border: 1px solid #333; border-radius: 6px; align-self: center;"></canvas>
         </div>
         
         <button id="runBtn" onclick="iniciarProceso()" class="btn-automation">▶ Procesar Datos Latam</button>
@@ -200,27 +215,17 @@
 
   <footer>&copy; 2026 Jefferson Torres. Todos los derechos reservados.</footer>
   
-  <!-- Contenedor principal de la consola con diseño flex para que el visor quede al lado fijo -->
-  <div style="display: flex; gap: 15px; background: #0b0f19; padding: 15px; border-radius: 8px; border: 1px solid #222; position: relative;">
-      
-      <!-- La consola de texto donde corren los logs -->
-      <div id="console" style="flex: 1; height: 350px; overflow-y: auto; font-family: 'Consolas', monospace; font-size: 13px; color: #fff;"></div>
-  
-      <!-- El visor gráfico vertical integrado al lado derecho de la consola -->
-      <canvas id="pipelineCanvas" width="140" height="280" style="background: rgba(0, 0, 0, 0.3); border: 1px solid #333; border-radius: 6px; align-self: center;"></canvas>
-  
-  </div>
   <script>
       let myChart = null;
-  
+
       const rawData = [
           { p: "Colombia", v: 1200000 },
           { p: "Argentina", v: 950000 },
           { p: "México", v: 1100000 },
           { p: "Brasil", v: 2500000 }
       ];
-  
-      // Función que dibuja el diagrama de flujo paso a paso en el canvas fijo
+
+      // Función que dibuja el diagrama de flujo paso a paso en el canvas
       function actualizarDiagramaFlujo(faseActual) {
           const canvas = document.getElementById('pipelineCanvas');
           if (!canvas) return;
@@ -229,40 +234,36 @@
           ctx.clearRect(0, 0, canvas.width, canvas.height);
           
           const pasos = ["1. Trigger", "2. Ingeniería", "3. Consolidación", "4. Visualización"];
-          let y = 15;
+          let y = 12;
           
           pasos.forEach((paso, index) => {
               let activo = index === faseActual;
               let completado = index < faseActual;
               
-              // Estilos de la caja según el estado
               ctx.fillStyle = activo ? "rgba(0, 255, 195, 0.2)" : (completado ? "#1a2e29" : "#111111");
               ctx.strokeStyle = activo ? "#00ffc3" : (completado ? "#0078D4" : "#333333");
               ctx.lineWidth = activo ? 2 : 1;
               
-              ctx.fillRect(10, y, 120, 38);
-              ctx.strokeRect(10, y, 120, 38);
+              ctx.fillRect(8, y, 114, 38);
+              ctx.strokeRect(8, y, 114, 38);
               
-              // Texto del paso centrado
               ctx.fillStyle = activo ? "#00ffc3" : (completado ? "#ffffff" : "#666666");
               ctx.font = "11px Consolas, monospace";
               ctx.textAlign = "center";
-              ctx.fillText(paso, 70, y + 24);
+              ctx.fillText(paso, 65, y + 24);
               
-              // Flecha hacia abajo (si no es el último paso)
               if (index < pasos.length - 1) {
                   ctx.fillStyle = completado ? "#00ffc3" : "#333333";
                   ctx.font = "14px Consolas, monospace";
-                  ctx.fillText("↓", 70, y + 54);
+                  ctx.fillText("↓", 65, y + 53);
               }
               
-              y += 62;
+              y += 60;
           });
           
-          // Resetear alineación de texto para no afectar otras cosas
           ctx.textAlign = "left";
       }
-  
+
       async function iniciarProceso() {
           const consola = document.getElementById('console');
           const dash = document.getElementById('dashboard');
@@ -271,11 +272,10 @@
           btn.disabled = true;
           dash.style.display = "none";
           dash.style.opacity = "0";
-          consola.innerHTML = ""; // Limpiar consola de texto
-  
-          // Inicializar el diagrama en estado vacío (-1) al empezar
-          actualizarDiagramaFlujo(-1);
-  
+          consola.innerHTML = ""; // Limpiar texto inicial de la consola
+
+          actualizarDiagramaFlujo(-1); // Iniciar canvas en blanco/neutro
+
           const fases = [
               {
                   fase: "FASE 1: ORQUESTACIÓN Y ENTRADA",
@@ -302,44 +302,43 @@
                   res: "[DONE] Sistema listo para análisis ejecutivo."
               }
           ];
-  
+
           for (let i = 0; i < fases.length; i++) {
               let f = fases[i];
-  
-              // Enciende la fase correspondiente en el diagrama gráfico lateral
-              actualizarDiagramaFlujo(i);
-  
+
+              actualizarDiagramaFlujo(i); // Ilumina la fase correspondiente en el diagrama lateral
+
               consola.innerHTML += `<span class="log-fase" style="color: #00ffc3; font-weight: bold; margin-top: 10px; display: block;">${f.fase}</span>`;
               await new Promise(r => setTimeout(r, 400));
-  
+
               consola.innerHTML += `<span class="log-explicacion">${f.expl}</span>`;
               await new Promise(r => setTimeout(r, 800));
-  
+
               consola.innerHTML += `<span class="log-codigo">${f.code}</span>`;
               await new Promise(r => setTimeout(r, 600));
-  
+
               consola.innerHTML += `<span class="log-success">${f.res}</span>`;
               consola.scrollTop = consola.scrollHeight;
               await new Promise(r => setTimeout(r, 800));
           }
-  
+
           renderResults();
           dash.style.display = "flex";
           setTimeout(() => dash.style.opacity = "1", 50);
           btn.disabled = false;
           btn.innerText = "🔄 Actualizar Dashboard";
       }
-  
+
       function renderResults() {
           const tabla = document.getElementById('tabla-datos');
           tabla.innerHTML = `<tr><th>País</th><th>Ventas (USD)</th></tr>`;
           rawData.forEach(d => {
               tabla.innerHTML += `<tr><td>${d.p}</td><td>$${d.v.toLocaleString()}</td></tr>`;
           });
-  
+
           const ctx = document.getElementById('salesChart').getContext('2d');
           if (myChart) myChart.destroy();
-  
+
           myChart = new Chart(ctx, {
               type: 'doughnut',
               data: {
@@ -359,8 +358,8 @@
               }
           });
       }
-  
-      // Inicializar el canvas vacío al cargar la página por primera vez
+
+      // Inicializar el canvas vacío al cargar la página
       window.onload = () => actualizarDiagramaFlujo(-1);
   </script>
 </body>
