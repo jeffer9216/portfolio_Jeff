@@ -200,165 +200,179 @@
 
   <footer>&copy; 2026 Jefferson Torres. Todos los derechos reservados.</footer>
   
-  <div style="display: flex; gap: 20px; align-items: flex-start;">
-      <!-- Tu consola actual -->
-      <div id="console" style="flex: 1; /* tus estilos de consola */"></div>
-  
-      <!-- El lienzo de Canvas que el script busca -->
-      <canvas id="pipelineCanvas" width="150" height="230" style="background: rgba(0,0,0,0.2); border-radius: 6px;"></canvas>
-  </div>
-  
   <script>
       let myChart = null;
-      
-          const rawData = [
-              { p: "Colombia", v: 1200000 },
-              { p: "Argentina", v: 950000 },
-              { p: "México", v: 1100000 },
-              { p: "Brasil", v: 2500000 }
-          ];
-      
-          // Función para dibujar y actualizar el diagrama de flujo vertical en el Canvas
-          function actualizarDiagramaFlujo(faseActual) {
-              const canvas = document.getElementById('pipelineCanvas');
-              if (!canvas) return;
-              const ctx = canvas.getContext('2d');
+  
+      const rawData = [
+          { p: "Colombia", v: 1200000 },
+          { p: "Argentina", v: 950000 },
+          { p: "México", v: 1100000 },
+          { p: "Brasil", v: 2500000 }
+      ];
+  
+      // Función para asegurar que el canvas del diagrama viva DENTRO de la consola
+      function inicializarCanvasFlotante() {
+          let consola = document.getElementById('console');
+          if (!consola) return;
+  
+          // Verificar si ya existe el canvas dentro de la consola, si no, crearlo
+          let canvas = document.getElementById('pipelineCanvas');
+          if (!canvas) {
+              // Creamos un contenedor interno para organizar la consola y el diagrama lado a lado
+              // Aseguramos que la consola tenga posición relativa para que el canvas flote elegante a la derecha
+              consola.style.position = consola.style.position || 'relative';
               
-              // Limpiar canvas
-              ctx.clearRect(0, 0, canvas.width, canvas.height);
-              
-              const pasos = ["1. Trigger", "2. Ingeniería", "3. Consolidación", "4. Visualización"];
-              let y = 15;
-              
-              pasos.forEach((paso, index) => {
-                  let activo = index === faseActual;
-                  let completado = index < faseActual;
-                  
-                  // Estilos de la caja según el estado
-                  ctx.fillStyle = activo ? "rgba(0, 255, 195, 0.15)" : (completado ? "#1a2e29" : "#111111");
-                  ctx.strokeStyle = activo ? "#00ffc3" : (completado ? "#0078D4" : "#333333");
-                  ctx.lineWidth = activo ? 2 : 1;
-                  
-                  // Dibujar cajita de la fase
-                  ctx.fillRect(10, y, 130, 32);
-                  ctx.strokeRect(10, y, 130, 32);
-                  
-                  // Texto del paso
-                  ctx.fillStyle = activo ? "#00ffc3" : (completado ? "#ffffff" : "#666666");
-                  ctx.font = "11px Consolas, monospace";
-                  ctx.fillText(paso, 20, y, 20); // Ajuste de posición de texto
-                  
-                  // Dibujar flecha hacia el siguiente paso (si no es el último)
-                  if (index < pasos.length - 1) {
-                      ctx.fillStyle = completado ? "#00ffc3" : "#333333";
-                      ctx.font = "14px Consolas, monospace";
-                      ctx.fillText("↓", 70, y + 46);
-                  }
-                  
-                  y += 52;
-              });
+              canvas = document.createElement('canvas');
+              canvas.id = 'pipelineCanvas';
+              canvas.width = 140;
+              canvas.height = 220;
+              canvas.style.cssText = `
+                  position: absolute;
+                  top: 15px;
+                  right: 15px;
+                  background: rgba(10, 10, 10, 0.85);
+                  border: 1px solid #333;
+                  border-radius: 6px;
+                  pointer-events: none;
+                  z-index: 10;
+              `;
+              consola.appendChild(canvas);
           }
-      
-          async function iniciarProceso() {
-              const consola = document.getElementById('console');
-              const dash = document.getElementById('dashboard');
-              const btn = document.getElementById('runBtn');
+      }
+  
+      // Función para dibujar los pasos en el canvas interno
+      function actualizarDiagramaFlujo(faseActual) {
+          inicializarCanvasFlotante();
+          const canvas = document.getElementById('pipelineCanvas');
+          if (!canvas) return;
+          const ctx = canvas.getContext('2d');
+          
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          
+          const pasos = ["1. Trigger", "2. Ingeniería", "3. Consolidación", "4. Visualización"];
+          let y = 12;
+          
+          pasos.forEach((paso, index) => {
+              let activo = index === faseActual;
+              let completado = index < faseActual;
               
-              btn.disabled = true;
-              dash.style.display = "none";
-              dash.style.opacity = "0";
-              consola.innerHTML = ""; // Limpiar consola
-      
-              // Resetear diagrama al inicio (-1 indica sin fases activas aún)
-              actualizarDiagramaFlujo(-1);
-      
-              const fases = [
-                  {
-                      fase: "FASE 1: ORQUESTACIÓN Y ENTRADA",
-                      expl: "Definición del Trigger: El inicio del proceso puede ser manual o automático (vía Python, Power Automate o Cloud); esto depende de la tecnología elegida, los recursos disponibles, la urgencia del proceso o la naturaleza del proceso.",
-                      code: "print('⚡ [Trigger] ──> 📥 [Fuentes: SQL / APIs / Archivos]')",
-                      res: "[OK] Ejecución iniciada por el usuario."
-                  },
-                  {
-                      fase: "FASE 2: INGENIERÍA Y TRANSFORMACIÓN",
-                      expl: "Casi todo dato o conexión requiere de limpieza y transformación de datos; utilizo herramientas como SQL, Pandas, Power Query (Excel/BI) o Power Automate para normalizar y procesar la información.",
-                      code: "print('🧹 [Limpieza] ──> 🔄 [Normalización & Divisas] ──> ⚙️ [Procesamiento]')",
-                      res: "[OK] 4.2M de registros procesados."
-                  },
-                  {
-                      fase: "FASE 3: CONSOLIDACIÓN Y ALMACENAMIENTO",
-                      expl: "Genero uno o varios archivos matriz de consolidación (Dataframe, CSV, Parquet, TXT, JSON, SQL, Excel, etc.) para alimentar el reporte final o las siguientes capas del sistema.",
-                      code: "print('📦 [Estructuración] ──> 💾 [Matriz Final: Parquet / SQL / CSV]')",
-                      res: "[OK] Matriz generada correctamente."
-                  },
-                  {
-                      fase: "FASE 4: VISUALIZACIÓN Y ENTREGA",
-                      expl: "Creo un Dashboard o reporte listo para análisis y toma de decisiones (Python EEL, PowerBI, Tableau, Excel, PDF, correo de Outlook, etc.).",
-                      code: "print('📊 [Modelo de Datos] ──> 🚀 [Dashboard / PowerBI / Reporte]')",
-                      res: "[DONE] Sistema listo para análisis ejecutivo."
-                  }
-              ];
-      
-              for (let i = 0; i < fases.length; i++) {
-                  let f = fases[i];
-      
-                  // Actualizar el gráfico de canvas lateral en tiempo real
-                  actualizarDiagramaFlujo(i);
-      
-                  // Imprimir Título de la Fase
-                  consola.innerHTML += `<span class="log-fase" style="color: #00ffc3; font-weight: bold; margin-top: 10px; display: block;">${f.fase}</span>`;
-                  await new Promise(r => setTimeout(r, 400));
-      
-                  // Imprimir Explicación (Gris - Segoe)
-                  consola.innerHTML += `<span class="log-explicacion">${f.expl}</span>`;
-                  await new Promise(r => setTimeout(r, 800));
-      
-                  // Imprimir Código / Flujo Gráfico (Blanco - Consolas)
-                  consola.innerHTML += `<span class="log-codigo">${f.code}</span>`;
-                  await new Promise(r => setTimeout(r, 600));
-      
-                  // Imprimir Resultado (Verde - Consolas)
-                  consola.innerHTML += `<span class="log-success">${f.res}</span>`;
-                  consola.scrollTop = consola.scrollHeight;
-                  await new Promise(r => setTimeout(r, 800));
+              ctx.fillStyle = activo ? "rgba(0, 255, 195, 0.2)" : (completado ? "#1a2e29" : "#111111");
+              ctx.strokeStyle = activo ? "#00ffc3" : (completado ? "#0078D4" : "#333333");
+              ctx.lineWidth = activo ? 2 : 1;
+              
+              ctx.fillRect(10, y, 120, 32);
+              ctx.strokeRect(10, y, 120, 32);
+              
+              ctx.fillStyle = activo ? "#00ffc3" : (completado ? "#ffffff" : "#555555");
+              ctx.font = "10px Consolas, monospace";
+              ctx.fillText(paso, 18, y + 20);
+              
+              if (index < pasos.length - 1) {
+                  ctx.fillStyle = completado ? "#00ffc3" : "#333333";
+                  ctx.font = "12px Consolas, monospace";
+                  ctx.fillText("↓", 64, y + 44);
               }
-      
-              renderResults();
-              dash.style.display = "flex";
-              setTimeout(() => dash.style.opacity = "1", 50);
-              btn.disabled = false;
-              btn.innerText = "🔄 Actualizar Dashboard";
+              
+              y += 48;
+          });
+      }
+  
+      async function iniciarProceso() {
+          const consola = document.getElementById('console');
+          const dash = document.getElementById('dashboard');
+          const btn = document.getElementById('runBtn');
+          
+          btn.disabled = true;
+          dash.style.display = "none";
+          dash.style.opacity = "0";
+          consola.innerHTML = ""; // Limpiar consola
+  
+          // Inicializar el diagrama en estado vacío dentro de la consola
+          actualizarDiagramaFlujo(-1);
+  
+          const fases = [
+              {
+                  fase: "FASE 1: ORQUESTACIÓN Y ENTRADA",
+                  expl: "Definición del Trigger: El inicio del proceso puede ser manual o automático (vía Python, Power Automate o Cloud); esto depende de la tecnología elegida, los recursos disponibles, la urgencia del proceso o la naturaleza del proceso.",
+                  code: "print('⚡ [Trigger] ──> 📥 [Fuentes: SQL / APIs / Archivos]')",
+                  res: "[OK] Ejecución iniciada por el usuario."
+              },
+              {
+                  fase: "FASE 2: INGENIERÍA Y TRANSFORMACIÓN",
+                  expl: "Casi todo dato o conexión requiere de limpieza y transformación de datos; utilizo herramientas como SQL, Pandas, Power Query (Excel/BI) o Power Automate para normalizar y procesar la información.",
+                  code: "print('🧹 [Limpieza] ──> 🔄 [Normalización & Divisas] ──> ⚙️ [Procesamiento]')",
+                  res: "[OK] 4.2M de registros procesados."
+              },
+              {
+                  fase: "FASE 3: CONSOLIDACIÓN Y ALMACENAMIENTO",
+                  expl: "Genero uno o varios archivos matriz de consolidación (Dataframe, CSV, Parquet, TXT, JSON, SQL, Excel, etc.) para alimentar el reporte final o las siguientes capas del sistema.",
+                  code: "print('📦 [Estructuración] ──> 💾 [Matriz Final: Parquet / SQL / CSV]')",
+                  res: "[OK] Matriz generada correctamente."
+              },
+              {
+                  fase: "FASE 4: VISUALIZACIÓN Y ENTREGA",
+                  expl: "Creo un Dashboard o reporte listo para análisis y toma de decisiones (Python EEL, PowerBI, Tableau, Excel, PDF, correo de Outlook, etc.).",
+                  code: "print('📊 [Modelo de Datos] ──> 🚀 [Dashboard / PowerBI / Reporte]')",
+                  res: "[DONE] Sistema listo para análisis ejecutivo."
+              }
+          ];
+  
+          for (let i = 0; i < fases.length; i++) {
+              let f = fases[i];
+  
+              // Actualiza el gráfico flotante dentro de la consola
+              actualizarDiagramaFlujo(i);
+  
+              consola.innerHTML += `<span class="log-fase" style="color: #00ffc3; font-weight: bold; margin-top: 10px; display: block; padding-right: 130px;">${f.fase}</span>`;
+              await new Promise(r => setTimeout(r, 400));
+  
+              consola.innerHTML += `<span class="log-explicacion" style="display: block; padding-right: 130px;">${f.expl}</span>`;
+              await new Promise(r => setTimeout(r, 800));
+  
+              consola.innerHTML += `<span class="log-codigo" style="display: block; padding-right: 130px;">${f.code}</span>`;
+              await new Promise(r => setTimeout(r, 600));
+  
+              consola.innerHTML += `<span class="log-success" style="display: block; padding-right: 130px;">${f.res}</span>`;
+              consola.scrollTop = consola.scrollHeight;
+              await new Promise(r => setTimeout(r, 800));
           }
-      
-          function renderResults() {
-              const tabla = document.getElementById('tabla-datos');
-              tabla.innerHTML = `<tr><th>País</th><th>Ventas (USD)</th></tr>`;
-              rawData.forEach(d => {
-                  tabla.innerHTML += `<tr><td>${d.p}</td><td>$${d.v.toLocaleString()}</td></tr>`;
-              });
-      
-              const ctx = document.getElementById('salesChart').getContext('2d');
-              if (myChart) myChart.destroy();
-      
-              myChart = new Chart(ctx, {
-                  type: 'doughnut',
-                  data: {
-                      labels: rawData.map(d => d.p),
-                      datasets: [{
-                          data: rawData.map(d => d.v),
-                          backgroundColor: ['#0078D4', '#00ffc3', '#ffce56', '#ff6384'],
-                          borderWidth: 0
-                      }]
-                  },
-                  options: {
-                      responsive: true,
-                      plugins: {
-                          legend: { position: 'bottom', labels: { color: '#fff' } },
-                          title: { display: true, text: '% Participación Ventas', color: '#fff' }
-                      }
+  
+          renderResults();
+          dash.style.display = "flex";
+          setTimeout(() => dash.style.opacity = "1", 50);
+          btn.disabled = false;
+          btn.innerText = "🔄 Actualizar Dashboard";
+      }
+  
+      function renderResults() {
+          const tabla = document.getElementById('tabla-datos');
+          tabla.innerHTML = `<tr><th>País</th><th>Ventas (USD)</th></tr>`;
+          rawData.forEach(d => {
+              tabla.innerHTML += `<tr><td>${d.p}</td><td>$${d.v.toLocaleString()}</td></tr>`;
+          });
+  
+          const ctx = document.getElementById('salesChart').getContext('2d');
+          if (myChart) myChart.destroy();
+  
+          myChart = new Chart(ctx, {
+              type: 'doughnut',
+              data: {
+                  labels: rawData.map(d => d.p),
+                  datasets: [{
+                      data: rawData.map(d => d.v),
+                      backgroundColor: ['#0078D4', '#00ffc3', '#ffce56', '#ff6384'],
+                      borderWidth: 0
+                  }]
+              },
+              options: {
+                  responsive: true,
+                  plugins: {
+                      legend: { position: 'bottom', labels: { color: '#fff' } },
+                      title: { display: true, text: '% Participación Ventas', color: '#fff' }
                   }
-              });
-          }
+              }
+          });
+      }
   </script>
 </body>
 </html>
