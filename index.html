@@ -199,7 +199,15 @@
   </div>
 
   <footer>&copy; 2026 Jefferson Torres. Todos los derechos reservados.</footer>
-
+  
+  <div style="display: flex; gap: 20px; align-items: flex-start;">
+      <!-- Tu consola actual -->
+      <div id="console" style="flex: 1; /* tus estilos de consola */"></div>
+  
+      <!-- El lienzo de Canvas que el script busca -->
+      <canvas id="pipelineCanvas" width="150" height="230" style="background: rgba(0,0,0,0.2); border-radius: 6px;"></canvas>
+  </div>
+  
   <script>
       let myChart = null;
       
