@@ -69,7 +69,6 @@
       transition: transform 0.3s ease;
       position: relative;
       overflow: hidden;
-      /*min-height: 260px; /* Aumenta la altura mínima */
     }
 
     .skill-description {
@@ -86,7 +85,7 @@
       font-size: 0.9em;
       line-height: 1.4em;
       overflow-y: auto;
-      opacity:0 ;
+      opacity: 0;
       transition: opacity 0.3s ease;
       scrollbar-width: thin;
       scrollbar-color: #555 #2c2f36;
@@ -168,12 +167,9 @@
     .timeline-item.current {
       opacity: 1;
       transform: scale(1.05);
-      border: 2px solid #00bcd4;
-      color: #00c3ff;
       border: 3px solid #00c3ff;
       background-color: rgba(0, 195, 255, 0.1);
       box-shadow: 0 0 15px #00c3ff;
-      opacity: 1;
     }
 
     .timeline-item:not(.current) {
@@ -182,12 +178,12 @@
 
     .timeline-card {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      border-radius: 16px; /* Aquí defines el redondeo */
+      border-radius: 16px;
     }
 
     .timeline-card:hover {
       transform: scale(1.05);
-      box-shadow: 0 6px 20px rgba(0, 120, 212, 0.4); /* efecto de resalte */
+      box-shadow: 0 6px 20px rgba(0, 120, 212, 0.4);
     }
 
     .chartjs-tooltip {
@@ -224,12 +220,6 @@
       margin-right: 6px;
       color: #ff6b6b;
     }
-
-
-
-
-
-
   </style>
 </head>
 <body>
@@ -241,7 +231,7 @@
     <p><i class="fas fa-envelope"></i> jeffer-torres92@hotmail.com &nbsp;|&nbsp;
        <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/jeffer-torres-056b4a72" style="color:white;text-decoration:underline;">LinkedIn</a>
     </p>
-    <a href="index.html">🏠 Inicio</a>
+    <a href="index.html" style="color: white;">🏠 Inicio</a>
   </header>
 
   <nav>
@@ -253,10 +243,9 @@
 
   <section id="resumen" class="active">
     <h2>Skills Profesionales</h2>
-    <p>Profesional en Finanzas y Negocios Internacionales, con especialización en Gerencia Financiera y una maestría en Business Intelligence y Big Data Analytics. Cuento con experiencia en la creación de soluciones orientadas a la automatización y mejora de procesos en áreas como tesorería, reembolsos, portales bancarios, gestión de datos y transformación de información a partir de diversas fuentes. Me motiva encontrar formas de optimizar tareas mediante la automatización y convertir datos complejos en información clara, visual y útil para la toma de decisiones. Para ello, he trabajado con herramientas como Python, SQL, Excel, Power BI, así como con plataformas empresariales como SAP, HANA Studio y Teradata, integrando el uso de Inteligencia Artificial como una herramienta estratégica para potenciar el procesamiento de datos y la eficiencia en el desarrollo de soluciones. Mi enfoque está en la mejora continua, el liderazgo de equipos de desarrollo, y la implementación de soluciones prácticas y escalables que faciliten el trabajo diario en áreas operativas, financieras, contables y de gestión.</p>
+    <p>Profesional en Finanzas y Negocios Internacionales, con especialización en Gerencia Financiera y una maestría en Business Intelligence y Big Data Analytics. Cuento con experiencia en la creación de soluciones orientadas al desarrollo, la automatización y mejora de procesos en áreas corporativas como tesorería, gestión de datos y transformación de información. Actualmente me desempeño como Senior Data Analyst en Accenture, integrando tecnologías avanzadas, automatización inteligente y análisis de datos para la toma de decisiones estratégicas.</p>
 
     <div class="skills-grid">
-      
       <div class="skill-card">
         <h3><i class="fas fa-code"></i> Python</h3>
         <p>Python scripts in py and pynb</p>
@@ -276,11 +265,11 @@
 
       <div class="skill-card">
         <h3><i class="fas fa-database"></i> SQL</h3>
-        <p>Consulta y tranformacion de datos en SQL</p>
+        <p>Consulta y transformacion de datos en SQL</p>
         <div class="skill-description">
         <ul>
           <li>Consulta de tablas y vistas en bases de datos</li>
-          <li>Renombrar, seleccionar y organizar columnas según requerimientos (Column as name ...)/li>
+          <li>Renombrar, seleccionar y organizar columnas según requerimientos</li>
           <li>Uniones eficientes entre múltiples tablas (JOIN, INNER, LEFT...)</li>
           <li>Filtrado de datos con cláusulas WHERE, IN, LIKE, BETWEEN, etc.</li>
           <li>Optimización de consultas para mejorar el rendimiento</li>
@@ -322,7 +311,6 @@
         </div>
       </div>
 
-
       <div class="skill-card">
         <h3><i class="fas fa-cogs"></i> SAP</h3>
         <p>Integraciones y manejo de datos financieros.</p>
@@ -351,7 +339,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="skill-card">
         <h3><i class="fas fa-network-wired"></i> Teradata Studio</h3>
@@ -384,7 +371,6 @@
         </div>
       </div>
 
-
       <div class="skill-card">
         <h3><i class="fab fa-js"></i> JavaScript</h3>
         <p>Interactividad web, DOM y visualizaciones dinámicas.</p>
@@ -404,7 +390,7 @@
 
       <div class="skill-card">
         <h3><i class="fas fa-robot"></i> Power Automate</h3>
-        <p>Automatización de flujos -Power Automate</p>
+        <p>Automatización de flujos - Power Automate</p>
         <div class="skill-description">
           <ul>
             <li>Automatización de flujos de trabajo entre aplicaciones de Office 365</li>
@@ -424,11 +410,11 @@
             <li>Uso de OneDrive y SharePoint como repositorio</li>
             <li>Organización de espacios de trabajo en Power BI y control de accesos</li>
             <li>Integración de Office con flujos de Power Automate</li>
-            <li>Enlace entre Excel, Power BI y SharePoint </li>
+            <li>Enlace entre Excel, Power BI y SharePoint</li>
             <li>Seguimiento de aprobaciones, notificaciones y carga de archivos</li>
-            <li>herramientas Outlook y Teams para uso diario</li>
-            <li>herramienta list para crear tablas y formularios basicos</li>
-            <li>herramienta Power Apps para uso interno (Aplicaciones)</li>    
+            <li>Herramientas Outlook y Teams para uso diario</li>
+            <li>Herramienta list para crear tablas y formularios básicos</li>
+            <li>Herramienta Power Apps para uso interno (Aplicaciones)</li>  
           </ul>
         </div>
       </div>
@@ -465,11 +451,8 @@
           </ul>
         </div>
       </div>
-
-
     </div>
   </section>
-
 
   <section id="experiencia">
     <h2>Experiencia Laboral</h2>
@@ -478,28 +461,32 @@
       <div class="timeline-track">
 
         <div class="timeline-card">         
-          <div class="timeline-item current">Leader Innovation - Delta<br>Oct 2024 - Actualidad</div>
+          <div class="timeline-item current">Senior Data Analyst - Accenture<br>Jun 2026 - Presente</div>
         </div> 
 
         <div class="timeline-card">    
-        <div class="timeline-item">BOGOTA SSC, DELTA AIR LINES JR LEADER.<br>Jull 2024 - Oct 2025</div>
-        </div> 
+          <div class="timeline-item">Leader Innovation - Delta (BSSC)<br>Oct 2024 - Jun 2026</div>
+        </div>  
+
+        <div class="timeline-card">    
+          <div class="timeline-item">BOGOTA SSC, DELTA AIR LINES JR LEADER.<br>Ene 2024 - Oct 2024</div>
+        </div>  
 
         <div class="timeline-card">   
-        <div class="timeline-item">BOGOTA SSC, DELTA AIR LINES - Analyst<br>Ene 2022 - Jul 2024</div>
-        </div> 
+          <div class="timeline-item">BOGOTA SSC, DELTA AIR LINES - Analyst<br>Ene 2022 - Jul 2024</div>
+        </div>  
 
         <div class="timeline-card">   
-        <div class="timeline-item">Alcaldia local de kennedy, Secretaría de gobierno Distrital<br>Ene 2018 - Dic 2020</div>
-        </div> 
+          <div class="timeline-item">Alcaldia local de kennedy, Secretaría de gobierno Distrital<br>Ene 2018 - Dic 2020</div>
+        </div>  
 
         <div class="timeline-card">  
-        <div class="timeline-item">Samsung Electronics<br>Abr - Agos 2016 </div>
-        </div> 
+          <div class="timeline-item">Samsung Electronics<br>Abr - Agos 2016</div>
+        </div>  
         
         <div class="timeline-card">  
-        <div class="timeline-item">CONCEJO DE BOGOTA<br>Abr - Agos 2016 </div>
-        </div> 
+          <div class="timeline-item">CONCEJO DE BOGOTA<br>Abr - Agos 2016</div>
+        </div>  
 
       </div>
     </div>
@@ -508,10 +495,7 @@
       <i class="fas fa-briefcase"></i>
       Años de experiencia laboral: <strong>8 años</strong>
     </div>
-
   </section>
-
-
 
   <section id="educacion">
     <h2>Educación</h2>
@@ -521,23 +505,22 @@
 
         <div class="timeline-card">         
           <div class="timeline-item current">Máster en Business Intelligence - EUDE<br>2021 - 2022</div>
-        </div> 
+        </div>  
 
         <div class="timeline-card">    
-        <div class="timeline-item">Especialización en Gerencia y Aadministracion Financiera - Universidad Piloto<br>2017 - 2018</div>
-        </div> 
+          <div class="timeline-item">Especialización en Gerencia y Administración Financiera - Universidad Piloto<br>2017 - 2018</div>
+        </div>  
 
         <div class="timeline-card">   
-        <div class="timeline-item">Finanzas y Negocios Internacionales - San Martín<br>2010 - 2014</div>
-        </div> 
+          <div class="timeline-item">Finanzas y Negocios Internacionales - San Martín<br>2010 - 2014</div>
+        </div>  
 
         <div class="timeline-card">   
-        <div class="timeline-item">Colegio bilingue Pio XII camp school <br>1999 - Dic 2009</div>
-        </div> 
+          <div class="timeline-item">Colegio bilingüe Pio XII camp school<br>1999 - Dic 2009</div>
+        </div>  
 
       </div>
     </div>
-   
   </section>
 
   <section id="grafico">
@@ -556,25 +539,24 @@
 
     const ctx = document.getElementById('timelineChart').getContext('2d');
 
-    // 👉 Texto que quieres mostrar en cada tooltip
     const tooltipsText = [
-      'consolidar respuestas a proposiciones “datos cuantitativos y cualitativos” para la elaboración de reportes e informes de la Comisión de Gobierno. Apoyo argumentativo para debates de control político y ponencias para "unidad del Concejo de Bogotá"',
-      "Analista de documentación y de estados financieros de nuevos clientes corporativos, Para la reducción de riesgo financiero de crédito y prevención de lavado de activos -SARLAFT. Manejo de SAP para la creación, consulta, actualización y seguimiento del comportamiento de crédito y financiero de los clientes. Elaborar reportes relacionados con la prevención SARLAFT y cupo de crédito.",
-      "Custodiar, consolidar y georreferenciar datos a través de macros “elaboración propia” de operativos y actividades de espacio público, medio ambiente y seguridad. Elaboración de informes de gestión dirigidos a entes de control y entidades del distrito, donde se destacan la Secretaría de Gobierno y Alcaldía Mayor de Bogotá. Participar en operativos interinstitucionales en el marco de la ley.",
-      "Support automation projects (python, bva), perform data analysis (Excel -tableu -Power Bi) and reporting.",
-      "leader and perform automation projects for treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance) expertise in python, SQL, Query, Excel Macros, Hana studio, Teradata Studio, SAP.",
-      "Experienced in leading and executing automation projects across various areas, including treasury (refunds, bank master data, bank portals) and other business functions. Focused on optimizing processes and developing tools such as Power BI dashboards while ensuring their ongoing maintenance. Expertise in Python, SQL, Query, Excel Macros, Hana Studio, Teradata Studio, and SAP. Supervise projects following the Scrum methodology. Collaborate in planning and improvement strategies for the area. Coordinate with the Human Resources department to authorize and manage team vacations, permissions, and schedules, ensuring compliance with company policies."
+      'Consolidar respuestas a proposiciones “datos cuantitativos y cualitativos” para la elaboración de reportes e informes de la Comisión de Gobierno. Apoyo argumentativo para debates de control político y ponencias para "unidad del Concejo de Bogotá".',
+      'Analista de documentación y de estados financieros de nuevos clientes corporativos, para la reducción de riesgo financiero de crédito y prevención de lavado de activos - SARLAFT. Manejo de SAP para la creación, consulta, actualización y seguimiento del comportamiento de crédito y financiero de los clientes.',
+      'Custodiar, consolidar y georreferenciar datos a través de macros “elaboración propia” de operativos y actividades de espacio público, medio ambiente y seguridad. Elaboración de informes de gestión dirigidos a entes de control y entidades del distrito.',
+      'Support automation projects (python, vba), perform data analysis (Excel - Tableau - Power Bi) and reporting.',
+      'Experienced in leading and executing automation projects across various areas, including treasury (refunds, bank master data, bank portals) and other business functions. Focused on optimizing processes and developing tools such as Power BI dashboards.',
+      'Senior Data Analyst at Accenture: Leader and perform automation projects for Delta Air Lines treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance) expertise in python, SQL, Query, Excel Macros, Hana studio, Teradata Studio, SAP. Support transition process - BSSC to Accenture.'
     ];
 
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Concejo de Bogotá','Samsung', 'Alcaldía de Kennedy - Secretaria de Gobierno', 'BSSC-Delta Analyst', 'BSSC-Delta Jr Leader', 'BSSC-Delta Leader'],
+        labels: ['Concejo de Bogotá', 'Samsung', 'Alcaldía de Kennedy', 'BSSC-Delta Analyst', 'BSSC-Delta Jr/Leader', 'Accenture - Senior Data Analyst'],
         datasets: [{
           label: 'Duración (meses)',
-          data: [5,14, 36, 31, 13, 8],
+          data: [5, 14, 36, 31, 20, 4],
           backgroundColor: [
-            '#ebd81c','#1abc9c', '#3498db', '#9b59b6', '#e67e22', '#e74c3c'
+            '#ebd81c', '#1abc9c', '#3498db', '#9b59b6', '#e67e22', '#e74c3c'
           ]
         }]
       },
@@ -593,7 +575,6 @@
             external: function(context) {
               let tooltipEl = document.getElementById('chartjs-tooltip');
 
-              // Crear si no existe
               if (!tooltipEl) {
                 tooltipEl = document.createElement('div');
                 tooltipEl.id = 'chartjs-tooltip';
@@ -603,7 +584,6 @@
 
               const tooltipModel = context.tooltip;
 
-              // Ocultar si no está activo
               if (tooltipModel.opacity === 0) {
                 tooltipEl.style.opacity = '0';
                 return;
@@ -623,12 +603,11 @@
               const position = context.chart.canvas.getBoundingClientRect();
               const caretX = tooltipModel.caretX;
               const caretY = tooltipModel.caretY;
-              const tooltipWidth = 320; // mismo valor que max-width del tooltip
+              const tooltipWidth = 320;
               const pageWidth = window.innerWidth;
 
-              let left = position.left + window.pageXOffset + caretX + 20; // por defecto hacia derecha
+              let left = position.left + window.pageXOffset + caretX + 20;
 
-              // Si se va a salir por la derecha, lo muestro hacia la izquierda
               if (left + tooltipWidth > pageWidth) {
                 left = position.left + window.pageXOffset + caretX - tooltipWidth - 20;
               }
@@ -650,58 +629,31 @@
         }
       }
     });
-    </script>
-
-
-  <script>
-    function toggleDetails(id) {
-      const element = document.getElementById(id);
-      element.style.display = (element.style.display === 'none' || element.style.display === '') ? 'block' : 'none';
-    }
   </script>
 
   <script>
-  document.querySelectorAll('.skill-card').forEach(card => {
-    const description = card.querySelector('.skill-description');
-    let scrollInterval;
+    document.querySelectorAll('.skill-card').forEach(card => {
+      const description = card.querySelector('.skill-description');
+      let scrollInterval;
 
-    card.addEventListener('mouseenter', () => {
-      // Solo si hay scroll disponible
-      if (description.scrollHeight > description.clientHeight) {
-        let scrollStep = 1;
-        scrollInterval = setInterval(() => {
-          if ((description.scrollTop + description.clientHeight) >= description.scrollHeight) {
-            scrollStep = -1; // Cambia dirección al llegar al fondo
-          } else if (description.scrollTop <= 0) {
-            scrollStep = 1; // Cambia dirección al volver arriba
-          }
-          description.scrollTop += scrollStep;
-        }, 50); // velocidad del scroll
-      }
-    });
-
-    card.addEventListener('mouseleave', () => {
-      clearInterval(scrollInterval);
-      description.scrollTop = 0; // Vuelve al inicio
-    });
-  });
-  </script>
-
-  <script>
-    const timelineItems = document.querySelectorAll('.timeline-item');
-
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
+      card.addEventListener('mouseenter', () => {
+        if (description.scrollHeight > description.clientHeight) {
+          let scrollStep = 1;
+          scrollInterval = setInterval(() => {
+            if ((description.scrollTop + description.clientHeight) >= description.scrollHeight) {
+              scrollStep = -1;
+            } else if (description.scrollTop <= 0) {
+              scrollStep = 1;
+            }
+            description.scrollTop += scrollStep;
+          }, 50);
         }
       });
-    }, {
-      threshold: 0.3
-    });
 
-    timelineItems.forEach(item => {
-      observer.observe(item);
+      card.addEventListener('mouseleave', () => {
+        clearInterval(scrollInterval);
+        description.scrollTop = 0;
+      });
     });
   </script>
 
@@ -747,13 +699,6 @@
       }, 'google_translate_element');
     }
   </script>
-
   <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-
-
-
 </body>
 </html>
-
