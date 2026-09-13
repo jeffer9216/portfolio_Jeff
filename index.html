@@ -200,14 +200,16 @@
 
   <footer>&copy; 2026 Jefferson Torres. Todos los derechos reservados.</footer>
   
-  <div style="display: flex; gap: 20px; align-items: flex-start;">
-    <!-- Tu consola actual -->
-    <div id="console" style="flex: 1; /* tus estilos de consola */"></div>
-
-    <!-- El lienzo de Canvas que el script busca -->
-    <canvas id="pipelineCanvas" width="150" height="230" style="background: rgba(0,0,0,0.2); border-radius: 6px;"></canvas>
-  </div>
+  <!-- Contenedor principal de la consola con diseño flex para que el visor quede al lado fijo -->
+  <div style="display: flex; gap: 15px; background: #0b0f19; padding: 15px; border-radius: 8px; border: 1px solid #222; position: relative;">
+      
+      <!-- La consola de texto donde corren los logs -->
+      <div id="console" style="flex: 1; height: 350px; overflow-y: auto; font-family: 'Consolas', monospace; font-size: 13px; color: #fff;"></div>
   
+      <!-- El visor gráfico vertical integrado al lado derecho de la consola -->
+      <canvas id="pipelineCanvas" width="140" height="280" style="background: rgba(0, 0, 0, 0.3); border: 1px solid #333; border-radius: 6px; align-self: center;"></canvas>
+  
+  </div>
   <script>
       let myChart = null;
   
@@ -218,39 +220,8 @@
           { p: "Brasil", v: 2500000 }
       ];
   
-      // Función para asegurar que el canvas del diagrama viva DENTRO de la consola
-      function inicializarCanvasFlotante() {
-          let consola = document.getElementById('console');
-          if (!consola) return;
-  
-          // Verificar si ya existe el canvas dentro de la consola, si no, crearlo
-          let canvas = document.getElementById('pipelineCanvas');
-          if (!canvas) {
-              // Creamos un contenedor interno para organizar la consola y el diagrama lado a lado
-              // Aseguramos que la consola tenga posición relativa para que el canvas flote elegante a la derecha
-              consola.style.position = consola.style.position || 'relative';
-              
-              canvas = document.createElement('canvas');
-              canvas.id = 'pipelineCanvas';
-              canvas.width = 140;
-              canvas.height = 220;
-              canvas.style.cssText = `
-                  position: absolute;
-                  top: 15px;
-                  right: 15px;
-                  background: rgba(10, 10, 10, 0.85);
-                  border: 1px solid #333;
-                  border-radius: 6px;
-                  pointer-events: none;
-                  z-index: 10;
-              `;
-              consola.appendChild(canvas);
-          }
-      }
-  
-      // Función para dibujar los pasos en el canvas interno
+      // Función que dibuja el diagrama de flujo paso a paso en el canvas fijo
       function actualizarDiagramaFlujo(faseActual) {
-          inicializarCanvasFlotante();
           const canvas = document.getElementById('pipelineCanvas');
           if (!canvas) return;
           const ctx = canvas.getContext('2d');
@@ -258,31 +229,38 @@
           ctx.clearRect(0, 0, canvas.width, canvas.height);
           
           const pasos = ["1. Trigger", "2. Ingeniería", "3. Consolidación", "4. Visualización"];
-          let y = 12;
+          let y = 15;
           
           pasos.forEach((paso, index) => {
               let activo = index === faseActual;
               let completado = index < faseActual;
               
+              // Estilos de la caja según el estado
               ctx.fillStyle = activo ? "rgba(0, 255, 195, 0.2)" : (completado ? "#1a2e29" : "#111111");
               ctx.strokeStyle = activo ? "#00ffc3" : (completado ? "#0078D4" : "#333333");
               ctx.lineWidth = activo ? 2 : 1;
               
-              ctx.fillRect(10, y, 120, 32);
-              ctx.strokeRect(10, y, 120, 32);
+              ctx.fillRect(10, y, 120, 38);
+              ctx.strokeRect(10, y, 120, 38);
               
-              ctx.fillStyle = activo ? "#00ffc3" : (completado ? "#ffffff" : "#555555");
-              ctx.font = "10px Consolas, monospace";
-              ctx.fillText(paso, 18, y + 20);
+              // Texto del paso centrado
+              ctx.fillStyle = activo ? "#00ffc3" : (completado ? "#ffffff" : "#666666");
+              ctx.font = "11px Consolas, monospace";
+              ctx.textAlign = "center";
+              ctx.fillText(paso, 70, y + 24);
               
+              // Flecha hacia abajo (si no es el último paso)
               if (index < pasos.length - 1) {
                   ctx.fillStyle = completado ? "#00ffc3" : "#333333";
-                  ctx.font = "12px Consolas, monospace";
-                  ctx.fillText("↓", 64, y + 44);
+                  ctx.font = "14px Consolas, monospace";
+                  ctx.fillText("↓", 70, y + 54);
               }
               
-              y += 48;
+              y += 62;
           });
+          
+          // Resetear alineación de texto para no afectar otras cosas
+          ctx.textAlign = "left";
       }
   
       async function iniciarProceso() {
@@ -293,9 +271,9 @@
           btn.disabled = true;
           dash.style.display = "none";
           dash.style.opacity = "0";
-          consola.innerHTML = ""; // Limpiar consola
+          consola.innerHTML = ""; // Limpiar consola de texto
   
-          // Inicializar el diagrama en estado vacío dentro de la consola
+          // Inicializar el diagrama en estado vacío (-1) al empezar
           actualizarDiagramaFlujo(-1);
   
           const fases = [
@@ -328,19 +306,19 @@
           for (let i = 0; i < fases.length; i++) {
               let f = fases[i];
   
-              // Actualiza el gráfico flotante dentro de la consola
+              // Enciende la fase correspondiente en el diagrama gráfico lateral
               actualizarDiagramaFlujo(i);
   
-              consola.innerHTML += `<span class="log-fase" style="color: #00ffc3; font-weight: bold; margin-top: 10px; display: block; padding-right: 130px;">${f.fase}</span>`;
+              consola.innerHTML += `<span class="log-fase" style="color: #00ffc3; font-weight: bold; margin-top: 10px; display: block;">${f.fase}</span>`;
               await new Promise(r => setTimeout(r, 400));
   
-              consola.innerHTML += `<span class="log-explicacion" style="display: block; padding-right: 130px;">${f.expl}</span>`;
+              consola.innerHTML += `<span class="log-explicacion">${f.expl}</span>`;
               await new Promise(r => setTimeout(r, 800));
   
-              consola.innerHTML += `<span class="log-codigo" style="display: block; padding-right: 130px;">${f.code}</span>`;
+              consola.innerHTML += `<span class="log-codigo">${f.code}</span>`;
               await new Promise(r => setTimeout(r, 600));
   
-              consola.innerHTML += `<span class="log-success" style="display: block; padding-right: 130px;">${f.res}</span>`;
+              consola.innerHTML += `<span class="log-success">${f.res}</span>`;
               consola.scrollTop = consola.scrollHeight;
               await new Promise(r => setTimeout(r, 800));
           }
@@ -381,6 +359,9 @@
               }
           });
       }
+  
+      // Inicializar el canvas vacío al cargar la página por primera vez
+      window.onload = () => actualizarDiagramaFlujo(-1);
   </script>
 </body>
 </html>
