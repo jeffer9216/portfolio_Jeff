@@ -43,7 +43,7 @@
     section {
       display: none;
       padding: 30px 20px;
-      max-width: 1100px;
+      max-width: 900px;
       margin: auto;
       animation: fadeIn 0.4s ease-in-out;
     }
@@ -127,104 +127,101 @@
       font-size: 18px;
     }
 
-    .timeline-horizontal {
-      overflow: hidden;
+    /* Estilos de la Línea de Tiempo Vertical Automática */
+    .timeline-vertical-container {
+      height: 450px;
+      overflow-y: auto;
       position: relative;
-      cursor: grab;
-      user-select: none;
-      padding: 40px 0;
+      padding-right: 15px;
+      scrollbar-width: thin;
+      scrollbar-color: #0078D4 #2c2f36;
+      margin-top: 20px;
     }
 
-    .timeline-track {
-      display: flex;
-      gap: 60px;
-      position: relative;
-      width: max-content;
-      padding: 0 40px;
+    .timeline-vertical-container::-webkit-scrollbar {
+      width: 6px;
     }
-
-    .timeline-track::before {
-      content: "";
-      position: absolute;
-      top: 80px;
-      left: 0;
-      height: 4px;
+    .timeline-vertical-container::-webkit-scrollbar-thumb {
       background: #0078D4;
-      width: 100%;
-      z-index: 0;
+      border-radius: 4px;
     }
 
-    .company-group {
-      background: #23262d;
-      border: 1px solid #3d424d;
-      border-radius: 16px;
-      padding: 15px;
-      min-width: 300px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    .timeline-vertical {
       position: relative;
-      z-index: 1;
+      margin-left: 20px;
+      padding-left: 30px;
     }
 
-    .company-title {
+    .timeline-vertical::before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 5px;
+      bottom: 5px;
+      width: 3px;
+      background: #0078D4;
+    }
+
+    .timeline-v-item {
+      position: relative;
+      margin-bottom: 25px;
+      background: #2c2f36;
+      padding: 18px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .timeline-v-item:hover {
+      transform: translateX(5px);
+    }
+
+    /* Punto indicador en la línea vertical */
+    .timeline-v-item::before {
+      content: '';
+      position: absolute;
+      left: -33px;
+      top: 22px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #1b1f24;
+      border: 3px solid #0078D4;
+      z-index: 2;
+    }
+
+    .timeline-v-item.current::before {
+      border-color: #00c3ff;
+      background: #00c3ff;
+      box-shadow: 0 0 10px #00c3ff;
+    }
+
+    .timeline-v-item.current {
+      border: 2px solid #00c3ff;
+      background-color: rgba(0, 195, 255, 0.05);
+    }
+
+    .company-title-v {
       font-weight: bold;
       color: #00bcd4;
-      margin-bottom: 12px;
-      font-size: 15px;
-      border-bottom: 1px solid #3d424d;
-      padding-bottom: 8px;
+      margin-bottom: 10px;
+      font-size: 16px;
       display: flex;
       align-items: center;
       gap: 8px;
     }
 
-    .sub-role {
-      background: #2c2f36;
-      padding: 10px 12px;
-      border-radius: 10px;
-      margin-bottom: 10px;
-      font-size: 13px;
+    .sub-role-v {
+      background: #21242b;
+      padding: 10px 14px;
+      border-radius: 8px;
+      margin-top: 10px;
       border-left: 3px solid #0078D4;
+      font-size: 13.5px;
     }
 
-    .sub-role:last-child {
-      margin-bottom: 0;
-    }
-
-    .sub-role.current-role {
+    .sub-role-v.current-sub {
       border-left-color: #00c3ff;
-      background-color: rgba(0, 195, 255, 0.08);
-    }
-
-    .timeline-item {
-      background: #2c2f36;
-      padding: 20px;
-      border-radius: 16px;
-      min-width: 260px;
-      position: relative;
-      z-index: 1;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    }
-
-    .timeline-item.current {
-      opacity: 1;
-      transform: scale(1.05);
-      border: 3px solid #00c3ff;
-      background-color: rgba(0, 195, 255, 0.1);
-      box-shadow: 0 0 15px #00c3ff;
-    }
-
-    .timeline-item:not(.current) {
-      opacity: 0.85;
-    }
-
-    .timeline-card {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      border-radius: 16px;
-    }
-
-    .timeline-card:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 20px rgba(0, 120, 212, 0.4);
     }
 
     .chartjs-tooltip {
@@ -496,55 +493,55 @@
     </div>
   </section>
 
+  <!-- SECCIÓN EXPERIENCIA CON LÍNEA DE TIEMPO VERTICAL Y AUTOSCROLL -->
   <section id="experiencia">
     <h2>Experiencia Laboral</h2>
+    <p style="color: #aaa; font-size: 13px;">💡 Desplazamiento automático activo. Coloca el cursor encima para pausar y mover manualmente.</p>
 
-    <div class="timeline-horizontal" id="timeline-experiencia">
-      <div class="timeline-track">
+    <div class="timeline-vertical-container" id="scroll-experiencia">
+      <div class="timeline-vertical">
 
-        <!-- Empleo Actual -->
-        <div class="timeline-card">         
-          <div class="timeline-item current">
-            <strong>Senior Data Analyst</strong><br>Accenture<br><span style="color: #00c3ff; font-size: 12px;">Jun 2026 - Presente</span>
-          </div>
+        <div class="timeline-v-item current">
+          <strong>Senior Data Analyst</strong><br>Accenture<br>
+          <span style="color: #00c3ff; font-size: 12px;">Jun 2026 - Presente</span>
+          <p style="font-size: 13.5px; color: #ccc; margin-top: 8px;">Support transition process - BSSC to Accenture, leading advanced automation solutions and data pipelines.</p>
         </div> 
 
-        <!-- Empresa unificada: BSSC (Delta Air Lines) con sus ascensos -->
-        <div class="timeline-card">    
-          <div class="company-group">
-            <div class="company-title"><i class="fas fa-building"></i> BSSC | Global Business Hub (Delta Air Lines)</div>
-            
-            <div class="sub-role">
-              <strong>Leader Innovation Team</strong><br>Oct 2024 - Jun 2026 (1 yr 9 mos)
-            </div>
-            
-            <div class="sub-role">
-              <strong>Jr Leader</strong><br>Jan 2024 - Jan 2025 (1 yr 1 mo)
-            </div>
-            
-            <div class="sub-role">
-              <strong>Data Analyst</strong><br>Jan 2022 - Jul 2024 (2 yrs 7 mos)
-            </div>
+        <div class="timeline-v-item">
+          <div class="company-title-v"><i class="fas fa-building"></i> BSSC | Global Business Hub (Delta Air Lines)</div>
+          
+          <div class="sub-role-v current-sub">
+            <strong>Leader Innovation Team</strong><br><span style="font-size: 12px; color: #aaa;">Oct 2024 - Jun 2026 (1 yr 9 mos)</span>
+            <p style="font-size: 13px; color: #ccc; margin: 5px 0 0;">Experienced in leading and executing automation projects across various areas, including treasury (refunds, bank master data, bank portals) and other business functions.</p>
+          </div>
+          
+          <div class="sub-role-v">
+            <strong>Jr Leader</strong><br><span style="font-size: 12px; color: #aaa;">Jan 2024 - Jan 2025 (1 yr 1 mo)</span>
+            <p style="font-size: 13px; color: #ccc; margin: 5px 0 0;">Leader and perform automation projects for treasury area, Power Bi dashboard and maintenance.</p>
+          </div>
+          
+          <div class="sub-role-v">
+            <strong>Data Analyst</strong><br><span style="font-size: 12px; color: #aaa;">Jan 2022 - Jul 2024 (2 yrs 7 mos)</span>
+            <p style="font-size: 13px; color: #ccc; margin: 5px 0 0;">Support automation projects (python, vba), perform data analysis (Excel - Tableau - Power Bi) and reporting.</p>
           </div>
         </div>  
 
-        <!-- Experiencias Anteriores -->
-        <div class="timeline-card">   
-          <div class="timeline-item">
-            <strong>Secretaría de Gobierno Distrital</strong><br>Alcaldía Local de Kennedy<br><span style="font-size: 12px; color: #aaa;">Ene 2018 - Dic 2020</span>
-          </div>
+        <div class="timeline-v-item">
+          <strong>Secretaría de Gobierno Distrital</strong><br>Alcaldía Local de Kennedy<br>
+          <span style="font-size: 12px; color: #aaa;">Ene 2018 - Dic 2020</span>
+          <p style="font-size: 13.5px; color: #ccc; margin-top: 8px;">Custodiar, consolidar y georreferenciar datos a través de macros de operativos y actividades de espacio público, medio ambiente y seguridad.</p>
         </div>  
 
-        <div class="timeline-card">  
-          <div class="timeline-item">
-            <strong>Samsung Electronics</strong><br><span style="font-size: 12px; color: #aaa;">Abr 2016 - Agos 2016</span>
-          </div>
+        <div class="timeline-v-item">
+          <strong>Samsung Electronics</strong><br>
+          <span style="font-size: 12px; color: #aaa;">Abr 2016 - Agos 2016</span>
+          <p style="font-size: 13.5px; color: #ccc; margin-top: 8px;">Analista de documentación y de estados financieros de nuevos clientes corporativos, prevención de lavado de activos - SARLAFT. Manejo de SAP.</p>
         </div>  
         
-        <div class="timeline-card">  
-          <div class="timeline-item">
-            <strong>Concejo de Bogotá</strong><br><span style="font-size: 12px; color: #aaa;">Abr 2016 - Agos 2016</span>
-          </div>
+        <div class="timeline-v-item">
+          <strong>Concejo de Bogotá</strong><br>
+          <span style="font-size: 12px; color: #aaa;">Abr 2016 - Agos 2016</span>
+          <p style="font-size: 13.5px; color: #ccc; margin-top: 8px;">Consolidar respuestas a proposiciones cuantitativas y cualitativas para la elaboración de reportes de la Comisión de Gobierno.</p>
         </div>  
 
       </div>
@@ -556,26 +553,32 @@
     </div>
   </section>
 
+  <!-- SECCIÓN EDUCACIÓN CON LÍNEA DE TIEMPO VERTICAL Y AUTOSCROLL -->
   <section id="educacion">
     <h2>Educación</h2>
+    <p style="color: #aaa; font-size: 13px;">💡 Desplazamiento automático activo. Coloca el cursor encima para pausar y mover manualmente.</p>
 
-    <div class="timeline-horizontal" id="timeline-educacion">
-      <div class="timeline-track">
+    <div class="timeline-vertical-container" id="scroll-educacion">
+      <div class="timeline-vertical">
 
-        <div class="timeline-card">         
-          <div class="timeline-item current">Máster en Business Intelligence - EUDE<br>2021 - 2022</div>
+        <div class="timeline-v-item current">
+          <strong>Máster en Business Intelligence y Big Data Analytics</strong><br>EUDE<br>
+          <span style="color: #00c3ff; font-size: 12px;">2021 - 2022</span>
         </div>  
 
-        <div class="timeline-card">    
-          <div class="timeline-item">Especialización en Gerencia y Administración Financiera - Universidad Piloto<br>2017 - 2018</div>
+        <div class="timeline-v-item">
+          <strong>Especialización en Gerencia y Administración Financiera</strong><br>Universidad Piloto de Colombia<br>
+          <span style="font-size: 12px; color: #aaa;">2017 - 2018</span>
         </div>  
 
-        <div class="timeline-card">   
-          <div class="timeline-item">Finanzas y Negocios Internacionales - San Martín<br>2010 - 2014</div>
+        <div class="timeline-v-item">
+          <strong>Finanzas y Negocios Internacionales</strong><br>Fundación Universitaria San Martín<br>
+          <span style="font-size: 12px; color: #aaa;">2010 - 2014</span>
         </div>  
 
-        <div class="timeline-card">   
-          <div class="timeline-item">Colegio bilingüe Pio XII camp school<br>1999 - Dic 2009</div>
+        <div class="timeline-v-item">
+          <strong>Colegio Bilingüe Pío XII Camp School</strong><br>
+          <span style="font-size: 12px; color: #aaa;">1999 - Dic 2009</span>
         </div>  
 
       </div>
@@ -609,7 +612,6 @@
       'Senior Data Analyst at Accenture (Jun 2026 - Present): Support transition process - BSSC to Accenture, leading advanced automation solutions.'
     ];
 
-    // Gráfico apilado con los meses exactos (31 para Data Analyst, 13 para Jr Leader, 21 para Leader Innovation)
     new Chart(ctx, {
       type: 'bar',
       data: {
@@ -632,22 +634,22 @@
           },
           {
             label: 'BSSC: Data Analyst',
-            data: [0, 0, 0, 31, 0], // 31 meses exactos
+            data: [0, 0, 0, 31, 0],
             backgroundColor: '#9b59b6'
           },
           {
             label: 'BSSC: Jr Leader',
-            data: [0, 0, 0, 13, 0], // 13 meses exactos
+            data: [0, 0, 0, 13, 0],
             backgroundColor: '#34495e'
           },
           {
             label: 'BSSC: Leader Innovation',
-            data: [0, 0, 0, 21, 0], // 21 meses exactos (1 año 9 meses)
+            data: [0, 0, 0, 21, 0],
             backgroundColor: '#e67e22'
           },
           {
             label: 'Accenture: Senior Data Analyst',
-            data: [0, 0, 0, 0, 4], // Actual
+            data: [0, 0, 0, 0, 4],
             backgroundColor: '#e74c3c'
           }
         ]
@@ -722,19 +724,53 @@
           }
         },
         scales: {
-          x: {
-            stacked: true
-          },
+          x: { stacked: true },
           y: {
             stacked: true,
             beginAtZero: true,
-            title: {
-              display: true,
-              text: 'Meses'
-            }
+            title: { display: true, text: 'Meses' }
           }
         }
       }
+    });
+  </script>
+
+  <!-- SCRIPT PARA EL AUTOSCROLL VERTICAL CON PAUSA AL PASAR EL MOUSE -->
+  <script>
+    function setupAutoScroll(containerId) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+
+      let scrollInterval;
+      let isPaused = false;
+
+      function startScrolling() {
+        scrollInterval = setInterval(() => {
+          if (!isPaused) {
+            container.scrollTop += 1;
+            // Si llega al final, regresa suavemente arriba
+            if (container.scrollTop + container.clientHeight >= container.scrollHeight - 2) {
+              container.scrollTop = 0;
+            }
+          }
+        }, 40); // Velocidad del scroll automático
+      }
+
+      container.addEventListener('mouseenter', () => {
+        isPaused = true;
+      });
+
+      container.addEventListener('mouseleave', () => {
+        isPaused = false;
+      });
+
+      startScrolling();
+    }
+
+    // Inicializar el autoscroll en Experiencia y Educación
+    window.addEventListener('DOMContentLoaded', () => {
+      setupAutoScroll('scroll-experiencia');
+      setupAutoScroll('scroll-educacion');
     });
   </script>
 
@@ -760,39 +796,6 @@
       card.addEventListener('mouseleave', () => {
         clearInterval(scrollInterval);
         description.scrollTop = 0;
-      });
-    });
-  </script>
-
-  <script>
-    document.querySelectorAll('.timeline-horizontal').forEach(timeline => {
-      let isDragging = false;
-      let startX;
-      let scrollStart;
-
-      timeline.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        timeline.classList.add('dragging');
-        startX = e.pageX - timeline.offsetLeft;
-        scrollStart = timeline.scrollLeft;
-      });
-
-      timeline.addEventListener('mouseup', () => {
-        isDragging = false;
-        timeline.classList.remove('dragging');
-      });
-
-      timeline.addEventListener('mouseleave', () => {
-        isDragging = false;
-        timeline.classList.remove('dragging');
-      });
-
-      timeline.addEventListener('mousemove', (e) => {
-        if (!isDragging) return;
-        e.preventDefault();
-        const x = e.pageX - timeline.offsetLeft;
-        const walk = x - startX;
-        timeline.scrollLeft = scrollStart - walk;
       });
     });
   </script>
