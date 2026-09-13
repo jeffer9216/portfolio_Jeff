@@ -154,17 +154,6 @@
       z-index: 0;
     }
 
-    .timeline-item {
-      background: #2c2f36;
-      padding: 20px;
-      border-radius: 16px;
-      min-width: 260px;
-      position: relative;
-      z-index: 1;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    }
-
-    /* Estilos para agrupar cargos en la misma empresa (BSSC) */
     .company-group {
       background: #23262d;
       border: 1px solid #3d424d;
@@ -204,6 +193,16 @@
     .sub-role.current-role {
       border-left-color: #00c3ff;
       background-color: rgba(0, 195, 255, 0.08);
+    }
+
+    .timeline-item {
+      background: #2c2f36;
+      padding: 20px;
+      border-radius: 16px;
+      min-width: 260px;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
 
     .timeline-item.current {
@@ -585,7 +584,7 @@
 
   <section id="grafico">
     <h2>Gráfica Timelapse de Experiencia</h2>
-    <p style="color: #aaa; font-size: 13px; text-align: center;">Nota: Los roles de BSSC reflejan los ascensos y evolución dentro de la misma empresa con colores distintos por etapa.</p>
+    <p style="color: #aaa; font-size: 13px; text-align: center;">Nota: La barra de BSSC agrupa los cargos en una sola columna unida, mostrando los ascensos con diferentes colores y tooltips independientes.</p>
     <canvas id="timelineChart"></canvas>
   </section>
 
@@ -610,31 +609,48 @@
       'Senior Data Analyst at Accenture: Leader and perform automation projects for Delta Air Lines treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance) expertise in python, SQL, Query, Excel Macros, Hana studio, Teradata Studio, SAP. Support transition process - BSSC to Accenture.'
     ];
 
+    // Gráfico de barras apiladas (stacked) para unificar la columna de BSSC
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: [
-          'Concejo de Bogotá', 
-          'Samsung', 
-          'Alcaldía de Kennedy', 
-          'BSSC: Data Analyst', 
-          'BSSC: Jr Leader', 
-          'BSSC: Leader Innovation', 
-          'Accenture: Senior Data Analyst'
-        ],
-        datasets: [{
-          label: 'Duración (meses)',
-          data: [5, 14, 36, 31, 20, 20, 4],
-          backgroundColor: [
-            '#ebd81c', 
-            '#1abc9c', 
-            '#3498db', 
-            '#9b59b6', // Color distintivo para Analista en BSSC
-            '#34495e', // Color distintivo para Jr Leader en BSSC
-            '#e67e22', // Color distintivo para Leader Innovation en BSSC
-            '#e74c3c'  // Color para Accenture
-          ]
-        }]
+        labels: ['Concejo de Bogotá', 'Samsung', 'Alcaldía de Kennedy', 'BSSC (Delta Air Lines)', 'Accenture'],
+        datasets: [
+          {
+            label: 'Concejo de Bogotá',
+            data: [5, 0, 0, 0, 0],
+            backgroundColor: '#ebd81c'
+          },
+          {
+            label: 'Samsung',
+            data: [0, 14, 0, 0, 0],
+            backgroundColor: '#1abc9c'
+          },
+          {
+            label: 'Alcaldía de Kennedy',
+            data: [0, 0, 36, 0, 0],
+            backgroundColor: '#3498db'
+          },
+          {
+            label: 'BSSC: Data Analyst',
+            data: [0, 0, 0, 31, 0],
+            backgroundColor: '#9b59b6'
+          },
+          {
+            label: 'BSSC: Jr Leader',
+            data: [0, 0, 0, 20, 0],
+            backgroundColor: '#34495e'
+          },
+          {
+            label: 'BSSC: Leader Innovation',
+            data: [0, 0, 0, 20, 0],
+            backgroundColor: '#e67e22'
+          },
+          {
+            label: 'Accenture: Senior Data Analyst',
+            data: [0, 0, 0, 0, 4],
+            backgroundColor: '#e74c3c'
+          }
+        ]
       },
       options: {
         responsive: true,
@@ -665,10 +681,23 @@
                 return;
               }
 
-              const index = tooltipModel.dataPoints?.[0]?.dataIndex ?? 0;
-              const label = tooltipModel.title[0];
+              // Identificar exactamente qué segmento (datasetIndex) se está pasando por encima con el mouse
+              const datasetIndex = tooltipModel.dataPoints[0].datasetIndex;
               const duration = tooltipModel.dataPoints[0].parsed.y;
-              const info = tooltipsText[index];
+              
+              // Mapeo directo del índice del dataset al texto de la descripción correspondiente
+              const labelsMapping = [
+                'Concejo de Bogotá',
+                'Samsung',
+                'Alcaldía de Kennedy',
+                'BSSC: Data Analyst',
+                'BSSC: Jr Leader',
+                'BSSC: Leader Innovation',
+                'Accenture: Senior Data Analyst'
+              ];
+
+              const label = labelsMapping[datasetIndex];
+              const info = tooltipsText[datasetIndex];
 
               tooltipEl.innerHTML = `
                 <strong>📌 ${label}</strong>
@@ -695,7 +724,11 @@
           }
         },
         scales: {
+          x: {
+            stacked: true
+          },
           y: {
+            stacked: true,
             beginAtZero: true,
             title: {
               display: true,
