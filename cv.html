@@ -158,10 +158,52 @@
       background: #2c2f36;
       padding: 20px;
       border-radius: 16px;
-      min-width: 240px;
+      min-width: 260px;
       position: relative;
       z-index: 1;
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* Estilos para agrupar cargos en la misma empresa (BSSC) */
+    .company-group {
+      background: #23262d;
+      border: 1px solid #3d424d;
+      border-radius: 16px;
+      padding: 15px;
+      min-width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      position: relative;
+      z-index: 1;
+    }
+
+    .company-title {
+      font-weight: bold;
+      color: #00bcd4;
+      margin-bottom: 12px;
+      font-size: 15px;
+      border-bottom: 1px solid #3d424d;
+      padding-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sub-role {
+      background: #2c2f36;
+      padding: 10px 12px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      border-left: 3px solid #0078D4;
+    }
+
+    .sub-role:last-child {
+      margin-bottom: 0;
+    }
+
+    .sub-role.current-role {
+      border-left-color: #00c3ff;
+      background-color: rgba(0, 195, 255, 0.08);
     }
 
     .timeline-item.current {
@@ -173,7 +215,7 @@
     }
 
     .timeline-item:not(.current) {
-      opacity: 0.5;
+      opacity: 0.85;
     }
 
     .timeline-card {
@@ -182,7 +224,7 @@
     }
 
     .timeline-card:hover {
-      transform: scale(1.05);
+      transform: scale(1.03);
       box-shadow: 0 6px 20px rgba(0, 120, 212, 0.4);
     }
 
@@ -299,6 +341,7 @@
         <h3><i class="fas fa-chart-bar"></i> Power BI</h3>
         <p>Visualización de KPIs y creación de paneles dinámicos.</p>
         <div class="skill-description">
+          <ul>
             <li>Diseño de dashboards interactivos</li>
             <li>Conexión a múltiples fuentes de datos (Excel, SQL, SharePoint, etc.)</li>
             <li>Creación de KPIs y visualizaciones personalizadas</li>
@@ -460,32 +503,49 @@
     <div class="timeline-horizontal" id="timeline-experiencia">
       <div class="timeline-track">
 
+        <!-- Empleo Actual -->
         <div class="timeline-card">         
-          <div class="timeline-item current">Senior Data Analyst - Accenture<br>Jun 2026 - Presente</div>
+          <div class="timeline-item current">
+            <strong>Senior Data Analyst</strong><br>Accenture<br><span style="color: #00c3ff; font-size: 12px;">Jun 2026 - Presente</span>
+          </div>
         </div> 
 
+        <!-- Empresa unificada: BSSC (Delta Air Lines) con sus ascensos -->
         <div class="timeline-card">    
-          <div class="timeline-item">Leader Innovation - Delta (BSSC)<br>Oct 2024 - Jun 2026</div>
+          <div class="company-group">
+            <div class="company-title"><i class="fas fa-building"></i> BSSC | Global Business Hub (Delta Air Lines)</div>
+            
+            <div class="sub-role">
+              <strong>Leader Innovation Team</strong><br>Oct 2024 - Jun 2026
+            </div>
+            
+            <div class="sub-role">
+              <strong>Jr Leader</strong><br>Ene 2024 - Oct 2024
+            </div>
+            
+            <div class="sub-role">
+              <strong>Data Analyst</strong><br>Ene 2022 - Jul 2024
+            </div>
+          </div>
         </div>  
 
-        <div class="timeline-card">    
-          <div class="timeline-item">BOGOTA SSC, DELTA AIR LINES JR LEADER.<br>Ene 2024 - Oct 2024</div>
-        </div>  
-
+        <!-- Experiencias Anteriores -->
         <div class="timeline-card">   
-          <div class="timeline-item">BOGOTA SSC, DELTA AIR LINES - Analyst<br>Ene 2022 - Jul 2024</div>
-        </div>  
-
-        <div class="timeline-card">   
-          <div class="timeline-item">Alcaldia local de kennedy, Secretaría de gobierno Distrital<br>Ene 2018 - Dic 2020</div>
+          <div class="timeline-item">
+            <strong>Secretaría de Gobierno Distrital</strong><br>Alcaldía Local de Kennedy<br><span style="font-size: 12px; color: #aaa;">Ene 2018 - Dic 2020</span>
+          </div>
         </div>  
 
         <div class="timeline-card">  
-          <div class="timeline-item">Samsung Electronics<br>Abr - Agos 2016</div>
+          <div class="timeline-item">
+            <strong>Samsung Electronics</strong><br><span style="font-size: 12px; color: #aaa;">Abr 2016 - Agos 2016</span>
+          </div>
         </div>  
         
         <div class="timeline-card">  
-          <div class="timeline-item">CONCEJO DE BOGOTA<br>Abr - Agos 2016</div>
+          <div class="timeline-item">
+            <strong>Concejo de Bogotá</strong><br><span style="font-size: 12px; color: #aaa;">Abr 2016 - Agos 2016</span>
+          </div>
         </div>  
 
       </div>
@@ -525,6 +585,7 @@
 
   <section id="grafico">
     <h2>Gráfica Timelapse de Experiencia</h2>
+    <p style="color: #aaa; font-size: 13px; text-align: center;">Nota: Los roles de BSSC reflejan los ascensos y evolución dentro de la misma empresa con colores distintos por etapa.</p>
     <canvas id="timelineChart"></canvas>
   </section>
 
@@ -543,20 +604,35 @@
       'Consolidar respuestas a proposiciones “datos cuantitativos y cualitativos” para la elaboración de reportes e informes de la Comisión de Gobierno. Apoyo argumentativo para debates de control político y ponencias para "unidad del Concejo de Bogotá".',
       'Analista de documentación y de estados financieros de nuevos clientes corporativos, para la reducción de riesgo financiero de crédito y prevención de lavado de activos - SARLAFT. Manejo de SAP para la creación, consulta, actualización y seguimiento del comportamiento de crédito y financiero de los clientes.',
       'Custodiar, consolidar y georreferenciar datos a través de macros “elaboración propia” de operativos y actividades de espacio público, medio ambiente y seguridad. Elaboración de informes de gestión dirigidos a entes de control y entidades del distrito.',
-      'Support automation projects (python, vba), perform data analysis (Excel - Tableau - Power Bi) and reporting.',
-      'Experienced in leading and executing automation projects across various areas, including treasury (refunds, bank master data, bank portals) and other business functions. Focused on optimizing processes and developing tools such as Power BI dashboards.',
+      'BSSC - Data Analyst: Support automation projects (python, vba), perform data analysis (Excel - Tableau - Power Bi) and reporting.',
+      'BSSC - Jr Leader: Experienced in executing automation projects across various areas, supporting leadership initiatives and operational workflows.',
+      'BSSC - Leader Innovation Team: Leader and perform automation projects for Delta Air Lines treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance) expertise in python, SQL, Query, Excel Macros, Hana studio, Teradata Studio, SAP.',
       'Senior Data Analyst at Accenture: Leader and perform automation projects for Delta Air Lines treasury area (refunds, bank master data, bank portals, Power Bi dashboard and maintenance) expertise in python, SQL, Query, Excel Macros, Hana studio, Teradata Studio, SAP. Support transition process - BSSC to Accenture.'
     ];
 
     new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Concejo de Bogotá', 'Samsung', 'Alcaldía de Kennedy', 'BSSC-Delta Analyst', 'BSSC-Delta Jr/Leader', 'Accenture - Senior Data Analyst'],
+        labels: [
+          'Concejo de Bogotá', 
+          'Samsung', 
+          'Alcaldía de Kennedy', 
+          'BSSC: Data Analyst', 
+          'BSSC: Jr Leader', 
+          'BSSC: Leader Innovation', 
+          'Accenture: Senior Data Analyst'
+        ],
         datasets: [{
           label: 'Duración (meses)',
-          data: [5, 14, 36, 31, 20, 4],
+          data: [5, 14, 36, 31, 20, 20, 4],
           backgroundColor: [
-            '#ebd81c', '#1abc9c', '#3498db', '#9b59b6', '#e67e22', '#e74c3c'
+            '#ebd81c', 
+            '#1abc9c', 
+            '#3498db', 
+            '#9b59b6', // Color distintivo para Analista en BSSC
+            '#34495e', // Color distintivo para Jr Leader en BSSC
+            '#e67e22', // Color distintivo para Leader Innovation en BSSC
+            '#e74c3c'  // Color para Accenture
           ]
         }]
       },
@@ -565,7 +641,7 @@
         plugins: {
           title: {
             display: true,
-            text: 'Trayectoria Profesional (meses)'
+            text: 'Trayectoria Profesional y Ascensos (meses)'
           },
           legend: {
             display: false
@@ -692,11 +768,12 @@
 
   <script type="text/javascript">
     function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'es',
-        includedLanguages: 'en,es',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
+      (window.google && window.google.translate && window.google.translate.TranslateElement) &&
+        new google.translate.TranslateElement({
+          pageLanguage: 'es',
+          includedLanguages: 'en,es',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
     }
   </script>
   <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
